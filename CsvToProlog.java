@@ -26,7 +26,7 @@ public class CsvToProlog {
         if(i < 18.5) {
             return "'sottopeso'";
         } else if (i < 25) {
-            return "'peso-ideale'";
+            return "'peso ideale'";
         } else if(i < 30) {
             return "'sovrappeso'";
         } else {
@@ -50,17 +50,21 @@ public class CsvToProlog {
         } else if (i < 5) {
             return "'moderata'";
         } else {
-            return "'elevata'";
+            return "'alta'";
         }
     }
 
     public static String dietquality(Double i) {
         if(i < 3) {
             return "'molto scarsa'";
-        } else if (i < 6) {
+        } else if (i < 5) {
+            return "'scarsa'";
+        } else if (i < 7){
             return "'media'";
-        } else {
+        } else if (i < 9) {
             return "'buona'";
+        } else {
+            return "'eccellente'";
         }
     }
 
@@ -110,7 +114,7 @@ public class CsvToProlog {
         if(i < 100) {
             return "'ottimale'";
         } else if(i < 130) {
-            return "'quasi ottimo'";
+            return "'quasi ottimale'";
         } else if (i < 160) {
             return "'al limite'";
         } else if (i < 190) {
@@ -150,7 +154,7 @@ public class CsvToProlog {
         } else if(i < 131) {
             return "'severo'";
         } else {
-            return "'estremamente severo severo'";
+            return "'estremamente severo'";
         }
     }
 
@@ -186,7 +190,7 @@ public class CsvToProlog {
             br.readLine();
             while ((line = br.readLine()) != null) {
                 String[] values = line.split(",");
-                String esempio = "esempio(" + values[values.length - 2] + ", [";
+                String esempio = "e(" + values[values.length - 2] + ", [";
                 for (int i = 0; i < values.length - 2; i++) {
                     switch(i) {
                         case 1: esempio += age(Integer.parseInt(values[i])); break;
