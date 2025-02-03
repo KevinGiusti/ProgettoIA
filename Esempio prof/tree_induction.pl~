@@ -103,14 +103,17 @@ Allo scopo questo programma usa il setof, che non è il modo più
 efficiente per fare quest'operazione
 */
 :- ensure_loaded(training_set).
-:- use_module(library(http/json)).
 
 induce_albero( Albero ) :-
 	findall( e(Classe,Oggetto), e(Classe,Oggetto), Esempi),
         findall( Att,a(Att,_), Attributi),
         induce_albero( Attributi, Esempi, Albero),
-        mostra(Albero),
-        salva_json(Albero, 'albero.json').
+        open('prova.json',write,Out),
+        %write(Out,'{'),
+	%mostra( Albero ,Out),
+	%write(Out, '}'),
+        write(Out,Albero),
+        close(Out).
 
 % induce_albero( +Attributi, +Esempi, -Albero):
 % l'Albero indotto dipende da questi tre casi:
@@ -211,37 +214,34 @@ del(T,[T|C],C) :- !.
 del(A,[T|C],[T|C1]) :-
 	del(A,C,C1).
 
-mostra(T) :-
-        mostra(T,0).
-mostra(null,_) :- write(' ==> SCONOSCIUTO'),nl.
-mostra(l(X),_) :- write(' ==> '),write(X),nl.
-mostra(t(A,L),I) :-
-        nl,tab(I),write(A),nl,I1 is I+2,
-        mostratutto(L,I1).
-mostratutto([],_).
-mostratutto([V:T|C],I) :-
-        tab(I),write(V), I1 is I+2,
-        mostra(T,I1),
-        mostratutto(C,I).
+mostra(T,Out) :-
+	mostra(T,0,Out).
+mostra(null,_,Out) :-
+        write(Out,'\"SCONOSCIUTO\"},'),nl(Out),
+        write(' ==> SCONOSCIUTO'),nl.
+mostra(l(X),_,Out) :-
+        write(Out,'\"'),write(Out,X),write(Out,'\"},'),nl(Out),
+        write(' ==> '),write(X),nl.
+mostra(t(A,L),I,Out) :-
+        write(Out,'{'),nl(Out),tab(Out,I),write(Out,'\"'),write(Out,A),write(Out,'\": ['),nl(Out),
+	nl,tab(I),write(A),nl,I1 is I+2,
+	mostratutto(L,I1,Out).
+mostratutto([],I,Out) :- 
+        tab(Out,I),write(Out,'],'),nl(Out),
+        I1 is I - 2, tab(Out,I1),write(Out,'}').
+mostratutto([V:T|C],I,Out) :-
+        tab(Out,I),write(Out,'{ \"'),write(Out,V),write(Out,'\": '),
+	tab(I),write(V), I1 is I+2,
+	mostra(T,I1,Out),
+	mostratutto(C,I,Out).
 
-% Punto di ingresso principale 
-salva_json(Albero, NomeFile) :-     
-        converti_albero_json(Albero, JSONTerm),     
-        open(NomeFile, write, Stream),     
-        json_write_dict(Stream, JSONTerm),     % Scrive il JSON nel file     
-        close(Stream). 
+%writejson(null,Out) :-
+ %       write(Out, ' leaf: \"SCONOSCIUTO\"'),nl(Out).
+%writejson(l(X),Out) :-
+%        write(Out, ' leaf: \"'),write(Out,X),write(Out,'\"'),nl(Out).
+%writejson(t(A,L),Out) :-
+%        nl(Out) 
+        
 
-% Conversione dell'albero in una struttura compatibile con JSON
-converti_albero_json(null, 'SCONOSCIUTO'). % Nodo sconosciuto → oggetto vuoto
-converti_albero_json(l(X), Y) :- number_string(X, Y). % Nodo foglia con valore numerico
-converti_albero_json(t(A, L), json([A=Lista])) :-
-    converti_lista_json(L, Lista).   % Converte la lista di figli
- 
-% Conversione della lista di figli in JSON
-converti_lista_json([], []).
-converti_lista_json([V:T | C], [json([String=Figlio]) | ListaRestante]) :-
-    term_string(V, String),
-    converti_albero_json(T, Figlio),
-    converti_lista_json(C, ListaRestante).
 
-    
+
