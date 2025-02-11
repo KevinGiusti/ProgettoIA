@@ -76,7 +76,7 @@ async function drawTree() {
             .attr("dy", "0.31em")
             .attr("x", d => d._children ? -6 : 6)
             .attr("text-anchor", d => d._children ? "end" : "start")
-            .text(d => d.data.name)
+            .text(d => d.data.name + (d.data.value ? " ==> " + d.data.value + "" : ""))
             .attr("stroke-linejoin", "round")
             .attr("stroke-width", 3)
             .attr("stroke", "white")

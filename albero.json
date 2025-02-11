@@ -3,3913 +3,5004 @@
   "children": [
     {
       "name":"lieve",
-      "children": {
-	"name":"posturalinstability",
-	"children": [
-	  {
-	    "name":"0",
-	    "children": {
-	      "name":"rigidity",
+      "children": [
+	{
+	  "name":"posturalinstability",
+	  "children": [
+	    {
+	      "name":"0",
 	      "children": [
 		{
-		  "name":"0",
-		  "children": {
-		    "name":"bradykinesia",
-		    "children": [
-		      {
-			"name":"0",
-			"children": {
-			  "name":"educationlevel",
+		  "name":"rigidity",
+		  "children": [
+		    {
+		      "name":"0",
+		      "children": [
+			{
+			  "name":"bradykinesia",
 			  "children": [
-			    {"name":"0","children":"0"},
+			    {
+			      "name":"0",
+			      "children": [
+				{
+				  "name":"educationlevel",
+				  "children": [
+				    {"name":"0","value":"0"},
+				    {
+				      "name":"1",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"'50-54'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'55-59'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'60-64'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'65-69'",
+					      "children": [
+						{
+						  "name":"moca",
+						  "children": [
+						    {
+						      "name":"severo",
+						      "value":"0"
+						    },
+						    {
+						      "name":"moderato",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"lieve",
+						      "value":"0"
+						    },
+						    {
+						      "name":"normale",
+						      "children": [
+							{
+							  "name":"alcoholconsumption",
+							  "children": [
+							    {
+							      "name":"leggero",
+							      "value":"0"
+							    },
+							    {
+							      "name":"moderato",
+							      "value":"1"
+							    },
+							    {
+							      "name":"elevato",
+							      "value":"SCONOSCIUTO"
+							    }
+							  ]
+							}
+						      ]
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"'70-74'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'75-79'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'80-84'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'85-89'",
+					      "value":"0"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"2",
+				      "children": [
+					{
+					  "name":"sleepquality",
+					  "children": [
+					    {
+					      "name":"bassa",
+					      "value":"0"
+					    },
+					    {
+					      "name":"media",
+					      "value":"0"
+					    },
+					    {
+					      "name":"alta",
+					      "children": [
+						{
+						  "name":"cholesterolldl",
+						  "children": [
+						    {
+						      "name":"ottimale",
+						      "value":"1"
+						    },
+						    {
+						      "name":"'quasi ottimale'",
+						      "value":"0"
+						    },
+						    {
+						      "name":"'al limite'",
+						      "value":"0"
+						    },
+						    {
+						      "name":"alto",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"'molto alto'",
+						      "value":"0"
+						    }
+						  ]
+						}
+					      ]
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"3",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"'50-54'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'55-59'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'60-64'",
+					      "children": [
+						{
+						  "name":"alcoholconsumption",
+						  "children": [
+						    {
+						      "name":"leggero",
+						      "value":"0"
+						    },
+						    {
+						      "name":"moderato",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"elevato",
+						      "value":"1"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"'65-69'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'70-74'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'75-79'",
+					      "children": [
+						{
+						  "name":"cholesteroltotal",
+						  "children": [
+						    {
+						      "name":"desiderabile",
+						      "value":"1"
+						    },
+						    {
+						      "name":"'al limite'",
+						      "value":"0"
+						    },
+						    {
+						      "name":"alto",
+						      "value":"SCONOSCIUTO"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"'80-84'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'85-89'",
+					      "value":"0"
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    },
 			    {
 			      "name":"1",
-			      "children": {
-				"name":"age",
-				"children": [
-				  {"name":"'50-54'","children":"0"},
-				  {"name":"'55-59'","children":"0"},
-				  {"name":"'60-64'","children":"0"},
-				  {
-				    "name":"'65-69'",
-				    "children": {
-				      "name":"moca",
+			      "children": [
+				{
+				  "name":"tremor",
+				  "children": [
+				    {"name":"0","value":"0"},
+				    {
+				      "name":"1",
 				      "children": [
 					{
-					  "name":"severo",
-					  "children":"0"
-					},
-					{
-					  "name":"moderato",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"lieve",
-					  "children":"0"
-					},
-					{
-					  "name":"normale",
-					  "children": {
-					    "name":"alcoholconsumption",
-					    "children": [
-					      {
-						"name":"leggero",
-						"children":"0"
-					      },
-					      {
-						"name":"moderato",
-						"children":"1"
-					      },
-					      {
-						"name":"elevato",
-						"children":"SCONOSCIUTO"
-					      }
-					    ]
-					  }
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"'50-54'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'55-59'",
+					      "children": [
+						{
+						  "name":"cholesterolhdl",
+						  "children": [
+						    {
+						      "name":"basso",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"normale",
+						      "value":"0"
+						    },
+						    {
+						      "name":"protettivo",
+						      "value":"1"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"'60-64'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'65-69'",
+					      "children": [
+						{
+						  "name":"cholesterolhdl",
+						  "children": [
+						    {
+						      "name":"basso",
+						      "value":"1"
+						    },
+						    {
+						      "name":"normale",
+						      "value":"0"
+						    },
+						    {
+						      "name":"protettivo",
+						      "value":"1"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"'70-74'",
+					      "children": [
+						{
+						  "name":"alcoholconsumption",
+						  "children": [
+						    {
+						      "name":"leggero",
+						      "value":"0"
+						    },
+						    {
+						      "name":"moderato",
+						      "value":"1"
+						    },
+						    {
+						      "name":"elevato",
+						      "value":"SCONOSCIUTO"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"'75-79'",
+					      "children": [
+						{
+						  "name":"alcoholconsumption",
+						  "children": [
+						    {
+						      "name":"leggero",
+						      "value":"0"
+						    },
+						    {
+						      "name":"moderato",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"elevato",
+						      "value":"1"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"'80-84'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'85-89'",
+					      "value":"1"
+					    }
+					  ]
 					}
 				      ]
 				    }
-				  },
-				  {"name":"'70-74'","children":"0"},
-				  {"name":"'75-79'","children":"0"},
-				  {"name":"'80-84'","children":"0"},
-				  {"name":"'85-89'","children":"0"}
-				]
-			      }
-			    },
-			    {
-			      "name":"2",
-			      "children": {
-				"name":"sleepquality",
-				"children": [
-				  {"name":"bassa","children":"0"},
-				  {"name":"media","children":"0"},
-				  {
-				    "name":"alta",
-				    "children": {
-				      "name":"cholesterolldl",
-				      "children": [
-					{
-					  "name":"ottimale",
-					  "children":"1"
-					},
-					{
-					  "name":"'quasi ottimale'",
-					  "children":"0"
-					},
-					{
-					  "name":"'al limite'",
-					  "children":"0"
-					},
-					{
-					  "name":"alto",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"'molto alto'",
-					  "children":"0"
-					}
-				      ]
-				    }
-				  }
-				]
-			      }
-			    },
-			    {
-			      "name":"3",
-			      "children": {
-				"name":"age",
-				"children": [
-				  {"name":"'50-54'","children":"0"},
-				  {"name":"'55-59'","children":"0"},
-				  {
-				    "name":"'60-64'",
-				    "children": {
-				      "name":"alcoholconsumption",
-				      "children": [
-					{
-					  "name":"leggero",
-					  "children":"0"
-					},
-					{
-					  "name":"moderato",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"elevato",
-					  "children":"1"
-					}
-				      ]
-				    }
-				  },
-				  {"name":"'65-69'","children":"0"},
-				  {"name":"'70-74'","children":"0"},
-				  {
-				    "name":"'75-79'",
-				    "children": {
-				      "name":"cholesteroltotal",
-				      "children": [
-					{
-					  "name":"desiderabile",
-					  "children":"1"
-					},
-					{
-					  "name":"'al limite'",
-					  "children":"0"
-					},
-					{
-					  "name":"alto",
-					  "children":"SCONOSCIUTO"
-					}
-				      ]
-				    }
-				  },
-				  {"name":"'80-84'","children":"0"},
-				  {"name":"'85-89'","children":"0"}
-				]
-			      }
+				  ]
+				}
+			      ]
 			    }
 			  ]
 			}
-		      },
-		      {
-			"name":"1",
-			"children": {
+		      ]
+		    },
+		    {
+		      "name":"1",
+		      "children": [
+			{
 			  "name":"tremor",
 			  "children": [
-			    {"name":"0","children":"0"},
-			    {
-			      "name":"1",
-			      "children": {
-				"name":"age",
-				"children": [
-				  {"name":"'50-54'","children":"0"},
-				  {
-				    "name":"'55-59'",
-				    "children": {
-				      "name":"cholesterolhdl",
-				      "children": [
-					{
-					  "name":"basso",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"normale",
-					  "children":"0"
-					},
-					{
-					  "name":"protettivo",
-					  "children":"1"
-					}
-				      ]
-				    }
-				  },
-				  {"name":"'60-64'","children":"0"},
-				  {
-				    "name":"'65-69'",
-				    "children": {
-				      "name":"cholesterolhdl",
-				      "children": [
-					{
-					  "name":"basso",
-					  "children":"1"
-					},
-					{
-					  "name":"normale",
-					  "children":"0"
-					},
-					{
-					  "name":"protettivo",
-					  "children":"1"
-					}
-				      ]
-				    }
-				  },
-				  {
-				    "name":"'70-74'",
-				    "children": {
-				      "name":"alcoholconsumption",
-				      "children": [
-					{
-					  "name":"leggero",
-					  "children":"0"
-					},
-					{
-					  "name":"moderato",
-					  "children":"1"
-					},
-					{
-					  "name":"elevato",
-					  "children":"SCONOSCIUTO"
-					}
-				      ]
-				    }
-				  },
-				  {
-				    "name":"'75-79'",
-				    "children": {
-				      "name":"alcoholconsumption",
-				      "children": [
-					{
-					  "name":"leggero",
-					  "children":"0"
-					},
-					{
-					  "name":"moderato",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"elevato",
-					  "children":"1"
-					}
-				      ]
-				    }
-				  },
-				  {"name":"'80-84'","children":"0"},
-				  {"name":"'85-89'","children":"1"}
-				]
-			      }
-			    }
-			  ]
-			}
-		      }
-		    ]
-		  }
-		},
-		{
-		  "name":"1",
-		  "children": {
-		    "name":"tremor",
-		    "children": [
-		      {
-			"name":"0",
-			"children": {
-			  "name":"dietquality",
-			  "children": [
-			    {
-			      "name":"'molto scarsa'",
-			      "children": {
-				"name":"diabetes",
-				"children": [
-				  {
-				    "name":"0",
-				    "children": {
-				      "name":"age",
-				      "children": [
-					{
-					  "name":"'50-54'",
-					  "children":"0"
-					},
-					{
-					  "name":"'55-59'",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"'60-64'",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"'65-69'",
-					  "children":"0"
-					},
-					{
-					  "name":"'70-74'",
-					  "children":"1"
-					},
-					{
-					  "name":"'75-79'",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"'80-84'",
-					  "children":"0"
-					},
-					{
-					  "name":"'85-89'",
-					  "children": {
-					    "name":"cholesterolhdl",
-					    "children": [
-					      {
-						"name":"basso",
-						"children":"1"
-					      },
-					      {
-						"name":"normale",
-						"children":"SCONOSCIUTO"
-					      },
-					      {
-						"name":"protettivo",
-						"children":"0"
-					      }
-					    ]
-					  }
-					}
-				      ]
-				    }
-				  },
-				  {"name":"1","children":"1"}
-				]
-			      }
-			    },
-			    {"name":"scarsa","children":"0"},
-			    {"name":"media","children":"0"},
-			    {
-			      "name":"buona",
-			      "children": {
-				"name":"age",
-				"children": [
-				  {"name":"'50-54'","children":"0"},
-				  {
-				    "name":"'55-59'",
-				    "children": {
-				      "name":"alcoholconsumption",
-				      "children": [
-					{
-					  "name":"leggero",
-					  "children":"0"
-					},
-					{
-					  "name":"moderato",
-					  "children":"1"
-					},
-					{
-					  "name":"elevato",
-					  "children":"SCONOSCIUTO"
-					}
-				      ]
-				    }
-				  },
-				  {
-				    "name":"'60-64'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"'65-69'","children":"0"},
-				  {"name":"'70-74'","children":"0"},
-				  {"name":"'75-79'","children":"0"},
-				  {"name":"'80-84'","children":"0"},
-				  {"name":"'85-89'","children":"0"}
-				]
-			      }
-			    },
-			    {"name":"eccellente","children":"0"}
-			  ]
-			}
-		      },
-		      {
-			"name":"1",
-			"children": {
-			  "name":"functionalassessment",
-			  "children": [
-			    {
-			      "name":"severa",
-			      "children": {
-				"name":"diastolicbp",
-				"children": [
-				  {"name":"normale","children":"1"},
-				  {
-				    "name":"'ipertensione tipo 1'",
-				    "children":"0"
-				  },
-				  {
-				    "name":"'ipertensione tipo 2'",
-				    "children":"1"
-				  }
-				]
-			      }
-			    },
-			    {"name":"moderata","children":"1"},
-			    {"name":"lieve","children":"0"},
-			    {
-			      "name":"normale",
-			      "children": {
-				"name":"age",
-				"children": [
-				  {
-				    "name":"'50-54'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"'55-59'","children":"1"},
-				  {
-				    "name":"'60-64'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"'65-69'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"'70-74'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"'75-79'","children":"0"},
-				  {
-				    "name":"'80-84'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"'85-89'","children":"0"}
-				]
-			      }
-			    }
-			  ]
-			}
-		      }
-		    ]
-		  }
-		}
-	      ]
-	    }
-	  },
-	  {
-	    "name":"1",
-	    "children": {
-	      "name":"cholesterolldl",
-	      "children": [
-		{
-		  "name":"ottimale",
-		  "children": {
-		    "name":"bmi",
-		    "children": [
-		      {"name":"sottopeso","children":"1"},
-		      {"name":"'peso ideale'","children":"0"},
-		      {
-			"name":"sovrappeso",
-			"children": {
-			  "name":"age",
-			  "children": [
-			    {"name":"'50-54'","children":"1"},
-			    {
-			      "name":"'55-59'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'60-64'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'65-69'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {"name":"'70-74'","children":"1"},
-			    {"name":"'75-79'","children":"0"},
-			    {
-			      "name":"'80-84'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'85-89'",
-			      "children":"SCONOSCIUTO"
-			    }
-			  ]
-			}
-		      },
-		      {"name":"obeso","children":"1"}
-		    ]
-		  }
-		},
-		{
-		  "name":"'quasi ottimale'",
-		  "children": {
-		    "name":"dietquality",
-		    "children": [
-		      {"name":"'molto scarsa'","children":"1"},
-		      {"name":"scarsa","children":"0"},
-		      {"name":"media","children":"0"},
-		      {"name":"buona","children":"0"},
-		      {"name":"eccellente","children":"0"}
-		    ]
-		  }
-		},
-		{
-		  "name":"'al limite'",
-		  "children": {
-		    "name":"moca",
-		    "children": [
-		      {"name":"severo","children":"1"},
-		      {"name":"moderato","children":"1"},
-		      {"name":"lieve","children":"1"},
-		      {"name":"normale","children":"0"}
-		    ]
-		  }
-		},
-		{
-		  "name":"alto",
-		  "children": {
-		    "name":"age",
-		    "children": [
-		      {"name":"'50-54'","children":"0"},
-		      {"name":"'55-59'","children":"0"},
-		      {"name":"'60-64'","children":"SCONOSCIUTO"},
-		      {"name":"'65-69'","children":"SCONOSCIUTO"},
-		      {"name":"'70-74'","children":"0"},
-		      {"name":"'75-79'","children":"1"},
-		      {"name":"'80-84'","children":"SCONOSCIUTO"},
-		      {"name":"'85-89'","children":"1"}
-		    ]
-		  }
-		},
-		{
-		  "name":"'molto alto'",
-		  "children": {
-		    "name":"alcoholconsumption",
-		    "children": [
-		      {"name":"leggero","children":"0"},
-		      {"name":"moderato","children":"1"},
-		      {"name":"elevato","children":"0"}
-		    ]
-		  }
-		}
-	      ]
-	    }
-	  }
-	]
-      }
-    },
-    {
-      "name":"moderato",
-      "children": {
-	"name":"bradykinesia",
-	"children": [
-	  {
-	    "name":"0",
-	    "children": {
-	      "name":"functionalassessment",
-	      "children": [
-		{
-		  "name":"severa",
-		  "children": {
-		    "name":"systolicbp",
-		    "children": [
-		      {
-			"name":"normale",
-			"children": {
-			  "name":"dietquality",
-			  "children": [
-			    {
-			      "name":"'molto scarsa'",
-			      "children": {
-				"name":"age",
-				"children": [
-				  {
-				    "name":"'50-54'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"'55-59'",
-				    "children": {
-				      "name":"alcoholconsumption",
-				      "children": [
-					{
-					  "name":"leggero",
-					  "children":"0"
-					},
-					{
-					  "name":"moderato",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"elevato",
-					  "children":"1"
-					}
-				      ]
-				    }
-				  },
-				  {"name":"'60-64'","children":"0"},
-				  {
-				    "name":"'65-69'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"'70-74'",
-				    "children": {
-				      "name":"bmi",
-				      "children": [
-					{
-					  "name":"sottopeso",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"'peso ideale'",
-					  "children":"0"
-					},
-					{
-					  "name":"sovrappeso",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"obeso",
-					  "children":"1"
-					}
-				      ]
-				    }
-				  },
-				  {
-				    "name":"'75-79'",
-				    "children": {
-				      "name":"bmi",
-				      "children": [
-					{
-					  "name":"sottopeso",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"'peso ideale'",
-					  "children":"1"
-					},
-					{
-					  "name":"sovrappeso",
-					  "children":"1"
-					},
-					{
-					  "name":"obeso",
-					  "children":"0"
-					}
-				      ]
-				    }
-				  },
-				  {"name":"'80-84'","children":"0"},
-				  {"name":"'85-89'","children":"0"}
-				]
-			      }
-			    },
-			    {
-			      "name":"scarsa",
-			      "children": {
-				"name":"sleepquality",
-				"children": [
-				  {"name":"bassa","children":"1"},
-				  {"name":"media","children":"0"},
-				  {
-				    "name":"alta",
-				    "children":"SCONOSCIUTO"
-				  }
-				]
-			      }
-			    },
-			    {"name":"media","children":"1"},
-			    {
-			      "name":"buona",
-			      "children": {
-				"name":"age",
-				"children": [
-				  {"name":"'50-54'","children":"0"},
-				  {"name":"'55-59'","children":"1"},
-				  {"name":"'60-64'","children":"1"},
-				  {"name":"'65-69'","children":"0"},
-				  {
-				    "name":"'70-74'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"'75-79'","children":"1"},
-				  {
-				    "name":"'80-84'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"'85-89'","children":"1"}
-				]
-			      }
-			    },
-			    {
-			      "name":"eccellente",
-			      "children": {
-				"name":"age",
-				"children": [
-				  {
-				    "name":"'50-54'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"'55-59'","children":"0"},
-				  {
-				    "name":"'60-64'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"'65-69'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"'70-74'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"'75-79'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"'80-84'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"'85-89'","children":"1"}
-				]
-			      }
-			    }
-			  ]
-			}
-		      },
-		      {
-			"name":"elevata",
-			"children": {
-			  "name":"cholesteroltriglycerides",
-			  "children": [
-			    {"name":"normale","children":"0"},
-			    {"name":"limite","children":"1"},
-			    {
-			      "name":"alto",
-			      "children": {
-				"name":"moca",
-				"children": [
-				  {"name":"severo","children":"0"},
-				  {"name":"moderato","children":"0"},
-				  {"name":"lieve","children":"1"},
-				  {"name":"normale","children":"0"}
-				]
-			      }
-			    }
-			  ]
-			}
-		      },
-		      {
-			"name":"'ipertensione tipo 1'",
-			"children": {
-			  "name":"age",
-			  "children": [
-			    {"name":"'50-54'","children":"1"},
-			    {
-			      "name":"'55-59'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {"name":"'60-64'","children":"1"},
-			    {
-			      "name":"'65-69'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'70-74'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {"name":"'75-79'","children":"0"},
-			    {
-			      "name":"'80-84'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {"name":"'85-89'","children":"0"}
-			  ]
-			}
-		      },
-		      {
-			"name":"'ipertensione tipo 2'",
-			"children": {
-			  "name":"gender",
-			  "children": [
 			    {
 			      "name":"0",
-			      "children": {
-				"name":"age",
-				"children": [
-				  {
-				    "name":"'50-54'",
-				    "children": {
-				      "name":"alcoholconsumption",
+			      "children": [
+				{
+				  "name":"dietquality",
+				  "children": [
+				    {
+				      "name":"'molto scarsa'",
 				      "children": [
 					{
-					  "name":"leggero",
-					  "children":"0"
-					},
-					{
-					  "name":"moderato",
-					  "children":"1"
-					},
-					{
-					  "name":"elevato",
-					  "children":"1"
-					}
-				      ]
-				    }
-				  },
-				  {
-				    "name":"'55-59'",
-				    "children": {
-				      "name":"alcoholconsumption",
-				      "children": [
-					{
-					  "name":"leggero",
-					  "children":"1"
-					},
-					{
-					  "name":"moderato",
-					  "children":"1"
-					},
-					{
-					  "name":"elevato",
-					  "children":"0"
-					}
-				      ]
-				    }
-				  },
-				  {
-				    "name":"'60-64'",
-				    "children": {
-				      "name":"bmi",
-				      "children": [
-					{
-					  "name":"sottopeso",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"'peso ideale'",
-					  "children":"1"
-					},
-					{
-					  "name":"sovrappeso",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"obeso",
-					  "children":"0"
-					}
-				      ]
-				    }
-				  },
-				  {"name":"'65-69'","children":"0"},
-				  {
-				    "name":"'70-74'",
-				    "children": {
-				      "name":"cholesteroltotal",
-				      "children": [
-					{
-					  "name":"desiderabile",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"'al limite'",
-					  "children":"0"
-					},
-					{
-					  "name":"alto",
-					  "children":"1"
-					}
-				      ]
-				    }
-				  },
-				  {
-				    "name":"'75-79'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"'80-84'","children":"1"},
-				  {"name":"'85-89'","children":"1"}
-				]
-			      }
-			    },
-			    {
-			      "name":"1",
-			      "children": {
-				"name":"educationlevel",
-				"children": [
-				  {"name":"0","children":"1"},
-				  {
-				    "name":"1",
-				    "children": {
-				      "name":"cholesterolldl",
-				      "children": [
-					{
-					  "name":"ottimale",
-					  "children": {
-					    "name":"dietquality",
-					    "children": [
-					      {
-						"name":"'molto scarsa'",
-						"children":"0"
-					      },
-					      {
-						"name":"scarsa",
-						"children":"1"
-					      },
-					      {
-						"name":"media",
-						"children":"SCONOSCIUTO"
-					      },
-					      {
-						"name":"buona",
-						"children":"0"
-					      },
-					      {
-						"name":"eccellente",
-						"children":"SCONOSCIUTO"
-					      }
-					    ]
-					  }
-					},
-					{
-					  "name":"'quasi ottimale'",
-					  "children":"1"
-					},
-					{
-					  "name":"'al limite'",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"alto",
-					  "children":"0"
-					},
-					{
-					  "name":"'molto alto'",
-					  "children":"0"
-					}
-				      ]
-				    }
-				  },
-				  {
-				    "name":"2",
-				    "children": {
-				      "name":"bmi",
-				      "children": [
-					{
-					  "name":"sottopeso",
-					  "children":"1"
-					},
-					{
-					  "name":"'peso ideale'",
-					  "children":"0"
-					},
-					{
-					  "name":"sovrappeso",
-					  "children":"0"
-					},
-					{
-					  "name":"obeso",
-					  "children":"0"
-					}
-				      ]
-				    }
-				  },
-				  {"name":"3","children":"0"}
-				]
-			      }
-			    }
-			  ]
-			}
-		      }
-		    ]
-		  }
-		},
-		{
-		  "name":"moderata",
-		  "children": {
-		    "name":"age",
-		    "children": [
-		      {"name":"'50-54'","children":"0"},
-		      {
-			"name":"'55-59'",
-			"children": {
-			  "name":"dietquality",
-			  "children": [
-			    {"name":"'molto scarsa'","children":"0"},
-			    {"name":"scarsa","children":"1"},
-			    {"name":"media","children":"0"},
-			    {"name":"buona","children":"SCONOSCIUTO"},
-			    {"name":"eccellente","children":"0"}
-			  ]
-			}
-		      },
-		      {
-			"name":"'60-64'",
-			"children": {
-			  "name":"alcoholconsumption",
-			  "children": [
-			    {"name":"leggero","children":"0"},
-			    {"name":"moderato","children":"1"},
-			    {
-			      "name":"elevato",
-			      "children":"SCONOSCIUTO"
-			    }
-			  ]
-			}
-		      },
-		      {
-			"name":"'65-69'",
-			"children": {
-			  "name":"bmi",
-			  "children": [
-			    {"name":"sottopeso","children":"0"},
-			    {"name":"'peso ideale'","children":"1"},
-			    {"name":"sovrappeso","children":"0"},
-			    {"name":"obeso","children":"1"}
-			  ]
-			}
-		      },
-		      {
-			"name":"'70-74'",
-			"children": {
-			  "name":"cholesterolldl",
-			  "children": [
-			    {
-			      "name":"ottimale",
-			      "children": {
-				"name":"bmi",
-				"children": [
-				  {
-				    "name":"sottopeso",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"'peso ideale'",
-				    "children":"1"
-				  },
-				  {
-				    "name":"sovrappeso",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"obeso","children":"0"}
-				]
-			      }
-			    },
-			    {
-			      "name":"'quasi ottimale'",
-			      "children":"1"
-			    },
-			    {"name":"'al limite'","children":"1"},
-			    {"name":"alto","children":"0"},
-			    {
-			      "name":"'molto alto'",
-			      "children":"SCONOSCIUTO"
-			    }
-			  ]
-			}
-		      },
-		      {
-			"name":"'75-79'",
-			"children": {
-			  "name":"alcoholconsumption",
-			  "children": [
-			    {"name":"leggero","children":"1"},
-			    {"name":"moderato","children":"0"},
-			    {"name":"elevato","children":"1"}
-			  ]
-			}
-		      },
-		      {
-			"name":"'80-84'",
-			"children": {
-			  "name":"educationlevel",
-			  "children": [
-			    {"name":"0","children":"0"},
-			    {"name":"1","children":"1"},
-			    {
-			      "name":"2",
-			      "children": {
-				"name":"cholesterolldl",
-				"children": [
-				  {"name":"ottimale","children":"0"},
-				  {
-				    "name":"'quasi ottimale'",
-				    "children":"1"
-				  },
-				  {
-				    "name":"'al limite'",
-				    "children": {
-				      "name":"alcoholconsumption",
-				      "children": [
-					{
-					  "name":"leggero",
-					  "children":"1"
-					},
-					{
-					  "name":"moderato",
-					  "children":"0"
-					},
-					{
-					  "name":"elevato",
-					  "children":"SCONOSCIUTO"
-					}
-				      ]
-				    }
-				  },
-				  {
-				    "name":"alto",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"'molto alto'",
-				    "children":"SCONOSCIUTO"
-				  }
-				]
-			      }
-			    },
-			    {"name":"3","children":"0"}
-			  ]
-			}
-		      },
-		      {
-			"name":"'85-89'",
-			"children": {
-			  "name":"educationlevel",
-			  "children": [
-			    {"name":"0","children":"0"},
-			    {"name":"1","children":"1"},
-			    {"name":"2","children":"0"},
-			    {"name":"3","children":"SCONOSCIUTO"}
-			  ]
-			}
-		      }
-		    ]
-		  }
-		},
-		{
-		  "name":"lieve",
-		  "children": {
-		    "name":"rigidity",
-		    "children": [
-		      {
-			"name":"0",
-			"children": {
-			  "name":"cholesterolldl",
-			  "children": [
-			    {
-			      "name":"ottimale",
-			      "children": {
-				"name":"age",
-				"children": [
-				  {"name":"'50-54'","children":"0"},
-				  {
-				    "name":"'55-59'",
-				    "children": {
-				      "name":"cholesterolhdl",
-				      "children": [
-					{
-					  "name":"basso",
-					  "children":"0"
-					},
-					{
-					  "name":"normale",
-					  "children":"0"
-					},
-					{
-					  "name":"protettivo",
-					  "children":"1"
-					}
-				      ]
-				    }
-				  },
-				  {"name":"'60-64'","children":"0"},
-				  {"name":"'65-69'","children":"0"},
-				  {"name":"'70-74'","children":"0"},
-				  {"name":"'75-79'","children":"0"},
-				  {"name":"'80-84'","children":"0"},
-				  {"name":"'85-89'","children":"0"}
-				]
-			      }
-			    },
-			    {
-			      "name":"'quasi ottimale'",
-			      "children": {
-				"name":"age",
-				"children": [
-				  {"name":"'50-54'","children":"0"},
-				  {"name":"'55-59'","children":"0"},
-				  {"name":"'60-64'","children":"1"},
-				  {
-				    "name":"'65-69'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"'70-74'","children":"0"},
-				  {
-				    "name":"'75-79'",
-				    "children": {
-				      "name":"alcoholconsumption",
-				      "children": [
-					{
-					  "name":"leggero",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"moderato",
-					  "children":"0"
-					},
-					{
-					  "name":"elevato",
-					  "children":"1"
-					}
-				      ]
-				    }
-				  },
-				  {
-				    "name":"'80-84'",
-				    "children": {
-				      "name":"cholesterolhdl",
-				      "children": [
-					{
-					  "name":"basso",
-					  "children":"0"
-					},
-					{
-					  "name":"normale",
-					  "children":"0"
-					},
-					{
-					  "name":"protettivo",
-					  "children":"1"
-					}
-				      ]
-				    }
-				  },
-				  {"name":"'85-89'","children":"1"}
-				]
-			      }
-			    },
-			    {
-			      "name":"'al limite'",
-			      "children": {
-				"name":"bmi",
-				"children": [
-				  {"name":"sottopeso","children":"1"},
-				  {
-				    "name":"'peso ideale'",
-				    "children":"0"
-				  },
-				  {
-				    "name":"sovrappeso",
-				    "children": {
-				      "name":"cholesteroltriglycerides",
-				      "children": [
-					{
-					  "name":"normale",
-					  "children":"1"
-					},
-					{
-					  "name":"limite",
-					  "children":"1"
-					},
-					{
-					  "name":"alto",
-					  "children":"0"
-					}
-				      ]
-				    }
-				  },
-				  {"name":"obeso","children":"0"}
-				]
-			      }
-			    },
-			    {"name":"alto","children":"0"},
-			    {"name":"'molto alto'","children":"0"}
-			  ]
-			}
-		      },
-		      {
-			"name":"1",
-			"children": {
-			  "name":"systolicbp",
-			  "children": [
-			    {
-			      "name":"normale",
-			      "children": {
-				"name":"age",
-				"children": [
-				  {
-				    "name":"'50-54'",
-				    "children": {
-				      "name":"constipation",
-				      "children": [
-					{"name":"0","children":"1"},
-					{"name":"1","children":"0"}
-				      ]
-				    }
-				  },
-				  {
-				    "name":"'55-59'",
-				    "children": {
-				      "name":"alcoholconsumption",
-				      "children": [
-					{
-					  "name":"leggero",
-					  "children":"1"
-					},
-					{
-					  "name":"moderato",
-					  "children":"0"
-					},
-					{
-					  "name":"elevato",
-					  "children":"0"
-					}
-				      ]
-				    }
-				  },
-				  {"name":"'60-64'","children":"0"},
-				  {
-				    "name":"'65-69'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"'70-74'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"'75-79'","children":"0"},
-				  {"name":"'80-84'","children":"1"},
-				  {"name":"'85-89'","children":"0"}
-				]
-			      }
-			    },
-			    {
-			      "name":"elevata",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'ipertensione tipo 1'",
-			      "children":"0"
-			    },
-			    {
-			      "name":"'ipertensione tipo 2'",
-			      "children": {
-				"name":"cholesterolldl",
-				"children": [
-				  {"name":"ottimale","children":"1"},
-				  {
-				    "name":"'quasi ottimale'",
-				    "children":"0"
-				  },
-				  {
-				    "name":"'al limite'",
-				    "children":"1"
-				  },
-				  {
-				    "name":"alto",
-				    "children": {
-				      "name":"age",
-				      "children": [
-					{
-					  "name":"'50-54'",
-					  "children":"0"
-					},
-					{
-					  "name":"'55-59'",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"'60-64'",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"'65-69'",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"'70-74'",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"'75-79'",
-					  "children":"1"
-					},
-					{
-					  "name":"'80-84'",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"'85-89'",
-					  "children":"SCONOSCIUTO"
-					}
-				      ]
-				    }
-				  },
-				  {
-				    "name":"'molto alto'",
-				    "children":"1"
-				  }
-				]
-			      }
-			    }
-			  ]
-			}
-		      }
-		    ]
-		  }
-		},
-		{
-		  "name":"normale",
-		  "children": {
-		    "name":"tremor",
-		    "children": [
-		      {
-			"name":"0",
-			"children": {
-			  "name":"age",
-			  "children": [
-			    {"name":"'50-54'","children":"0"},
-			    {"name":"'55-59'","children":"0"},
-			    {"name":"'60-64'","children":"0"},
-			    {"name":"'65-69'","children":"0"},
-			    {"name":"'70-74'","children":"0"},
-			    {"name":"'75-79'","children":"0"},
-			    {
-			      "name":"'80-84'",
-			      "children": {
-				"name":"physicalactivity",
-				"children": [
-				  {"name":"bassa","children":"1"},
-				  {"name":"moderata","children":"0"},
-				  {"name":"alta","children":"0"}
-				]
-			      }
-			    },
-			    {"name":"'85-89'","children":"0"}
-			  ]
-			}
-		      },
-		      {
-			"name":"1",
-			"children": {
-			  "name":"age",
-			  "children": [
-			    {
-			      "name":"'50-54'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {"name":"'55-59'","children":"1"},
-			    {"name":"'60-64'","children":"0"},
-			    {"name":"'65-69'","children":"0"},
-			    {
-			      "name":"'70-74'",
-			      "children": {
-				"name":"bmi",
-				"children": [
-				  {"name":"sottopeso","children":"0"},
-				  {
-				    "name":"'peso ideale'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"sovrappeso",
-				    "children":"0"
-				  },
-				  {"name":"obeso","children":"1"}
-				]
-			      }
-			    },
-			    {
-			      "name":"'75-79'",
-			      "children": {
-				"name":"cholesterolldl",
-				"children": [
-				  {"name":"ottimale","children":"1"},
-				  {
-				    "name":"'quasi ottimale'",
-				    "children":"0"
-				  },
-				  {
-				    "name":"'al limite'",
-				    "children":"0"
-				  },
-				  {"name":"alto","children":"0"},
-				  {
-				    "name":"'molto alto'",
-				    "children":"SCONOSCIUTO"
-				  }
-				]
-			      }
-			    },
-			    {
-			      "name":"'80-84'",
-			      "children": {
-				"name":"alcoholconsumption",
-				"children": [
-				  {
-				    "name":"leggero",
-				    "children": {
-				      "name":"cholesterolldl",
-				      "children": [
-					{
-					  "name":"ottimale",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"'quasi ottimale'",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"'al limite'",
-					  "children":"0"
-					},
-					{
-					  "name":"alto",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"'molto alto'",
-					  "children":"1"
-					}
-				      ]
-				    }
-				  },
-				  {"name":"moderato","children":"0"},
-				  {"name":"elevato","children":"1"}
-				]
-			      }
-			    },
-			    {
-			      "name":"'85-89'",
-			      "children": {
-				"name":"bmi",
-				"children": [
-				  {
-				    "name":"sottopeso",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"'peso ideale'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"sovrappeso",
-				    "children":"0"
-				  },
-				  {"name":"obeso","children":"1"}
-				]
-			      }
-			    }
-			  ]
-			}
-		      }
-		    ]
-		  }
-		}
-	      ]
-	    }
-	  },
-	  {
-	    "name":"1",
-	    "children": {
-	      "name":"diastolicbp",
-	      "children": [
-		{
-		  "name":"normale",
-		  "children": {
-		    "name":"ethnicity",
-		    "children": [
-		      {
-			"name":"0",
-			"children": {
-			  "name":"age",
-			  "children": [
-			    {"name":"'50-54'","children":"1"},
-			    {"name":"'55-59'","children":"1"},
-			    {"name":"'60-64'","children":"1"},
-			    {"name":"'65-69'","children":"1"},
-			    {"name":"'70-74'","children":"1"},
-			    {"name":"'75-79'","children":"1"},
-			    {"name":"'80-84'","children":"1"},
-			    {
-			      "name":"'85-89'",
-			      "children": {
-				"name":"alcoholconsumption",
-				"children": [
-				  {"name":"leggero","children":"0"},
-				  {
-				    "name":"moderato",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"elevato","children":"1"}
-				]
-			      }
-			    }
-			  ]
-			}
-		      },
-		      {"name":"1","children":"1"},
-		      {"name":"2","children":"1"},
-		      {"name":"3","children":"0"}
-		    ]
-		  }
-		},
-		{
-		  "name":"'ipertensione tipo 1'",
-		  "children": {
-		    "name":"systolicbp",
-		    "children": [
-		      {
-			"name":"normale",
-			"children": {
-			  "name":"age",
-			  "children": [
-			    {
-			      "name":"'50-54'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'55-59'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'60-64'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'65-69'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'70-74'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {"name":"'75-79'","children":"1"},
-			    {"name":"'80-84'","children":"1"},
-			    {"name":"'85-89'","children":"0"}
-			  ]
-			}
-		      },
-		      {"name":"elevata","children":"SCONOSCIUTO"},
-		      {"name":"'ipertensione tipo 1'","children":"1"},
-		      {"name":"'ipertensione tipo 2'","children":"0"}
-		    ]
-		  }
-		},
-		{
-		  "name":"'ipertensione tipo 2'",
-		  "children": {
-		    "name":"ethnicity",
-		    "children": [
-		      {
-			"name":"0",
-			"children": {
-			  "name":"cholesterolldl",
-			  "children": [
-			    {
-			      "name":"ottimale",
-			      "children": {
-				"name":"bmi",
-				"children": [
-				  {
-				    "name":"sottopeso",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"'peso ideale'",
-				    "children":"0"
-				  },
-				  {
-				    "name":"sovrappeso",
-				    "children":"1"
-				  },
-				  {"name":"obeso","children":"1"}
-				]
-			      }
-			    },
-			    {
-			      "name":"'quasi ottimale'",
-			      "children":"1"
-			    },
-			    {"name":"'al limite'","children":"0"},
-			    {"name":"alto","children":"1"},
-			    {"name":"'molto alto'","children":"0"}
-			  ]
-			}
-		      },
-		      {"name":"1","children":"1"},
-		      {
-			"name":"2",
-			"children": {
-			  "name":"age",
-			  "children": [
-			    {"name":"'50-54'","children":"0"},
-			    {"name":"'55-59'","children":"0"},
-			    {
-			      "name":"'60-64'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'65-69'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'70-74'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {"name":"'75-79'","children":"1"},
-			    {
-			      "name":"'80-84'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'85-89'",
-			      "children":"SCONOSCIUTO"
-			    }
-			  ]
-			}
-		      },
-		      {"name":"3","children":"1"}
-		    ]
-		  }
-		}
-	      ]
-	    }
-	  }
-	]
-      }
-    },
-    {
-      "name":"'moderato severo'",
-      "children": {
-	"name":"moca",
-	"children": [
-	  {
-	    "name":"severo",
-	    "children": {
-	      "name":"functionalassessment",
-	      "children": [
-		{
-		  "name":"severa",
-		  "children": {
-		    "name":"ethnicity",
-		    "children": [
-		      {
-			"name":"0",
-			"children": {
-			  "name":"cholesterolhdl",
-			  "children": [
-			    {
-			      "name":"basso",
-			      "children": {
-				"name":"age",
-				"children": [
-				  {"name":"'50-54'","children":"0"},
-				  {
-				    "name":"'55-59'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"'60-64'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"'65-69'","children":"1"},
-				  {
-				    "name":"'70-74'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"'75-79'","children":"1"},
-				  {
-				    "name":"'80-84'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"'85-89'","children":"1"}
-				]
-			      }
-			    },
-			    {"name":"normale","children":"1"},
-			    {"name":"protettivo","children":"1"}
-			  ]
-			}
-		      },
-		      {
-			"name":"1",
-			"children": {
-			  "name":"age",
-			  "children": [
-			    {"name":"'50-54'","children":"1"},
-			    {
-			      "name":"'55-59'",
-			      "children": {
-				"name":"alcoholconsumption",
-				"children": [
-				  {"name":"leggero","children":"1"},
-				  {"name":"moderato","children":"0"},
-				  {
-				    "name":"elevato",
-				    "children":"SCONOSCIUTO"
-				  }
-				]
-			      }
-			    },
-			    {"name":"'60-64'","children":"1"},
-			    {
-			      "name":"'65-69'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {"name":"'70-74'","children":"1"},
-			    {"name":"'75-79'","children":"1"},
-			    {"name":"'80-84'","children":"1"},
-			    {"name":"'85-89'","children":"1"}
-			  ]
-			}
-		      },
-		      {
-			"name":"2",
-			"children": {
-			  "name":"sleepquality",
-			  "children": [
-			    {"name":"bassa","children":"1"},
-			    {"name":"media","children":"1"},
-			    {"name":"alta","children":"0"}
-			  ]
-			}
-		      },
-		      {"name":"3","children":"1"}
-		    ]
-		  }
-		},
-		{
-		  "name":"moderata",
-		  "children": {
-		    "name":"educationlevel",
-		    "children": [
-		      {"name":"0","children":"1"},
-		      {"name":"1","children":"1"},
-		      {
-			"name":"2",
-			"children": {
-			  "name":"sleepquality",
-			  "children": [
-			    {"name":"bassa","children":"1"},
-			    {"name":"media","children":"1"},
-			    {"name":"alta","children":"0"}
-			  ]
-			}
-		      },
-		      {
-			"name":"3",
-			"children": {
-			  "name":"age",
-			  "children": [
-			    {
-			      "name":"'50-54'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'55-59'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'60-64'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'65-69'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {"name":"'70-74'","children":"0"},
-			    {
-			      "name":"'75-79'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {"name":"'80-84'","children":"1"},
-			    {
-			      "name":"'85-89'",
-			      "children":"SCONOSCIUTO"
-			    }
-			  ]
-			}
-		      }
-		    ]
-		  }
-		},
-		{
-		  "name":"lieve",
-		  "children": {
-		    "name":"age",
-		    "children": [
-		      {"name":"'50-54'","children":"1"},
-		      {"name":"'55-59'","children":"1"},
-		      {
-			"name":"'60-64'",
-			"children": {
-			  "name":"dietquality",
-			  "children": [
-			    {"name":"'molto scarsa'","children":"1"},
-			    {"name":"scarsa","children":"0"},
-			    {"name":"media","children":"0"},
-			    {"name":"buona","children":"1"},
-			    {
-			      "name":"eccellente",
-			      "children":"SCONOSCIUTO"
-			    }
-			  ]
-			}
-		      },
-		      {"name":"'65-69'","children":"0"},
-		      {
-			"name":"'70-74'",
-			"children": {
-			  "name":"depression",
-			  "children": [
-			    {"name":"0","children":"1"},
-			    {"name":"1","children":"0"}
-			  ]
-			}
-		      },
-		      {
-			"name":"'75-79'",
-			"children": {
-			  "name":"alcoholconsumption",
-			  "children": [
-			    {"name":"leggero","children":"0"},
-			    {"name":"moderato","children":"0"},
-			    {"name":"elevato","children":"1"}
-			  ]
-			}
-		      },
-		      {
-			"name":"'80-84'",
-			"children": {
-			  "name":"alcoholconsumption",
-			  "children": [
-			    {"name":"leggero","children":"0"},
-			    {
-			      "name":"moderato",
-			      "children": {
-				"name":"cholesterolldl",
-				"children": [
-				  {"name":"ottimale","children":"1"},
-				  {
-				    "name":"'quasi ottimale'",
-				    "children":"1"
-				  },
-				  {
-				    "name":"'al limite'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"alto","children":"0"},
-				  {
-				    "name":"'molto alto'",
-				    "children":"SCONOSCIUTO"
-				  }
-				]
-			      }
-			    },
-			    {
-			      "name":"elevato",
-			      "children":"SCONOSCIUTO"
-			    }
-			  ]
-			}
-		      },
-		      {"name":"'85-89'","children":"1"}
-		    ]
-		  }
-		},
-		{
-		  "name":"normale",
-		  "children": {
-		    "name":"sleepquality",
-		    "children": [
-		      {
-			"name":"bassa",
-			"children": {
-			  "name":"age",
-			  "children": [
-			    {
-			      "name":"'50-54'",
-			      "children": {
-				"name":"alcoholconsumption",
-				"children": [
-				  {"name":"leggero","children":"0"},
-				  {"name":"moderato","children":"1"},
-				  {"name":"elevato","children":"0"}
-				]
-			      }
-			    },
-			    {
-			      "name":"'55-59'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {"name":"'60-64'","children":"0"},
-			    {"name":"'65-69'","children":"1"},
-			    {
-			      "name":"'70-74'",
-			      "children": {
-				"name":"cholesteroltotal",
-				"children": [
-				  {
-				    "name":"desiderabile",
-				    "children":"1"
-				  },
-				  {
-				    "name":"'al limite'",
-				    "children":"0"
-				  },
-				  {"name":"alto","children":"1"}
-				]
-			      }
-			    },
-			    {"name":"'75-79'","children":"1"},
-			    {"name":"'80-84'","children":"1"},
-			    {
-			      "name":"'85-89'",
-			      "children": {
-				"name":"alcoholconsumption",
-				"children": [
-				  {"name":"leggero","children":"1"},
-				  {"name":"moderato","children":"0"},
-				  {
-				    "name":"elevato",
-				    "children":"SCONOSCIUTO"
-				  }
-				]
-			      }
-			    }
-			  ]
-			}
-		      },
-		      {
-			"name":"media",
-			"children": {
-			  "name":"diabetes",
-			  "children": [
-			    {"name":"0","children":"1"},
-			    {"name":"1","children":"0"}
-			  ]
-			}
-		      },
-		      {"name":"alta","children":"0"}
-		    ]
-		  }
-		}
-	      ]
-	    }
-	  },
-	  {
-	    "name":"moderato",
-	    "children": {
-	      "name":"ethnicity",
-	      "children": [
-		{
-		  "name":"0",
-		  "children": {
-		    "name":"cholesterolldl",
-		    "children": [
-		      {
-			"name":"ottimale",
-			"children": {
-			  "name":"systolicbp",
-			  "children": [
-			    {"name":"normale","children":"1"},
-			    {"name":"elevata","children":"0"},
-			    {
-			      "name":"'ipertensione tipo 1'",
-			      "children":"1"
-			    },
-			    {
-			      "name":"'ipertensione tipo 2'",
-			      "children":"1"
-			    }
-			  ]
-			}
-		      },
-		      {
-			"name":"'quasi ottimale'",
-			"children": {
-			  "name":"sleepdisorders",
-			  "children": [
-			    {"name":"0","children":"1"},
-			    {"name":"1","children":"0"}
-			  ]
-			}
-		      },
-		      {
-			"name":"'al limite'",
-			"children": {
-			  "name":"smoking",
-			  "children": [
-			    {"name":"0","children":"1"},
-			    {"name":"1","children":"0"}
-			  ]
-			}
-		      },
-		      {
-			"name":"alto",
-			"children": {
-			  "name":"cholesteroltriglycerides",
-			  "children": [
-			    {"name":"normale","children":"0"},
-			    {"name":"limite","children":"1"},
-			    {"name":"alto","children":"0"}
-			  ]
-			}
-		      },
-		      {
-			"name":"'molto alto'",
-			"children": {
-			  "name":"age",
-			  "children": [
-			    {
-			      "name":"'50-54'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'55-59'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'60-64'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'65-69'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {"name":"'70-74'","children":"1"},
-			    {"name":"'75-79'","children":"0"},
-			    {
-			      "name":"'80-84'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {"name":"'85-89'","children":"1"}
-			  ]
-			}
-		      }
-		    ]
-		  }
-		},
-		{
-		  "name":"1",
-		  "children": {
-		    "name":"functionalassessment",
-		    "children": [
-		      {"name":"severa","children":"1"},
-		      {"name":"moderata","children":"1"},
-		      {
-			"name":"lieve",
-			"children": {
-			  "name":"age",
-			  "children": [
-			    {
-			      "name":"'50-54'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {"name":"'55-59'","children":"0"},
-			    {
-			      "name":"'60-64'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'65-69'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {"name":"'70-74'","children":"1"},
-			    {
-			      "name":"'75-79'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'80-84'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'85-89'",
-			      "children":"SCONOSCIUTO"
-			    }
-			  ]
-			}
-		      },
-		      {
-			"name":"normale",
-			"children": {
-			  "name":"educationlevel",
-			  "children": [
-			    {"name":"0","children":"SCONOSCIUTO"},
-			    {"name":"1","children":"0"},
-			    {"name":"2","children":"1"},
-			    {"name":"3","children":"0"}
-			  ]
-			}
-		      }
-		    ]
-		  }
-		},
-		{
-		  "name":"2",
-		  "children": {
-		    "name":"age",
-		    "children": [
-		      {"name":"'50-54'","children":"1"},
-		      {"name":"'55-59'","children":"SCONOSCIUTO"},
-		      {"name":"'60-64'","children":"1"},
-		      {"name":"'65-69'","children":"SCONOSCIUTO"},
-		      {"name":"'70-74'","children":"1"},
-		      {"name":"'75-79'","children":"0"},
-		      {"name":"'80-84'","children":"1"},
-		      {"name":"'85-89'","children":"1"}
-		    ]
-		  }
-		},
-		{
-		  "name":"3",
-		  "children": {
-		    "name":"bmi",
-		    "children": [
-		      {"name":"sottopeso","children":"0"},
-		      {"name":"'peso ideale'","children":"0"},
-		      {"name":"sovrappeso","children":"0"},
-		      {"name":"obeso","children":"1"}
-		    ]
-		  }
-		}
-	      ]
-	    }
-	  },
-	  {
-	    "name":"lieve",
-	    "children": {
-	      "name":"ethnicity",
-	      "children": [
-		{"name":"0","children":"1"},
-		{
-		  "name":"1",
-		  "children": {
-		    "name":"age",
-		    "children": [
-		      {"name":"'50-54'","children":"1"},
-		      {"name":"'55-59'","children":"0"},
-		      {"name":"'60-64'","children":"0"},
-		      {"name":"'65-69'","children":"1"},
-		      {"name":"'70-74'","children":"1"},
-		      {"name":"'75-79'","children":"0"},
-		      {"name":"'80-84'","children":"1"},
-		      {"name":"'85-89'","children":"SCONOSCIUTO"}
-		    ]
-		  }
-		},
-		{
-		  "name":"2",
-		  "children": {
-		    "name":"cholesterolhdl",
-		    "children": [
-		      {"name":"basso","children":"0"},
-		      {"name":"normale","children":"1"},
-		      {"name":"protettivo","children":"1"}
-		    ]
-		  }
-		},
-		{
-		  "name":"3",
-		  "children": {
-		    "name":"functionalassessment",
-		    "children": [
-		      {"name":"severa","children":"1"},
-		      {"name":"moderata","children":"1"},
-		      {"name":"lieve","children":"SCONOSCIUTO"},
-		      {"name":"normale","children":"0"}
-		    ]
-		  }
-		}
-	      ]
-	    }
-	  },
-	  {
-	    "name":"normale",
-	    "children": {
-	      "name":"tremor",
-	      "children": [
-		{
-		  "name":"0",
-		  "children": {
-		    "name":"bradykinesia",
-		    "children": [
-		      {"name":"0","children":"0"},
-		      {
-			"name":"1",
-			"children": {
-			  "name":"bmi",
-			  "children": [
-			    {
-			      "name":"sottopeso",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {"name":"'peso ideale'","children":"1"},
-			    {"name":"sovrappeso","children":"0"},
-			    {"name":"obeso","children":"0"}
-			  ]
-			}
-		      }
-		    ]
-		  }
-		},
-		{
-		  "name":"1",
-		  "children": {
-		    "name":"age",
-		    "children": [
-		      {
-			"name":"'50-54'",
-			"children": {
-			  "name":"bmi",
-			  "children": [
-			    {"name":"sottopeso","children":"0"},
-			    {"name":"'peso ideale'","children":"1"},
-			    {
-			      "name":"sovrappeso",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {"name":"obeso","children":"0"}
-			  ]
-			}
-		      },
-		      {"name":"'55-59'","children":"1"},
-		      {
-			"name":"'60-64'",
-			"children": {
-			  "name":"ethnicity",
-			  "children": [
-			    {"name":"0","children":"1"},
-			    {"name":"1","children":"SCONOSCIUTO"},
-			    {"name":"2","children":"1"},
-			    {"name":"3","children":"0"}
-			  ]
-			}
-		      },
-		      {"name":"'65-69'","children":"1"},
-		      {"name":"'70-74'","children":"1"},
-		      {"name":"'75-79'","children":"1"},
-		      {
-			"name":"'80-84'",
-			"children": {
-			  "name":"cholesteroltotal",
-			  "children": [
-			    {"name":"desiderabile","children":"0"},
-			    {"name":"'al limite'","children":"1"},
-			    {"name":"alto","children":"1"}
-			  ]
-			}
-		      },
-		      {
-			"name":"'85-89'",
-			"children": {
-			  "name":"bmi",
-			  "children": [
-			    {"name":"sottopeso","children":"1"},
-			    {"name":"'peso ideale'","children":"0"},
-			    {"name":"sovrappeso","children":"0"},
-			    {"name":"obeso","children":"SCONOSCIUTO"}
-			  ]
-			}
-		      }
-		    ]
-		  }
-		}
-	      ]
-	    }
-	  }
-	]
-      }
-    },
-    {
-      "name":"severo",
-      "children": {
-	"name":"tremor",
-	"children": [
-	  {
-	    "name":"0",
-	    "children": {
-	      "name":"functionalassessment",
-	      "children": [
-		{
-		  "name":"severa",
-		  "children": {
-		    "name":"moca",
-		    "children": [
-		      {
-			"name":"severo",
-			"children": {
-			  "name":"cholesterolldl",
-			  "children": [
-			    {"name":"ottimale","children":"1"},
-			    {
-			      "name":"'quasi ottimale'",
-			      "children": {
-				"name":"age",
-				"children": [
-				  {"name":"'50-54'","children":"0"},
-				  {
-				    "name":"'55-59'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"'60-64'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"'65-69'","children":"1"},
-				  {
-				    "name":"'70-74'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"'75-79'","children":"1"},
-				  {"name":"'80-84'","children":"1"},
-				  {
-				    "name":"'85-89'",
-				    "children":"SCONOSCIUTO"
-				  }
-				]
-			      }
-			    },
-			    {"name":"'al limite'","children":"1"},
-			    {"name":"alto","children":"1"},
-			    {"name":"'molto alto'","children":"1"}
-			  ]
-			}
-		      },
-		      {
-			"name":"moderato",
-			"children": {
-			  "name":"age",
-			  "children": [
-			    {
-			      "name":"'50-54'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'55-59'",
-			      "children": {
-				"name":"alcoholconsumption",
-				"children": [
-				  {"name":"leggero","children":"0"},
-				  {"name":"moderato","children":"1"},
-				  {
-				    "name":"elevato",
-				    "children":"SCONOSCIUTO"
-				  }
-				]
-			      }
-			    },
-			    {
-			      "name":"'60-64'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'65-69'",
-			      "children": {
-				"name":"alcoholconsumption",
-				"children": [
-				  {"name":"leggero","children":"0"},
-				  {"name":"moderato","children":"1"},
-				  {"name":"elevato","children":"1"}
-				]
-			      }
-			    },
-			    {
-			      "name":"'70-74'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {"name":"'75-79'","children":"1"},
-			    {"name":"'80-84'","children":"0"},
-			    {"name":"'85-89'","children":"1"}
-			  ]
-			}
-		      },
-		      {"name":"lieve","children":"1"},
-		      {
-			"name":"normale",
-			"children": {
-			  "name":"bradykinesia",
-			  "children": [
-			    {"name":"0","children":"0"},
-			    {"name":"1","children":"1"}
-			  ]
-			}
-		      }
-		    ]
-		  }
-		},
-		{
-		  "name":"moderata",
-		  "children": {
-		    "name":"age",
-		    "children": [
-		      {
-			"name":"'50-54'",
-			"children": {
-			  "name":"sleepdisorders",
-			  "children": [
-			    {
-			      "name":"0",
-			      "children": {
-				"name":"cholesteroltotal",
-				"children": [
-				  {
-				    "name":"desiderabile",
-				    "children":"0"
-				  },
-				  {
-				    "name":"'al limite'",
-				    "children":"1"
-				  },
-				  {"name":"alto","children":"1"}
-				]
-			      }
-			    },
-			    {"name":"1","children":"0"}
-			  ]
-			}
-		      },
-		      {
-			"name":"'55-59'",
-			"children": {
-			  "name":"alcoholconsumption",
-			  "children": [
-			    {"name":"leggero","children":"1"},
-			    {
-			      "name":"moderato",
-			      "children": {
-				"name":"bradykinesia",
-				"children": [
-				  {"name":"0","children":"1"},
-				  {"name":"1","children":"0"}
-				]
-			      }
-			    },
-			    {"name":"elevato","children":"0"}
-			  ]
-			}
-		      },
-		      {
-			"name":"'60-64'",
-			"children": {
-			  "name":"ethnicity",
-			  "children": [
-			    {"name":"0","children":"1"},
-			    {"name":"1","children":"1"},
-			    {"name":"2","children":"0"},
-			    {"name":"3","children":"SCONOSCIUTO"}
-			  ]
-			}
-		      },
-		      {
-			"name":"'65-69'",
-			"children": {
-			  "name":"educationlevel",
-			  "children": [
-			    {"name":"0","children":"0"},
-			    {
-			      "name":"1",
-			      "children": {
-				"name":"alcoholconsumption",
-				"children": [
-				  {"name":"leggero","children":"1"},
-				  {
-				    "name":"moderato",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"elevato","children":"0"}
-				]
-			      }
-			    },
-			    {"name":"2","children":"1"},
-			    {"name":"3","children":"1"}
-			  ]
-			}
-		      },
-		      {"name":"'70-74'","children":"1"},
-		      {"name":"'75-79'","children":"1"},
-		      {"name":"'80-84'","children":"1"},
-		      {"name":"'85-89'","children":"1"}
-		    ]
-		  }
-		},
-		{
-		  "name":"lieve",
-		  "children": {
-		    "name":"posturalinstability",
-		    "children": [
-		      {
-			"name":"0",
-			"children": {
-			  "name":"rigidity",
-			  "children": [
-			    {
-			      "name":"0",
-			      "children": {
-				"name":"bradykinesia",
-				"children": [
-				  {
-				    "name":"0",
-				    "children": {
-				      "name":"depression",
-				      "children": [
-					{"name":"0","children":"0"},
-					{
-					  "name":"1",
-					  "children": {
-					    "name":"physicalactivity",
-					    "children": [
-					      {
-						"name":"bassa",
-						"children":"1"
-					      },
-					      {
-						"name":"moderata",
-						"children":"0"
-					      },
-					      {
-						"name":"alta",
-						"children":"0"
-					      }
-					    ]
-					  }
-					}
-				      ]
-				    }
-				  },
-				  {
-				    "name":"1",
-				    "children": {
-				      "name":"bmi",
-				      "children": [
-					{
-					  "name":"sottopeso",
-					  "children":"0"
-					},
-					{
-					  "name":"'peso ideale'",
-					  "children":"0"
-					},
-					{
-					  "name":"sovrappeso",
-					  "children":"1"
-					},
-					{
-					  "name":"obeso",
-					  "children":"1"
-					}
-				      ]
-				    }
-				  }
-				]
-			      }
-			    },
-			    {
-			      "name":"1",
-			      "children": {
-				"name":"dietquality",
-				"children": [
-				  {
-				    "name":"'molto scarsa'",
-				    "children":"1"
-				  },
-				  {"name":"scarsa","children":"0"},
-				  {"name":"media","children":"1"},
-				  {"name":"buona","children":"1"},
-				  {
-				    "name":"eccellente",
-				    "children":"0"
-				  }
-				]
-			      }
-			    }
-			  ]
-			}
-		      },
-		      {
-			"name":"1",
-			"children": {
-			  "name":"moca",
-			  "children": [
-			    {"name":"severo","children":"1"},
-			    {"name":"moderato","children":"1"},
-			    {"name":"lieve","children":"1"},
-			    {"name":"normale","children":"0"}
-			  ]
-			}
-		      }
-		    ]
-		  }
-		},
-		{
-		  "name":"normale",
-		  "children": {
-		    "name":"bradykinesia",
-		    "children": [
-		      {
-			"name":"0",
-			"children": {
-			  "name":"rigidity",
-			  "children": [
-			    {
-			      "name":"0",
-			      "children": {
-				"name":"age",
-				"children": [
-				  {"name":"'50-54'","children":"0"},
-				  {"name":"'55-59'","children":"0"},
-				  {"name":"'60-64'","children":"0"},
-				  {"name":"'65-69'","children":"0"},
-				  {
-				    "name":"'70-74'",
-				    "children": {
-				      "name":"bmi",
-				      "children": [
-					{
-					  "name":"sottopeso",
-					  "children":"0"
-					},
-					{
-					  "name":"'peso ideale'",
-					  "children":"1"
-					},
-					{
-					  "name":"sovrappeso",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"obeso",
-					  "children":"0"
-					}
-				      ]
-				    }
-				  },
-				  {
-				    "name":"'75-79'",
-				    "children": {
-				      "name":"hypertension",
-				      "children": [
-					{"name":"0","children":"0"},
-					{"name":"1","children":"1"}
-				      ]
-				    }
-				  },
-				  {"name":"'80-84'","children":"0"},
-				  {"name":"'85-89'","children":"0"}
-				]
-			      }
-			    },
-			    {
-			      "name":"1",
-			      "children": {
-				"name":"age",
-				"children": [
-				  {"name":"'50-54'","children":"1"},
-				  {"name":"'55-59'","children":"0"},
-				  {"name":"'60-64'","children":"1"},
-				  {"name":"'65-69'","children":"1"},
-				  {
-				    "name":"'70-74'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"'75-79'","children":"1"},
-				  {"name":"'80-84'","children":"1"},
-				  {
-				    "name":"'85-89'",
-				    "children": {
-				      "name":"bmi",
-				      "children": [
-					{
-					  "name":"sottopeso",
-					  "children":"1"
-					},
-					{
-					  "name":"'peso ideale'",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"sovrappeso",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"obeso",
-					  "children":"0"
-					}
-				      ]
-				    }
-				  }
-				]
-			      }
-			    }
-			  ]
-			}
-		      },
-		      {
-			"name":"1",
-			"children": {
-			  "name":"age",
-			  "children": [
-			    {"name":"'50-54'","children":"1"},
-			    {"name":"'55-59'","children":"0"},
-			    {"name":"'60-64'","children":"1"},
-			    {
-			      "name":"'65-69'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {"name":"'70-74'","children":"1"},
-			    {"name":"'75-79'","children":"1"},
-			    {"name":"'80-84'","children":"1"},
-			    {
-			      "name":"'85-89'",
-			      "children":"SCONOSCIUTO"
-			    }
-			  ]
-			}
-		      }
-		    ]
-		  }
-		}
-	      ]
-	    }
-	  },
-	  {
-	    "name":"1",
-	    "children": {
-	      "name":"bmi",
-	      "children": [
-		{
-		  "name":"sottopeso",
-		  "children": {
-		    "name":"diastolicbp",
-		    "children": [
-		      {
-			"name":"normale",
-			"children": {
-			  "name":"age",
-			  "children": [
-			    {"name":"'50-54'","children":"1"},
-			    {
-			      "name":"'55-59'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {"name":"'60-64'","children":"0"},
-			    {
-			      "name":"'65-69'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'70-74'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'75-79'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'80-84'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {
-			      "name":"'85-89'",
-			      "children":"SCONOSCIUTO"
-			    }
-			  ]
-			}
-		      },
-		      {"name":"'ipertensione tipo 1'","children":"1"},
-		      {"name":"'ipertensione tipo 2'","children":"1"}
-		    ]
-		  }
-		},
-		{
-		  "name":"'peso ideale'",
-		  "children": {
-		    "name":"cholesteroltotal",
-		    "children": [
-		      {
-			"name":"desiderabile",
-			"children": {
-			  "name":"moca",
-			  "children": [
-			    {"name":"severo","children":"1"},
-			    {
-			      "name":"moderato",
-			      "children": {
-				"name":"age",
-				"children": [
-				  {"name":"'50-54'","children":"0"},
-				  {
-				    "name":"'55-59'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"'60-64'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"'65-69'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"'70-74'","children":"0"},
-				  {"name":"'75-79'","children":"1"},
-				  {
-				    "name":"'80-84'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"'85-89'",
-				    "children":"SCONOSCIUTO"
-				  }
-				]
-			      }
-			    },
-			    {"name":"lieve","children":"SCONOSCIUTO"},
-			    {"name":"normale","children":"0"}
-			  ]
-			}
-		      },
-		      {"name":"'al limite'","children":"1"},
-		      {"name":"alto","children":"1"}
-		    ]
-		  }
-		},
-		{
-		  "name":"sovrappeso",
-		  "children": {
-		    "name":"age",
-		    "children": [
-		      {
-			"name":"'50-54'",
-			"children": {
-			  "name":"cholesterolhdl",
-			  "children": [
-			    {"name":"basso","children":"1"},
-			    {"name":"normale","children":"0"},
-			    {"name":"protettivo","children":"1"}
-			  ]
-			}
-		      },
-		      {
-			"name":"'55-59'",
-			"children": {
-			  "name":"cholesterolldl",
-			  "children": [
-			    {"name":"ottimale","children":"1"},
-			    {
-			      "name":"'quasi ottimale'",
-			      "children":"SCONOSCIUTO"
-			    },
-			    {"name":"'al limite'","children":"0"},
-			    {"name":"alto","children":"SCONOSCIUTO"},
-			    {"name":"'molto alto'","children":"1"}
-			  ]
-			}
-		      },
-		      {"name":"'60-64'","children":"1"},
-		      {"name":"'65-69'","children":"1"},
-		      {"name":"'70-74'","children":"1"},
-		      {"name":"'75-79'","children":"1"},
-		      {
-			"name":"'80-84'",
-			"children": {
-			  "name":"alcoholconsumption",
-			  "children": [
-			    {"name":"leggero","children":"1"},
-			    {"name":"moderato","children":"0"},
-			    {"name":"elevato","children":"1"}
-			  ]
-			}
-		      },
-		      {"name":"'85-89'","children":"1"}
-		    ]
-		  }
-		},
-		{"name":"obeso","children":"1"}
-	      ]
-	    }
-	  }
-	]
-      }
-    },
-    {
-      "name":"'estremamente severo'",
-      "children": {
-	"name":"tremor",
-	"children": [
-	  {
-	    "name":"0",
-	    "children": {
-	      "name":"functionalassessment",
-	      "children": [
-		{
-		  "name":"severa",
-		  "children": {
-		    "name":"moca",
-		    "children": [
-		      {
-			"name":"severo",
-			"children": {
-			  "name":"cholesteroltotal",
-			  "children": [
-			    {
-			      "name":"desiderabile",
-			      "children": {
-				"name":"age",
-				"children": [
-				  {"name":"'50-54'","children":"0"},
-				  {"name":"'55-59'","children":"1"},
-				  {
-				    "name":"'60-64'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"'65-69'",
-				    "children": {
-				      "name":"alcoholconsumption",
-				      "children": [
-					{
-					  "name":"leggero",
-					  "children":"1"
-					},
-					{
-					  "name":"moderato",
-					  "children":"0"
-					},
-					{
-					  "name":"elevato",
-					  "children":"1"
-					}
-				      ]
-				    }
-				  },
-				  {"name":"'70-74'","children":"1"},
-				  {"name":"'75-79'","children":"1"},
-				  {"name":"'80-84'","children":"1"},
-				  {"name":"'85-89'","children":"1"}
-				]
-			      }
-			    },
-			    {"name":"'al limite'","children":"1"},
-			    {"name":"alto","children":"1"}
-			  ]
-			}
-		      },
-		      {"name":"moderato","children":"1"},
-		      {"name":"lieve","children":"1"},
-		      {
-			"name":"normale",
-			"children": {
-			  "name":"age",
-			  "children": [
-			    {"name":"'50-54'","children":"0"},
-			    {"name":"'55-59'","children":"0"},
-			    {"name":"'60-64'","children":"0"},
-			    {"name":"'65-69'","children":"0"},
-			    {"name":"'70-74'","children":"0"},
-			    {
-			      "name":"'75-79'",
-			      "children": {
-				"name":"alcoholconsumption",
-				"children": [
-				  {"name":"leggero","children":"0"},
-				  {
-				    "name":"moderato",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"elevato","children":"1"}
-				]
-			      }
-			    },
-			    {
-			      "name":"'80-84'",
-			      "children": {
-				"name":"bmi",
-				"children": [
-				  {
-				    "name":"sottopeso",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"'peso ideale'",
-				    "children":"1"
-				  },
-				  {
-				    "name":"sovrappeso",
-				    "children":"0"
-				  },
-				  {"name":"obeso","children":"1"}
-				]
-			      }
-			    },
-			    {
-			      "name":"'85-89'",
-			      "children": {
-				"name":"cholesterolhdl",
-				"children": [
-				  {
-				    "name":"basso",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"normale","children":"0"},
-				  {
-				    "name":"protettivo",
-				    "children":"1"
-				  }
-				]
-			      }
-			    }
-			  ]
-			}
-		      }
-		    ]
-		  }
-		},
-		{
-		  "name":"moderata",
-		  "children": {
-		    "name":"moca",
-		    "children": [
-		      {
-			"name":"severo",
-			"children": {
-			  "name":"dietquality",
-			  "children": [
-			    {
-			      "name":"'molto scarsa'",
-			      "children": {
-				"name":"cholesterolhdl",
-				"children": [
-				  {"name":"basso","children":"0"},
-				  {"name":"normale","children":"1"},
-				  {
-				    "name":"protettivo",
-				    "children":"1"
-				  }
-				]
-			      }
-			    },
-			    {"name":"scarsa","children":"1"},
-			    {"name":"media","children":"1"},
-			    {"name":"buona","children":"1"},
-			    {
-			      "name":"eccellente",
-			      "children": {
-				"name":"cholesterolldl",
-				"children": [
-				  {
-				    "name":"ottimale",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"'quasi ottimale'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"'al limite'",
-				    "children":"1"
-				  },
-				  {"name":"alto","children":"0"},
-				  {
-				    "name":"'molto alto'",
-				    "children":"1"
-				  }
-				]
-			      }
-			    }
-			  ]
-			}
-		      },
-		      {"name":"moderato","children":"1"},
-		      {
-			"name":"lieve",
-			"children": {
-			  "name":"age",
-			  "children": [
-			    {"name":"'50-54'","children":"0"},
-			    {"name":"'55-59'","children":"1"},
-			    {"name":"'60-64'","children":"1"},
-			    {"name":"'65-69'","children":"1"},
-			    {"name":"'70-74'","children":"1"},
-			    {"name":"'75-79'","children":"1"},
-			    {"name":"'80-84'","children":"1"},
-			    {"name":"'85-89'","children":"1"}
-			  ]
-			}
-		      },
-		      {
-			"name":"normale",
-			"children": {
-			  "name":"dietquality",
-			  "children": [
-			    {
-			      "name":"'molto scarsa'",
-			      "children": {
-				"name":"age",
-				"children": [
-				  {
-				    "name":"'50-54'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"'55-59'","children":"1"},
-				  {
-				    "name":"'60-64'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"'65-69'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"'70-74'","children":"0"},
-				  {
-				    "name":"'75-79'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"'80-84'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"'85-89'","children":"1"}
-				]
-			      }
-			    },
-			    {
-			      "name":"scarsa",
-			      "children": {
-				"name":"ethnicity",
-				"children": [
-				  {"name":"0","children":"0"},
-				  {"name":"1","children":"1"},
-				  {"name":"2","children":"0"},
-				  {
-				    "name":"3",
-				    "children":"SCONOSCIUTO"
-				  }
-				]
-			      }
-			    },
-			    {"name":"media","children":"1"},
-			    {"name":"buona","children":"0"},
-			    {"name":"eccellente","children":"1"}
-			  ]
-			}
-		      }
-		    ]
-		  }
-		},
-		{
-		  "name":"lieve",
-		  "children": {
-		    "name":"posturalinstability",
-		    "children": [
-		      {
-			"name":"0",
-			"children": {
-			  "name":"bradykinesia",
-			  "children": [
-			    {
-			      "name":"0",
-			      "children": {
-				"name":"rigidity",
-				"children": [
-				  {"name":"0","children":"0"},
-				  {
-				    "name":"1",
-				    "children": {
-				      "name":"moca",
-				      "children": [
-					{
-					  "name":"severo",
-					  "children": {
-					    "name":"cholesteroltriglycerides",
-					    "children": [
-					      {
-						"name":"normale",
-						"children":"0"
-					      },
-					      {
-						"name":"limite",
-						"children":"0"
-					      },
-					      {
-						"name":"alto",
-						"children": {
+					  "name":"diabetes",
+					  "children": [
+					    {
+					      "name":"0",
+					      "children": [
+						{
 						  "name":"age",
 						  "children": [
 						    {
 						      "name":"'50-54'",
-						      "children": {
-							"name":"alcoholconsumption",
-							"children": [
-							  {
-							    "name":"leggero",
-							    "children":"0"
-							  },
-							  {
-							    "name":"moderato",
-							    "children":"1"
-							  },
-							  {
-							    "name":"elevato",
-							    "children":"1"
-							  }
-							]
-						      }
+						      "value":"0"
 						    },
 						    {
 						      "name":"'55-59'",
-						      "children":"1"
+						      "value":"SCONOSCIUTO"
 						    },
 						    {
 						      "name":"'60-64'",
-						      "children":"1"
+						      "value":"SCONOSCIUTO"
 						    },
 						    {
 						      "name":"'65-69'",
-						      "children":"1"
+						      "value":"0"
 						    },
 						    {
 						      "name":"'70-74'",
-						      "children":"1"
+						      "value":"1"
 						    },
 						    {
 						      "name":"'75-79'",
-						      "children":"1"
+						      "value":"SCONOSCIUTO"
 						    },
 						    {
 						      "name":"'80-84'",
-						      "children":"1"
+						      "value":"0"
 						    },
 						    {
 						      "name":"'85-89'",
-						      "children":"SCONOSCIUTO"
+						      "children": [
+							{
+							  "name":"cholesterolhdl",
+							  "children": [
+							    {
+							      "name":"basso",
+							      "value":"1"
+							    },
+							    {
+							      "name":"normale",
+							      "value":"SCONOSCIUTO"
+							    },
+							    {
+							      "name":"protettivo",
+							      "value":"0"
+							    }
+							  ]
+							}
+						      ]
 						    }
 						  ]
 						}
-					      }
-					    ]
-					  }
-					},
-					{
-					  "name":"moderato",
-					  "children": {
-					    "name":"age",
-					    "children": [
-					      {
-						"name":"'50-54'",
-						"children":"0"
-					      },
-					      {
-						"name":"'55-59'",
-						"children":"SCONOSCIUTO"
-					      },
-					      {
-						"name":"'60-64'",
-						"children":"1"
-					      },
-					      {
-						"name":"'65-69'",
-						"children":"SCONOSCIUTO"
-					      },
-					      {
-						"name":"'70-74'",
-						"children":"1"
-					      },
-					      {
-						"name":"'75-79'",
-						"children":"1"
-					      },
-					      {
-						"name":"'80-84'",
-						"children":"SCONOSCIUTO"
-					      },
-					      {
-						"name":"'85-89'",
-						"children":"SCONOSCIUTO"
-					      }
-					    ]
-					  }
-					},
-					{
-					  "name":"lieve",
-					  "children":"1"
-					},
-					{
-					  "name":"normale",
-					  "children":"0"
+					      ]
+					    },
+					    {"name":"1","value":"1"}
+					  ]
 					}
 				      ]
-				    }
-				  }
-				]
-			      }
+				    },
+				    {"name":"scarsa","value":"0"},
+				    {"name":"media","value":"0"},
+				    {
+				      "name":"buona",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"'50-54'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'55-59'",
+					      "children": [
+						{
+						  "name":"alcoholconsumption",
+						  "children": [
+						    {
+						      "name":"leggero",
+						      "value":"0"
+						    },
+						    {
+						      "name":"moderato",
+						      "value":"1"
+						    },
+						    {
+						      "name":"elevato",
+						      "value":"SCONOSCIUTO"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"'60-64'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'65-69'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'70-74'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'75-79'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'80-84'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'85-89'",
+					      "value":"0"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {"name":"eccellente","value":"0"}
+				  ]
+				}
+			      ]
 			    },
 			    {
 			      "name":"1",
-			      "children": {
-				"name":"hypertension",
-				"children": [
-				  {"name":"0","children":"1"},
-				  {"name":"1","children":"0"}
-				]
-			      }
+			      "children": [
+				{
+				  "name":"functionalassessment",
+				  "children": [
+				    {
+				      "name":"severa",
+				      "children": [
+					{
+					  "name":"diastolicbp",
+					  "children": [
+					    {
+					      "name":"normale",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'ipertensione tipo 1'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'ipertensione tipo 2'",
+					      "value":"1"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {"name":"moderata","value":"1"},
+				    {"name":"lieve","value":"0"},
+				    {
+				      "name":"normale",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"'50-54'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'55-59'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'60-64'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'65-69'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'70-74'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'75-79'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'80-84'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'85-89'",
+					      "value":"0"
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
 			    }
 			  ]
 			}
-		      },
-		      {
-			"name":"1",
-			"children": {
+		      ]
+		    }
+		  ]
+		}
+	      ]
+	    },
+	    {
+	      "name":"1",
+	      "children": [
+		{
+		  "name":"cholesterolldl",
+		  "children": [
+		    {
+		      "name":"ottimale",
+		      "children": [
+			{
+			  "name":"bmi",
+			  "children": [
+			    {"name":"sottopeso","value":"1"},
+			    {"name":"'peso ideale'","value":"0"},
+			    {
+			      "name":"sovrappeso",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {"name":"'50-54'","value":"1"},
+				    {
+				      "name":"'55-59'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'60-64'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'65-69'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {"name":"'70-74'","value":"1"},
+				    {"name":"'75-79'","value":"0"},
+				    {
+				      "name":"'80-84'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'85-89'",
+				      "value":"SCONOSCIUTO"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"obeso","value":"1"}
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"'quasi ottimale'",
+		      "children": [
+			{
+			  "name":"dietquality",
+			  "children": [
+			    {"name":"'molto scarsa'","value":"1"},
+			    {"name":"scarsa","value":"0"},
+			    {"name":"media","value":"0"},
+			    {"name":"buona","value":"0"},
+			    {"name":"eccellente","value":"0"}
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"'al limite'",
+		      "children": [
+			{
+			  "name":"moca",
+			  "children": [
+			    {"name":"severo","value":"1"},
+			    {"name":"moderato","value":"1"},
+			    {"name":"lieve","value":"1"},
+			    {"name":"normale","value":"0"}
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"alto",
+		      "children": [
+			{
+			  "name":"age",
+			  "children": [
+			    {"name":"'50-54'","value":"0"},
+			    {"name":"'55-59'","value":"0"},
+			    {"name":"'60-64'","value":"SCONOSCIUTO"},
+			    {"name":"'65-69'","value":"SCONOSCIUTO"},
+			    {"name":"'70-74'","value":"0"},
+			    {"name":"'75-79'","value":"1"},
+			    {"name":"'80-84'","value":"SCONOSCIUTO"},
+			    {"name":"'85-89'","value":"1"}
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"'molto alto'",
+		      "children": [
+			{
+			  "name":"alcoholconsumption",
+			  "children": [
+			    {"name":"leggero","value":"0"},
+			    {"name":"moderato","value":"1"},
+			    {"name":"elevato","value":"0"}
+			  ]
+			}
+		      ]
+		    }
+		  ]
+		}
+	      ]
+	    }
+	  ]
+	}
+      ]
+    },
+    {
+      "name":"moderato",
+      "children": [
+	{
+	  "name":"bradykinesia",
+	  "children": [
+	    {
+	      "name":"0",
+	      "children": [
+		{
+		  "name":"functionalassessment",
+		  "children": [
+		    {
+		      "name":"severa",
+		      "children": [
+			{
+			  "name":"systolicbp",
+			  "children": [
+			    {
+			      "name":"normale",
+			      "children": [
+				{
+				  "name":"dietquality",
+				  "children": [
+				    {
+				      "name":"'molto scarsa'",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"'50-54'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'55-59'",
+					      "children": [
+						{
+						  "name":"alcoholconsumption",
+						  "children": [
+						    {
+						      "name":"leggero",
+						      "value":"0"
+						    },
+						    {
+						      "name":"moderato",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"elevato",
+						      "value":"1"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"'60-64'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'65-69'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'70-74'",
+					      "children": [
+						{
+						  "name":"bmi",
+						  "children": [
+						    {
+						      "name":"sottopeso",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"'peso ideale'",
+						      "value":"0"
+						    },
+						    {
+						      "name":"sovrappeso",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"obeso",
+						      "value":"1"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"'75-79'",
+					      "children": [
+						{
+						  "name":"bmi",
+						  "children": [
+						    {
+						      "name":"sottopeso",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"'peso ideale'",
+						      "value":"1"
+						    },
+						    {
+						      "name":"sovrappeso",
+						      "value":"1"
+						    },
+						    {
+						      "name":"obeso",
+						      "value":"0"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"'80-84'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'85-89'",
+					      "value":"0"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"scarsa",
+				      "children": [
+					{
+					  "name":"sleepquality",
+					  "children": [
+					    {
+					      "name":"bassa",
+					      "value":"1"
+					    },
+					    {
+					      "name":"media",
+					      "value":"0"
+					    },
+					    {
+					      "name":"alta",
+					      "value":"SCONOSCIUTO"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {"name":"media","value":"1"},
+				    {
+				      "name":"buona",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"'50-54'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'55-59'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'60-64'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'65-69'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'70-74'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'75-79'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'80-84'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'85-89'",
+					      "value":"1"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"eccellente",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"'50-54'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'55-59'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'60-64'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'65-69'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'70-74'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'75-79'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'80-84'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'85-89'",
+					      "value":"1"
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"elevata",
+			      "children": [
+				{
+				  "name":"cholesteroltriglycerides",
+				  "children": [
+				    {"name":"normale","value":"0"},
+				    {"name":"limite","value":"1"},
+				    {
+				      "name":"alto",
+				      "children": [
+					{
+					  "name":"moca",
+					  "children": [
+					    {
+					      "name":"severo",
+					      "value":"0"
+					    },
+					    {
+					      "name":"moderato",
+					      "value":"0"
+					    },
+					    {
+					      "name":"lieve",
+					      "value":"1"
+					    },
+					    {
+					      "name":"normale",
+					      "value":"0"
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"'ipertensione tipo 1'",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {"name":"'50-54'","value":"1"},
+				    {
+				      "name":"'55-59'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {"name":"'60-64'","value":"1"},
+				    {
+				      "name":"'65-69'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'70-74'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {"name":"'75-79'","value":"0"},
+				    {
+				      "name":"'80-84'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {"name":"'85-89'","value":"0"}
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"'ipertensione tipo 2'",
+			      "children": [
+				{
+				  "name":"gender",
+				  "children": [
+				    {
+				      "name":"0",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"'50-54'",
+					      "children": [
+						{
+						  "name":"alcoholconsumption",
+						  "children": [
+						    {
+						      "name":"leggero",
+						      "value":"0"
+						    },
+						    {
+						      "name":"moderato",
+						      "value":"1"
+						    },
+						    {
+						      "name":"elevato",
+						      "value":"1"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"'55-59'",
+					      "children": [
+						{
+						  "name":"alcoholconsumption",
+						  "children": [
+						    {
+						      "name":"leggero",
+						      "value":"1"
+						    },
+						    {
+						      "name":"moderato",
+						      "value":"1"
+						    },
+						    {
+						      "name":"elevato",
+						      "value":"0"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"'60-64'",
+					      "children": [
+						{
+						  "name":"bmi",
+						  "children": [
+						    {
+						      "name":"sottopeso",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"'peso ideale'",
+						      "value":"1"
+						    },
+						    {
+						      "name":"sovrappeso",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"obeso",
+						      "value":"0"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"'65-69'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'70-74'",
+					      "children": [
+						{
+						  "name":"cholesteroltotal",
+						  "children": [
+						    {
+						      "name":"desiderabile",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"'al limite'",
+						      "value":"0"
+						    },
+						    {
+						      "name":"alto",
+						      "value":"1"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"'75-79'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'80-84'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'85-89'",
+					      "value":"1"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"1",
+				      "children": [
+					{
+					  "name":"educationlevel",
+					  "children": [
+					    {"name":"0","value":"1"},
+					    {
+					      "name":"1",
+					      "children": [
+						{
+						  "name":"cholesterolldl",
+						  "children": [
+						    {
+						      "name":"ottimale",
+						      "children": [
+							{
+							  "name":"dietquality",
+							  "children": [
+							    {
+							      "name":"'molto scarsa'",
+							      "value":"0"
+							    },
+							    {
+							      "name":"scarsa",
+							      "value":"1"
+							    },
+							    {
+							      "name":"media",
+							      "value":"SCONOSCIUTO"
+							    },
+							    {
+							      "name":"buona",
+							      "value":"0"
+							    },
+							    {
+							      "name":"eccellente",
+							      "value":"SCONOSCIUTO"
+							    }
+							  ]
+							}
+						      ]
+						    },
+						    {
+						      "name":"'quasi ottimale'",
+						      "value":"1"
+						    },
+						    {
+						      "name":"'al limite'",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"alto",
+						      "value":"0"
+						    },
+						    {
+						      "name":"'molto alto'",
+						      "value":"0"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"2",
+					      "children": [
+						{
+						  "name":"bmi",
+						  "children": [
+						    {
+						      "name":"sottopeso",
+						      "value":"1"
+						    },
+						    {
+						      "name":"'peso ideale'",
+						      "value":"0"
+						    },
+						    {
+						      "name":"sovrappeso",
+						      "value":"0"
+						    },
+						    {
+						      "name":"obeso",
+						      "value":"0"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {"name":"3","value":"0"}
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"moderata",
+		      "children": [
+			{
+			  "name":"age",
+			  "children": [
+			    {"name":"'50-54'","value":"0"},
+			    {
+			      "name":"'55-59'",
+			      "children": [
+				{
+				  "name":"dietquality",
+				  "children": [
+				    {
+				      "name":"'molto scarsa'",
+				      "value":"0"
+				    },
+				    {"name":"scarsa","value":"1"},
+				    {"name":"media","value":"0"},
+				    {
+				      "name":"buona",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {"name":"eccellente","value":"0"}
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"'60-64'",
+			      "children": [
+				{
+				  "name":"alcoholconsumption",
+				  "children": [
+				    {"name":"leggero","value":"0"},
+				    {"name":"moderato","value":"1"},
+				    {
+				      "name":"elevato",
+				      "value":"SCONOSCIUTO"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"'65-69'",
+			      "children": [
+				{
+				  "name":"bmi",
+				  "children": [
+				    {"name":"sottopeso","value":"0"},
+				    {
+				      "name":"'peso ideale'",
+				      "value":"1"
+				    },
+				    {"name":"sovrappeso","value":"0"},
+				    {"name":"obeso","value":"1"}
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"'70-74'",
+			      "children": [
+				{
+				  "name":"cholesterolldl",
+				  "children": [
+				    {
+				      "name":"ottimale",
+				      "children": [
+					{
+					  "name":"bmi",
+					  "children": [
+					    {
+					      "name":"sottopeso",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'peso ideale'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"sovrappeso",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"obeso",
+					      "value":"0"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"'quasi ottimale'",
+				      "value":"1"
+				    },
+				    {
+				      "name":"'al limite'",
+				      "value":"1"
+				    },
+				    {"name":"alto","value":"0"},
+				    {
+				      "name":"'molto alto'",
+				      "value":"SCONOSCIUTO"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"'75-79'",
+			      "children": [
+				{
+				  "name":"alcoholconsumption",
+				  "children": [
+				    {"name":"leggero","value":"1"},
+				    {"name":"moderato","value":"0"},
+				    {"name":"elevato","value":"1"}
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"'80-84'",
+			      "children": [
+				{
+				  "name":"educationlevel",
+				  "children": [
+				    {"name":"0","value":"0"},
+				    {"name":"1","value":"1"},
+				    {
+				      "name":"2",
+				      "children": [
+					{
+					  "name":"cholesterolldl",
+					  "children": [
+					    {
+					      "name":"ottimale",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'quasi ottimale'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'al limite'",
+					      "children": [
+						{
+						  "name":"alcoholconsumption",
+						  "children": [
+						    {
+						      "name":"leggero",
+						      "value":"1"
+						    },
+						    {
+						      "name":"moderato",
+						      "value":"0"
+						    },
+						    {
+						      "name":"elevato",
+						      "value":"SCONOSCIUTO"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"alto",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'molto alto'",
+					      "value":"SCONOSCIUTO"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {"name":"3","value":"0"}
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"'85-89'",
+			      "children": [
+				{
+				  "name":"educationlevel",
+				  "children": [
+				    {"name":"0","value":"0"},
+				    {"name":"1","value":"1"},
+				    {"name":"2","value":"0"},
+				    {
+				      "name":"3",
+				      "value":"SCONOSCIUTO"
+				    }
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"lieve",
+		      "children": [
+			{
+			  "name":"rigidity",
+			  "children": [
+			    {
+			      "name":"0",
+			      "children": [
+				{
+				  "name":"cholesterolldl",
+				  "children": [
+				    {
+				      "name":"ottimale",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"'50-54'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'55-59'",
+					      "children": [
+						{
+						  "name":"cholesterolhdl",
+						  "children": [
+						    {
+						      "name":"basso",
+						      "value":"0"
+						    },
+						    {
+						      "name":"normale",
+						      "value":"0"
+						    },
+						    {
+						      "name":"protettivo",
+						      "value":"1"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"'60-64'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'65-69'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'70-74'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'75-79'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'80-84'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'85-89'",
+					      "value":"0"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"'quasi ottimale'",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"'50-54'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'55-59'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'60-64'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'65-69'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'70-74'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'75-79'",
+					      "children": [
+						{
+						  "name":"alcoholconsumption",
+						  "children": [
+						    {
+						      "name":"leggero",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"moderato",
+						      "value":"0"
+						    },
+						    {
+						      "name":"elevato",
+						      "value":"1"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"'80-84'",
+					      "children": [
+						{
+						  "name":"cholesterolhdl",
+						  "children": [
+						    {
+						      "name":"basso",
+						      "value":"0"
+						    },
+						    {
+						      "name":"normale",
+						      "value":"0"
+						    },
+						    {
+						      "name":"protettivo",
+						      "value":"1"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"'85-89'",
+					      "value":"1"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"'al limite'",
+				      "children": [
+					{
+					  "name":"bmi",
+					  "children": [
+					    {
+					      "name":"sottopeso",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'peso ideale'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"sovrappeso",
+					      "children": [
+						{
+						  "name":"cholesteroltriglycerides",
+						  "children": [
+						    {
+						      "name":"normale",
+						      "value":"1"
+						    },
+						    {
+						      "name":"limite",
+						      "value":"1"
+						    },
+						    {
+						      "name":"alto",
+						      "value":"0"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"obeso",
+					      "value":"0"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {"name":"alto","value":"0"},
+				    {
+				      "name":"'molto alto'",
+				      "value":"0"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"1",
+			      "children": [
+				{
+				  "name":"systolicbp",
+				  "children": [
+				    {
+				      "name":"normale",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"'50-54'",
+					      "children": [
+						{
+						  "name":"constipation",
+						  "children": [
+						    {
+						      "name":"0",
+						      "value":"1"
+						    },
+						    {
+						      "name":"1",
+						      "value":"0"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"'55-59'",
+					      "children": [
+						{
+						  "name":"alcoholconsumption",
+						  "children": [
+						    {
+						      "name":"leggero",
+						      "value":"1"
+						    },
+						    {
+						      "name":"moderato",
+						      "value":"0"
+						    },
+						    {
+						      "name":"elevato",
+						      "value":"0"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"'60-64'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'65-69'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'70-74'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'75-79'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'80-84'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'85-89'",
+					      "value":"0"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"elevata",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'ipertensione tipo 1'",
+				      "value":"0"
+				    },
+				    {
+				      "name":"'ipertensione tipo 2'",
+				      "children": [
+					{
+					  "name":"cholesterolldl",
+					  "children": [
+					    {
+					      "name":"ottimale",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'quasi ottimale'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'al limite'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"alto",
+					      "children": [
+						{
+						  "name":"age",
+						  "children": [
+						    {
+						      "name":"'50-54'",
+						      "value":"0"
+						    },
+						    {
+						      "name":"'55-59'",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"'60-64'",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"'65-69'",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"'70-74'",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"'75-79'",
+						      "value":"1"
+						    },
+						    {
+						      "name":"'80-84'",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"'85-89'",
+						      "value":"SCONOSCIUTO"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"'molto alto'",
+					      "value":"1"
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"normale",
+		      "children": [
+			{
+			  "name":"tremor",
+			  "children": [
+			    {
+			      "name":"0",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {"name":"'50-54'","value":"0"},
+				    {"name":"'55-59'","value":"0"},
+				    {"name":"'60-64'","value":"0"},
+				    {"name":"'65-69'","value":"0"},
+				    {"name":"'70-74'","value":"0"},
+				    {"name":"'75-79'","value":"0"},
+				    {
+				      "name":"'80-84'",
+				      "children": [
+					{
+					  "name":"physicalactivity",
+					  "children": [
+					    {
+					      "name":"bassa",
+					      "value":"1"
+					    },
+					    {
+					      "name":"moderata",
+					      "value":"0"
+					    },
+					    {
+					      "name":"alta",
+					      "value":"0"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {"name":"'85-89'","value":"0"}
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"1",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {
+				      "name":"'50-54'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {"name":"'55-59'","value":"1"},
+				    {"name":"'60-64'","value":"0"},
+				    {"name":"'65-69'","value":"0"},
+				    {
+				      "name":"'70-74'",
+				      "children": [
+					{
+					  "name":"bmi",
+					  "children": [
+					    {
+					      "name":"sottopeso",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'peso ideale'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"sovrappeso",
+					      "value":"0"
+					    },
+					    {
+					      "name":"obeso",
+					      "value":"1"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"'75-79'",
+				      "children": [
+					{
+					  "name":"cholesterolldl",
+					  "children": [
+					    {
+					      "name":"ottimale",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'quasi ottimale'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'al limite'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"alto",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'molto alto'",
+					      "value":"SCONOSCIUTO"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"'80-84'",
+				      "children": [
+					{
+					  "name":"alcoholconsumption",
+					  "children": [
+					    {
+					      "name":"leggero",
+					      "children": [
+						{
+						  "name":"cholesterolldl",
+						  "children": [
+						    {
+						      "name":"ottimale",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"'quasi ottimale'",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"'al limite'",
+						      "value":"0"
+						    },
+						    {
+						      "name":"alto",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"'molto alto'",
+						      "value":"1"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"moderato",
+					      "value":"0"
+					    },
+					    {
+					      "name":"elevato",
+					      "value":"1"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"'85-89'",
+				      "children": [
+					{
+					  "name":"bmi",
+					  "children": [
+					    {
+					      "name":"sottopeso",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'peso ideale'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"sovrappeso",
+					      "value":"0"
+					    },
+					    {
+					      "name":"obeso",
+					      "value":"1"
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    }
+		  ]
+		}
+	      ]
+	    },
+	    {
+	      "name":"1",
+	      "children": [
+		{
+		  "name":"diastolicbp",
+		  "children": [
+		    {
+		      "name":"normale",
+		      "children": [
+			{
+			  "name":"ethnicity",
+			  "children": [
+			    {
+			      "name":"0",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {"name":"'50-54'","value":"1"},
+				    {"name":"'55-59'","value":"1"},
+				    {"name":"'60-64'","value":"1"},
+				    {"name":"'65-69'","value":"1"},
+				    {"name":"'70-74'","value":"1"},
+				    {"name":"'75-79'","value":"1"},
+				    {"name":"'80-84'","value":"1"},
+				    {
+				      "name":"'85-89'",
+				      "children": [
+					{
+					  "name":"alcoholconsumption",
+					  "children": [
+					    {
+					      "name":"leggero",
+					      "value":"0"
+					    },
+					    {
+					      "name":"moderato",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"elevato",
+					      "value":"1"
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"1","value":"1"},
+			    {"name":"2","value":"1"},
+			    {"name":"3","value":"0"}
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"'ipertensione tipo 1'",
+		      "children": [
+			{
+			  "name":"systolicbp",
+			  "children": [
+			    {
+			      "name":"normale",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {
+				      "name":"'50-54'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'55-59'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'60-64'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'65-69'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'70-74'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {"name":"'75-79'","value":"1"},
+				    {"name":"'80-84'","value":"1"},
+				    {"name":"'85-89'","value":"0"}
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"elevata","value":"SCONOSCIUTO"},
+			    {
+			      "name":"'ipertensione tipo 1'",
+			      "value":"1"
+			    },
+			    {
+			      "name":"'ipertensione tipo 2'",
+			      "value":"0"
+			    }
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"'ipertensione tipo 2'",
+		      "children": [
+			{
+			  "name":"ethnicity",
+			  "children": [
+			    {
+			      "name":"0",
+			      "children": [
+				{
+				  "name":"cholesterolldl",
+				  "children": [
+				    {
+				      "name":"ottimale",
+				      "children": [
+					{
+					  "name":"bmi",
+					  "children": [
+					    {
+					      "name":"sottopeso",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'peso ideale'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"sovrappeso",
+					      "value":"1"
+					    },
+					    {
+					      "name":"obeso",
+					      "value":"1"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"'quasi ottimale'",
+				      "value":"1"
+				    },
+				    {
+				      "name":"'al limite'",
+				      "value":"0"
+				    },
+				    {"name":"alto","value":"1"},
+				    {
+				      "name":"'molto alto'",
+				      "value":"0"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"1","value":"1"},
+			    {
+			      "name":"2",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {"name":"'50-54'","value":"0"},
+				    {"name":"'55-59'","value":"0"},
+				    {
+				      "name":"'60-64'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'65-69'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'70-74'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {"name":"'75-79'","value":"1"},
+				    {
+				      "name":"'80-84'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'85-89'",
+				      "value":"SCONOSCIUTO"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"3","value":"1"}
+			  ]
+			}
+		      ]
+		    }
+		  ]
+		}
+	      ]
+	    }
+	  ]
+	}
+      ]
+    },
+    {
+      "name":"'moderato severo'",
+      "children": [
+	{
+	  "name":"moca",
+	  "children": [
+	    {
+	      "name":"severo",
+	      "children": [
+		{
+		  "name":"functionalassessment",
+		  "children": [
+		    {
+		      "name":"severa",
+		      "children": [
+			{
+			  "name":"ethnicity",
+			  "children": [
+			    {
+			      "name":"0",
+			      "children": [
+				{
+				  "name":"cholesterolhdl",
+				  "children": [
+				    {
+				      "name":"basso",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"'50-54'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'55-59'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'60-64'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'65-69'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'70-74'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'75-79'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'80-84'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'85-89'",
+					      "value":"1"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {"name":"normale","value":"1"},
+				    {"name":"protettivo","value":"1"}
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"1",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {"name":"'50-54'","value":"1"},
+				    {
+				      "name":"'55-59'",
+				      "children": [
+					{
+					  "name":"alcoholconsumption",
+					  "children": [
+					    {
+					      "name":"leggero",
+					      "value":"1"
+					    },
+					    {
+					      "name":"moderato",
+					      "value":"0"
+					    },
+					    {
+					      "name":"elevato",
+					      "value":"SCONOSCIUTO"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {"name":"'60-64'","value":"1"},
+				    {
+				      "name":"'65-69'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {"name":"'70-74'","value":"1"},
+				    {"name":"'75-79'","value":"1"},
+				    {"name":"'80-84'","value":"1"},
+				    {"name":"'85-89'","value":"1"}
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"2",
+			      "children": [
+				{
+				  "name":"sleepquality",
+				  "children": [
+				    {"name":"bassa","value":"1"},
+				    {"name":"media","value":"1"},
+				    {"name":"alta","value":"0"}
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"3","value":"1"}
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"moderata",
+		      "children": [
+			{
+			  "name":"educationlevel",
+			  "children": [
+			    {"name":"0","value":"1"},
+			    {"name":"1","value":"1"},
+			    {
+			      "name":"2",
+			      "children": [
+				{
+				  "name":"sleepquality",
+				  "children": [
+				    {"name":"bassa","value":"1"},
+				    {"name":"media","value":"1"},
+				    {"name":"alta","value":"0"}
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"3",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {
+				      "name":"'50-54'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'55-59'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'60-64'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'65-69'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {"name":"'70-74'","value":"0"},
+				    {
+				      "name":"'75-79'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {"name":"'80-84'","value":"1"},
+				    {
+				      "name":"'85-89'",
+				      "value":"SCONOSCIUTO"
+				    }
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"lieve",
+		      "children": [
+			{
+			  "name":"age",
+			  "children": [
+			    {"name":"'50-54'","value":"1"},
+			    {"name":"'55-59'","value":"1"},
+			    {
+			      "name":"'60-64'",
+			      "children": [
+				{
+				  "name":"dietquality",
+				  "children": [
+				    {
+				      "name":"'molto scarsa'",
+				      "value":"1"
+				    },
+				    {"name":"scarsa","value":"0"},
+				    {"name":"media","value":"0"},
+				    {"name":"buona","value":"1"},
+				    {
+				      "name":"eccellente",
+				      "value":"SCONOSCIUTO"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"'65-69'","value":"0"},
+			    {
+			      "name":"'70-74'",
+			      "children": [
+				{
+				  "name":"depression",
+				  "children": [
+				    {"name":"0","value":"1"},
+				    {"name":"1","value":"0"}
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"'75-79'",
+			      "children": [
+				{
+				  "name":"alcoholconsumption",
+				  "children": [
+				    {"name":"leggero","value":"0"},
+				    {"name":"moderato","value":"0"},
+				    {"name":"elevato","value":"1"}
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"'80-84'",
+			      "children": [
+				{
+				  "name":"alcoholconsumption",
+				  "children": [
+				    {"name":"leggero","value":"0"},
+				    {
+				      "name":"moderato",
+				      "children": [
+					{
+					  "name":"cholesterolldl",
+					  "children": [
+					    {
+					      "name":"ottimale",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'quasi ottimale'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'al limite'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"alto",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'molto alto'",
+					      "value":"SCONOSCIUTO"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"elevato",
+				      "value":"SCONOSCIUTO"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"'85-89'","value":"1"}
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"normale",
+		      "children": [
+			{
+			  "name":"sleepquality",
+			  "children": [
+			    {
+			      "name":"bassa",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {
+				      "name":"'50-54'",
+				      "children": [
+					{
+					  "name":"alcoholconsumption",
+					  "children": [
+					    {
+					      "name":"leggero",
+					      "value":"0"
+					    },
+					    {
+					      "name":"moderato",
+					      "value":"1"
+					    },
+					    {
+					      "name":"elevato",
+					      "value":"0"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"'55-59'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {"name":"'60-64'","value":"0"},
+				    {"name":"'65-69'","value":"1"},
+				    {
+				      "name":"'70-74'",
+				      "children": [
+					{
+					  "name":"cholesteroltotal",
+					  "children": [
+					    {
+					      "name":"desiderabile",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'al limite'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"alto",
+					      "value":"1"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {"name":"'75-79'","value":"1"},
+				    {"name":"'80-84'","value":"1"},
+				    {
+				      "name":"'85-89'",
+				      "children": [
+					{
+					  "name":"alcoholconsumption",
+					  "children": [
+					    {
+					      "name":"leggero",
+					      "value":"1"
+					    },
+					    {
+					      "name":"moderato",
+					      "value":"0"
+					    },
+					    {
+					      "name":"elevato",
+					      "value":"SCONOSCIUTO"
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"media",
+			      "children": [
+				{
+				  "name":"diabetes",
+				  "children": [
+				    {"name":"0","value":"1"},
+				    {"name":"1","value":"0"}
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"alta","value":"0"}
+			  ]
+			}
+		      ]
+		    }
+		  ]
+		}
+	      ]
+	    },
+	    {
+	      "name":"moderato",
+	      "children": [
+		{
+		  "name":"ethnicity",
+		  "children": [
+		    {
+		      "name":"0",
+		      "children": [
+			{
+			  "name":"cholesterolldl",
+			  "children": [
+			    {
+			      "name":"ottimale",
+			      "children": [
+				{
+				  "name":"systolicbp",
+				  "children": [
+				    {"name":"normale","value":"1"},
+				    {"name":"elevata","value":"0"},
+				    {
+				      "name":"'ipertensione tipo 1'",
+				      "value":"1"
+				    },
+				    {
+				      "name":"'ipertensione tipo 2'",
+				      "value":"1"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"'quasi ottimale'",
+			      "children": [
+				{
+				  "name":"sleepdisorders",
+				  "children": [
+				    {"name":"0","value":"1"},
+				    {"name":"1","value":"0"}
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"'al limite'",
+			      "children": [
+				{
+				  "name":"smoking",
+				  "children": [
+				    {"name":"0","value":"1"},
+				    {"name":"1","value":"0"}
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"alto",
+			      "children": [
+				{
+				  "name":"cholesteroltriglycerides",
+				  "children": [
+				    {"name":"normale","value":"0"},
+				    {"name":"limite","value":"1"},
+				    {"name":"alto","value":"0"}
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"'molto alto'",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {
+				      "name":"'50-54'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'55-59'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'60-64'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'65-69'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {"name":"'70-74'","value":"1"},
+				    {"name":"'75-79'","value":"0"},
+				    {
+				      "name":"'80-84'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {"name":"'85-89'","value":"1"}
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"1",
+		      "children": [
+			{
+			  "name":"functionalassessment",
+			  "children": [
+			    {"name":"severa","value":"1"},
+			    {"name":"moderata","value":"1"},
+			    {
+			      "name":"lieve",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {
+				      "name":"'50-54'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {"name":"'55-59'","value":"0"},
+				    {
+				      "name":"'60-64'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'65-69'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {"name":"'70-74'","value":"1"},
+				    {
+				      "name":"'75-79'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'80-84'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'85-89'",
+				      "value":"SCONOSCIUTO"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"normale",
+			      "children": [
+				{
+				  "name":"educationlevel",
+				  "children": [
+				    {
+				      "name":"0",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {"name":"1","value":"0"},
+				    {"name":"2","value":"1"},
+				    {"name":"3","value":"0"}
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"2",
+		      "children": [
+			{
+			  "name":"age",
+			  "children": [
+			    {"name":"'50-54'","value":"1"},
+			    {"name":"'55-59'","value":"SCONOSCIUTO"},
+			    {"name":"'60-64'","value":"1"},
+			    {"name":"'65-69'","value":"SCONOSCIUTO"},
+			    {"name":"'70-74'","value":"1"},
+			    {"name":"'75-79'","value":"0"},
+			    {"name":"'80-84'","value":"1"},
+			    {"name":"'85-89'","value":"1"}
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"3",
+		      "children": [
+			{
+			  "name":"bmi",
+			  "children": [
+			    {"name":"sottopeso","value":"0"},
+			    {"name":"'peso ideale'","value":"0"},
+			    {"name":"sovrappeso","value":"0"},
+			    {"name":"obeso","value":"1"}
+			  ]
+			}
+		      ]
+		    }
+		  ]
+		}
+	      ]
+	    },
+	    {
+	      "name":"lieve",
+	      "children": [
+		{
+		  "name":"ethnicity",
+		  "children": [
+		    {"name":"0","value":"1"},
+		    {
+		      "name":"1",
+		      "children": [
+			{
+			  "name":"age",
+			  "children": [
+			    {"name":"'50-54'","value":"1"},
+			    {"name":"'55-59'","value":"0"},
+			    {"name":"'60-64'","value":"0"},
+			    {"name":"'65-69'","value":"1"},
+			    {"name":"'70-74'","value":"1"},
+			    {"name":"'75-79'","value":"0"},
+			    {"name":"'80-84'","value":"1"},
+			    {"name":"'85-89'","value":"SCONOSCIUTO"}
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"2",
+		      "children": [
+			{
+			  "name":"cholesterolhdl",
+			  "children": [
+			    {"name":"basso","value":"0"},
+			    {"name":"normale","value":"1"},
+			    {"name":"protettivo","value":"1"}
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"3",
+		      "children": [
+			{
+			  "name":"functionalassessment",
+			  "children": [
+			    {"name":"severa","value":"1"},
+			    {"name":"moderata","value":"1"},
+			    {"name":"lieve","value":"SCONOSCIUTO"},
+			    {"name":"normale","value":"0"}
+			  ]
+			}
+		      ]
+		    }
+		  ]
+		}
+	      ]
+	    },
+	    {
+	      "name":"normale",
+	      "children": [
+		{
+		  "name":"tremor",
+		  "children": [
+		    {
+		      "name":"0",
+		      "children": [
+			{
+			  "name":"bradykinesia",
+			  "children": [
+			    {"name":"0","value":"0"},
+			    {
+			      "name":"1",
+			      "children": [
+				{
+				  "name":"bmi",
+				  "children": [
+				    {
+				      "name":"sottopeso",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'peso ideale'",
+				      "value":"1"
+				    },
+				    {"name":"sovrappeso","value":"0"},
+				    {"name":"obeso","value":"0"}
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"1",
+		      "children": [
+			{
+			  "name":"age",
+			  "children": [
+			    {
+			      "name":"'50-54'",
+			      "children": [
+				{
+				  "name":"bmi",
+				  "children": [
+				    {"name":"sottopeso","value":"0"},
+				    {
+				      "name":"'peso ideale'",
+				      "value":"1"
+				    },
+				    {
+				      "name":"sovrappeso",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {"name":"obeso","value":"0"}
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"'55-59'","value":"1"},
+			    {
+			      "name":"'60-64'",
+			      "children": [
+				{
+				  "name":"ethnicity",
+				  "children": [
+				    {"name":"0","value":"1"},
+				    {
+				      "name":"1",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {"name":"2","value":"1"},
+				    {"name":"3","value":"0"}
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"'65-69'","value":"1"},
+			    {"name":"'70-74'","value":"1"},
+			    {"name":"'75-79'","value":"1"},
+			    {
+			      "name":"'80-84'",
+			      "children": [
+				{
+				  "name":"cholesteroltotal",
+				  "children": [
+				    {
+				      "name":"desiderabile",
+				      "value":"0"
+				    },
+				    {
+				      "name":"'al limite'",
+				      "value":"1"
+				    },
+				    {"name":"alto","value":"1"}
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"'85-89'",
+			      "children": [
+				{
+				  "name":"bmi",
+				  "children": [
+				    {"name":"sottopeso","value":"1"},
+				    {
+				      "name":"'peso ideale'",
+				      "value":"0"
+				    },
+				    {"name":"sovrappeso","value":"0"},
+				    {
+				      "name":"obeso",
+				      "value":"SCONOSCIUTO"
+				    }
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    }
+		  ]
+		}
+	      ]
+	    }
+	  ]
+	}
+      ]
+    },
+    {
+      "name":"severo",
+      "children": [
+	{
+	  "name":"tremor",
+	  "children": [
+	    {
+	      "name":"0",
+	      "children": [
+		{
+		  "name":"functionalassessment",
+		  "children": [
+		    {
+		      "name":"severa",
+		      "children": [
+			{
 			  "name":"moca",
 			  "children": [
 			    {
 			      "name":"severo",
-			      "children": {
-				"name":"dietquality",
-				"children": [
-				  {
-				    "name":"'molto scarsa'",
-				    "children":"1"
-				  },
-				  {"name":"scarsa","children":"1"},
-				  {"name":"media","children":"1"},
-				  {"name":"buona","children":"1"},
-				  {
-				    "name":"eccellente",
-				    "children":"0"
-				  }
-				]
-			      }
+			      "children": [
+				{
+				  "name":"cholesterolldl",
+				  "children": [
+				    {"name":"ottimale","value":"1"},
+				    {
+				      "name":"'quasi ottimale'",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"'50-54'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'55-59'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'60-64'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'65-69'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'70-74'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'75-79'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'80-84'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'85-89'",
+					      "value":"SCONOSCIUTO"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"'al limite'",
+				      "value":"1"
+				    },
+				    {"name":"alto","value":"1"},
+				    {
+				      "name":"'molto alto'",
+				      "value":"1"
+				    }
+				  ]
+				}
+			      ]
 			    },
-			    {"name":"moderato","children":"1"},
-			    {"name":"lieve","children":"1"},
-			    {"name":"normale","children":"0"}
+			    {
+			      "name":"moderato",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {
+				      "name":"'50-54'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'55-59'",
+				      "children": [
+					{
+					  "name":"alcoholconsumption",
+					  "children": [
+					    {
+					      "name":"leggero",
+					      "value":"0"
+					    },
+					    {
+					      "name":"moderato",
+					      "value":"1"
+					    },
+					    {
+					      "name":"elevato",
+					      "value":"SCONOSCIUTO"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"'60-64'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'65-69'",
+				      "children": [
+					{
+					  "name":"alcoholconsumption",
+					  "children": [
+					    {
+					      "name":"leggero",
+					      "value":"0"
+					    },
+					    {
+					      "name":"moderato",
+					      "value":"1"
+					    },
+					    {
+					      "name":"elevato",
+					      "value":"1"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"'70-74'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {"name":"'75-79'","value":"1"},
+				    {"name":"'80-84'","value":"0"},
+				    {"name":"'85-89'","value":"1"}
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"lieve","value":"1"},
+			    {
+			      "name":"normale",
+			      "children": [
+				{
+				  "name":"bradykinesia",
+				  "children": [
+				    {"name":"0","value":"0"},
+				    {"name":"1","value":"1"}
+				  ]
+				}
+			      ]
+			    }
 			  ]
 			}
-		      }
-		    ]
-		  }
-		},
-		{
-		  "name":"normale",
-		  "children": {
-		    "name":"rigidity",
-		    "children": [
-		      {
-			"name":"0",
-			"children": {
+		      ]
+		    },
+		    {
+		      "name":"moderata",
+		      "children": [
+			{
+			  "name":"age",
+			  "children": [
+			    {
+			      "name":"'50-54'",
+			      "children": [
+				{
+				  "name":"sleepdisorders",
+				  "children": [
+				    {
+				      "name":"0",
+				      "children": [
+					{
+					  "name":"cholesteroltotal",
+					  "children": [
+					    {
+					      "name":"desiderabile",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'al limite'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"alto",
+					      "value":"1"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {"name":"1","value":"0"}
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"'55-59'",
+			      "children": [
+				{
+				  "name":"alcoholconsumption",
+				  "children": [
+				    {"name":"leggero","value":"1"},
+				    {
+				      "name":"moderato",
+				      "children": [
+					{
+					  "name":"bradykinesia",
+					  "children": [
+					    {"name":"0","value":"1"},
+					    {"name":"1","value":"0"}
+					  ]
+					}
+				      ]
+				    },
+				    {"name":"elevato","value":"0"}
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"'60-64'",
+			      "children": [
+				{
+				  "name":"ethnicity",
+				  "children": [
+				    {"name":"0","value":"1"},
+				    {"name":"1","value":"1"},
+				    {"name":"2","value":"0"},
+				    {
+				      "name":"3",
+				      "value":"SCONOSCIUTO"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"'65-69'",
+			      "children": [
+				{
+				  "name":"educationlevel",
+				  "children": [
+				    {"name":"0","value":"0"},
+				    {
+				      "name":"1",
+				      "children": [
+					{
+					  "name":"alcoholconsumption",
+					  "children": [
+					    {
+					      "name":"leggero",
+					      "value":"1"
+					    },
+					    {
+					      "name":"moderato",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"elevato",
+					      "value":"0"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {"name":"2","value":"1"},
+				    {"name":"3","value":"1"}
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"'70-74'","value":"1"},
+			    {"name":"'75-79'","value":"1"},
+			    {"name":"'80-84'","value":"1"},
+			    {"name":"'85-89'","value":"1"}
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"lieve",
+		      "children": [
+			{
 			  "name":"posturalinstability",
 			  "children": [
 			    {
 			      "name":"0",
-			      "children": {
-				"name":"bradykinesia",
-				"children": [
-				  {"name":"0","children":"0"},
-				  {
-				    "name":"1",
-				    "children": {
-				      "name":"moca",
+			      "children": [
+				{
+				  "name":"rigidity",
+				  "children": [
+				    {
+				      "name":"0",
 				      "children": [
 					{
-					  "name":"severo",
-					  "children":"1"
-					},
+					  "name":"bradykinesia",
+					  "children": [
+					    {
+					      "name":"0",
+					      "children": [
+						{
+						  "name":"depression",
+						  "children": [
+						    {
+						      "name":"0",
+						      "value":"0"
+						    },
+						    {
+						      "name":"1",
+						      "children": [
+							{
+							  "name":"physicalactivity",
+							  "children": [
+							    {
+							      "name":"bassa",
+							      "value":"1"
+							    },
+							    {
+							      "name":"moderata",
+							      "value":"0"
+							    },
+							    {
+							      "name":"alta",
+							      "value":"0"
+							    }
+							  ]
+							}
+						      ]
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"1",
+					      "children": [
+						{
+						  "name":"bmi",
+						  "children": [
+						    {
+						      "name":"sottopeso",
+						      "value":"0"
+						    },
+						    {
+						      "name":"'peso ideale'",
+						      "value":"0"
+						    },
+						    {
+						      "name":"sovrappeso",
+						      "value":"1"
+						    },
+						    {
+						      "name":"obeso",
+						      "value":"1"
+						    }
+						  ]
+						}
+					      ]
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"1",
+				      "children": [
 					{
-					  "name":"moderato",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"lieve",
-					  "children": {
-					    "name":"age",
-					    "children": [
-					      {
-						"name":"'50-54'",
-						"children":"SCONOSCIUTO"
-					      },
-					      {
-						"name":"'55-59'",
-						"children":"0"
-					      },
-					      {
-						"name":"'60-64'",
-						"children":"SCONOSCIUTO"
-					      },
-					      {
-						"name":"'65-69'",
-						"children":"SCONOSCIUTO"
-					      },
-					      {
-						"name":"'70-74'",
-						"children":"SCONOSCIUTO"
-					      },
-					      {
-						"name":"'75-79'",
-						"children":"1"
-					      },
-					      {
-						"name":"'80-84'",
-						"children":"SCONOSCIUTO"
-					      },
-					      {
-						"name":"'85-89'",
-						"children":"SCONOSCIUTO"
-					      }
-					    ]
-					  }
-					},
-					{
-					  "name":"normale",
-					  "children":"0"
+					  "name":"dietquality",
+					  "children": [
+					    {
+					      "name":"'molto scarsa'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"scarsa",
+					      "value":"0"
+					    },
+					    {
+					      "name":"media",
+					      "value":"1"
+					    },
+					    {
+					      "name":"buona",
+					      "value":"1"
+					    },
+					    {
+					      "name":"eccellente",
+					      "value":"0"
+					    }
+					  ]
 					}
 				      ]
 				    }
-				  }
-				]
-			      }
+				  ]
+				}
+			      ]
 			    },
 			    {
 			      "name":"1",
-			      "children": {
-				"name":"cholesterolldl",
-				"children": [
-				  {"name":"ottimale","children":"1"},
-				  {
-				    "name":"'quasi ottimale'",
-				    "children":"1"
-				  },
-				  {
-				    "name":"'al limite'",
-				    "children":"1"
-				  },
-				  {"name":"alto","children":"0"},
-				  {
-				    "name":"'molto alto'",
-				    "children":"SCONOSCIUTO"
-				  }
-				]
-			      }
+			      "children": [
+				{
+				  "name":"moca",
+				  "children": [
+				    {"name":"severo","value":"1"},
+				    {"name":"moderato","value":"1"},
+				    {"name":"lieve","value":"1"},
+				    {"name":"normale","value":"0"}
+				  ]
+				}
+			      ]
 			    }
 			  ]
 			}
-		      },
-		      {
-			"name":"1",
-			"children": {
-			  "name":"age",
+		      ]
+		    },
+		    {
+		      "name":"normale",
+		      "children": [
+			{
+			  "name":"bradykinesia",
 			  "children": [
 			    {
-			      "name":"'50-54'",
-			      "children": {
-				"name":"bmi",
-				"children": [
-				  {"name":"sottopeso","children":"1"},
-				  {
-				    "name":"'peso ideale'",
-				    "children":"0"
-				  },
-				  {
-				    "name":"sovrappeso",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"obeso",
-				    "children":"SCONOSCIUTO"
-				  }
-				]
-			      }
+			      "name":"0",
+			      "children": [
+				{
+				  "name":"rigidity",
+				  "children": [
+				    {
+				      "name":"0",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"'50-54'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'55-59'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'60-64'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'65-69'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'70-74'",
+					      "children": [
+						{
+						  "name":"bmi",
+						  "children": [
+						    {
+						      "name":"sottopeso",
+						      "value":"0"
+						    },
+						    {
+						      "name":"'peso ideale'",
+						      "value":"1"
+						    },
+						    {
+						      "name":"sovrappeso",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"obeso",
+						      "value":"0"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"'75-79'",
+					      "children": [
+						{
+						  "name":"hypertension",
+						  "children": [
+						    {
+						      "name":"0",
+						      "value":"0"
+						    },
+						    {
+						      "name":"1",
+						      "value":"1"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"'80-84'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'85-89'",
+					      "value":"0"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"1",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"'50-54'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'55-59'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'60-64'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'65-69'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'70-74'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'75-79'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'80-84'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'85-89'",
+					      "children": [
+						{
+						  "name":"bmi",
+						  "children": [
+						    {
+						      "name":"sottopeso",
+						      "value":"1"
+						    },
+						    {
+						      "name":"'peso ideale'",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"sovrappeso",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"obeso",
+						      "value":"0"
+						    }
+						  ]
+						}
+					      ]
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
 			    },
-			    {"name":"'55-59'","children":"1"},
-			    {"name":"'60-64'","children":"1"},
 			    {
-			      "name":"'65-69'",
-			      "children": {
-				"name":"bmi",
-				"children": [
-				  {"name":"sottopeso","children":"0"},
-				  {
-				    "name":"'peso ideale'",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"sovrappeso",
-				    "children":"1"
-				  },
-				  {"name":"obeso","children":"0"}
-				]
-			      }
-			    },
-			    {"name":"'70-74'","children":"0"},
-			    {"name":"'75-79'","children":"1"},
-			    {
-			      "name":"'80-84'",
-			      "children": {
-				"name":"alcoholconsumption",
-				"children": [
-				  {"name":"leggero","children":"0"},
-				  {"name":"moderato","children":"1"},
-				  {"name":"elevato","children":"1"}
-				]
-			      }
-			    },
-			    {"name":"'85-89'","children":"1"}
+			      "name":"1",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {"name":"'50-54'","value":"1"},
+				    {"name":"'55-59'","value":"0"},
+				    {"name":"'60-64'","value":"1"},
+				    {
+				      "name":"'65-69'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {"name":"'70-74'","value":"1"},
+				    {"name":"'75-79'","value":"1"},
+				    {"name":"'80-84'","value":"1"},
+				    {
+				      "name":"'85-89'",
+				      "value":"SCONOSCIUTO"
+				    }
+				  ]
+				}
+			      ]
+			    }
 			  ]
 			}
-		      }
-		    ]
-		  }
+		      ]
+		    }
+		  ]
 		}
 	      ]
-	    }
-	  },
-	  {
-	    "name":"1",
-	    "children": {
-	      "name":"moca",
+	    },
+	    {
+	      "name":"1",
 	      "children": [
 		{
-		  "name":"severo",
-		  "children": {
-		    "name":"age",
-		    "children": [
-		      {
-			"name":"'50-54'",
-			"children": {
-			  "name":"ethnicity",
+		  "name":"bmi",
+		  "children": [
+		    {
+		      "name":"sottopeso",
+		      "children": [
+			{
+			  "name":"diastolicbp",
 			  "children": [
-			    {"name":"0","children":"1"},
-			    {"name":"1","children":"1"},
-			    {
-			      "name":"2",
-			      "children": {
-				"name":"cholesteroltotal",
-				"children": [
-				  {
-				    "name":"desiderabile",
-				    "children":"0"
-				  },
-				  {
-				    "name":"'al limite'",
-				    "children":"1"
-				  },
-				  {
-				    "name":"alto",
-				    "children":"SCONOSCIUTO"
-				  }
-				]
-			      }
-			    },
-			    {"name":"3","children":"1"}
-			  ]
-			}
-		      },
-		      {
-			"name":"'55-59'",
-			"children": {
-			  "name":"functionalassessment",
-			  "children": [
-			    {"name":"severa","children":"1"},
-			    {"name":"moderata","children":"1"},
-			    {
-			      "name":"lieve",
-			      "children": {
-				"name":"cholesteroltotal",
-				"children": [
-				  {
-				    "name":"desiderabile",
-				    "children": {
-				      "name":"cholesterolhdl",
-				      "children": [
-					{
-					  "name":"basso",
-					  "children":"0"
-					},
-					{
-					  "name":"normale",
-					  "children":"SCONOSCIUTO"
-					},
-					{
-					  "name":"protettivo",
-					  "children":"1"
-					}
-				      ]
-				    }
-				  },
-				  {
-				    "name":"'al limite'",
-				    "children":"0"
-				  },
-				  {"name":"alto","children":"1"}
-				]
-			      }
-			    },
 			    {
 			      "name":"normale",
-			      "children": {
-				"name":"dietquality",
-				"children": [
-				  {
-				    "name":"'molto scarsa'",
-				    "children":"1"
-				  },
-				  {"name":"scarsa","children":"1"},
-				  {"name":"media","children":"1"},
-				  {"name":"buona","children":"0"},
-				  {
-				    "name":"eccellente",
-				    "children":"0"
-				  }
-				]
-			      }
-			    }
-			  ]
-			}
-		      },
-		      {
-			"name":"'60-64'",
-			"children": {
-			  "name":"ethnicity",
-			  "children": [
-			    {"name":"0","children":"1"},
-			    {"name":"1","children":"1"},
-			    {"name":"2","children":"0"},
-			    {"name":"3","children":"1"}
-			  ]
-			}
-		      },
-		      {"name":"'65-69'","children":"1"},
-		      {
-			"name":"'70-74'",
-			"children": {
-			  "name":"sleepdisorders",
-			  "children": [
-			    {"name":"0","children":"1"},
-			    {
-			      "name":"1",
-			      "children": {
-				"name":"cholesterolhdl",
-				"children": [
-				  {"name":"basso","children":"0"},
-				  {
-				    "name":"normale",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {
-				    "name":"protettivo",
-				    "children":"1"
-				  }
-				]
-			      }
-			    }
-			  ]
-			}
-		      },
-		      {"name":"'75-79'","children":"1"},
-		      {"name":"'80-84'","children":"1"},
-		      {"name":"'85-89'","children":"1"}
-		    ]
-		  }
-		},
-		{
-		  "name":"moderato",
-		  "children": {
-		    "name":"age",
-		    "children": [
-		      {
-			"name":"'50-54'",
-			"children": {
-			  "name":"cholesteroltriglycerides",
-			  "children": [
-			    {"name":"normale","children":"0"},
-			    {"name":"limite","children":"1"},
-			    {"name":"alto","children":"1"}
-			  ]
-			}
-		      },
-		      {"name":"'55-59'","children":"1"},
-		      {"name":"'60-64'","children":"1"},
-		      {"name":"'65-69'","children":"1"},
-		      {"name":"'70-74'","children":"1"},
-		      {"name":"'75-79'","children":"1"},
-		      {"name":"'80-84'","children":"1"},
-		      {"name":"'85-89'","children":"1"}
-		    ]
-		  }
-		},
-		{
-		  "name":"lieve",
-		  "children": {
-		    "name":"age",
-		    "children": [
-		      {"name":"'50-54'","children":"1"},
-		      {
-			"name":"'55-59'",
-			"children": {
-			  "name":"alcoholconsumption",
-			  "children": [
-			    {"name":"leggero","children":"0"},
-			    {"name":"moderato","children":"1"},
-			    {"name":"elevato","children":"1"}
-			  ]
-			}
-		      },
-		      {"name":"'60-64'","children":"1"},
-		      {"name":"'65-69'","children":"1"},
-		      {"name":"'70-74'","children":"1"},
-		      {"name":"'75-79'","children":"1"},
-		      {"name":"'80-84'","children":"1"},
-		      {"name":"'85-89'","children":"1"}
-		    ]
-		  }
-		},
-		{
-		  "name":"normale",
-		  "children": {
-		    "name":"functionalassessment",
-		    "children": [
-		      {
-			"name":"severa",
-			"children": {
-			  "name":"systolicbp",
-			  "children": [
-			    {"name":"normale","children":"1"},
-			    {"name":"elevata","children":"0"},
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {"name":"'50-54'","value":"1"},
+				    {
+				      "name":"'55-59'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {"name":"'60-64'","value":"0"},
+				    {
+				      "name":"'65-69'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'70-74'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'75-79'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'80-84'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'85-89'",
+				      "value":"SCONOSCIUTO"
+				    }
+				  ]
+				}
+			      ]
+			    },
 			    {
 			      "name":"'ipertensione tipo 1'",
-			      "children":"1"
+			      "value":"1"
 			    },
 			    {
 			      "name":"'ipertensione tipo 2'",
-			      "children":"1"
+			      "value":"1"
 			    }
 			  ]
 			}
-		      },
-		      {"name":"moderata","children":"1"},
-		      {
-			"name":"lieve",
-			"children": {
-			  "name":"bradykinesia",
+		      ]
+		    },
+		    {
+		      "name":"'peso ideale'",
+		      "children": [
+			{
+			  "name":"cholesteroltotal",
 			  "children": [
-			    {"name":"0","children":"0"},
-			    {"name":"1","children":"1"}
+			    {
+			      "name":"desiderabile",
+			      "children": [
+				{
+				  "name":"moca",
+				  "children": [
+				    {"name":"severo","value":"1"},
+				    {
+				      "name":"moderato",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"'50-54'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'55-59'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'60-64'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'65-69'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'70-74'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'75-79'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'80-84'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'85-89'",
+					      "value":"SCONOSCIUTO"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"lieve",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {"name":"normale","value":"0"}
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"'al limite'","value":"1"},
+			    {"name":"alto","value":"1"}
 			  ]
 			}
-		      },
-		      {
-			"name":"normale",
-			"children": {
+		      ]
+		    },
+		    {
+		      "name":"sovrappeso",
+		      "children": [
+			{
 			  "name":"age",
 			  "children": [
 			    {
 			      "name":"'50-54'",
-			      "children":"SCONOSCIUTO"
+			      "children": [
+				{
+				  "name":"cholesterolhdl",
+				  "children": [
+				    {"name":"basso","value":"1"},
+				    {"name":"normale","value":"0"},
+				    {"name":"protettivo","value":"1"}
+				  ]
+				}
+			      ]
 			    },
-			    {"name":"'55-59'","children":"1"},
-			    {"name":"'60-64'","children":"1"},
-			    {"name":"'65-69'","children":"0"},
 			    {
-			      "name":"'70-74'",
-			      "children":"SCONOSCIUTO"
+			      "name":"'55-59'",
+			      "children": [
+				{
+				  "name":"cholesterolldl",
+				  "children": [
+				    {"name":"ottimale","value":"1"},
+				    {
+				      "name":"'quasi ottimale'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'al limite'",
+				      "value":"0"
+				    },
+				    {
+				      "name":"alto",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'molto alto'",
+				      "value":"1"
+				    }
+				  ]
+				}
+			      ]
 			    },
-			    {
-			      "name":"'75-79'",
-			      "children":"SCONOSCIUTO"
-			    },
+			    {"name":"'60-64'","value":"1"},
+			    {"name":"'65-69'","value":"1"},
+			    {"name":"'70-74'","value":"1"},
+			    {"name":"'75-79'","value":"1"},
 			    {
 			      "name":"'80-84'",
-			      "children": {
-				"name":"alcoholconsumption",
-				"children": [
-				  {"name":"leggero","children":"1"},
-				  {
-				    "name":"moderato",
-				    "children":"SCONOSCIUTO"
-				  },
-				  {"name":"elevato","children":"0"}
-				]
-			      }
+			      "children": [
+				{
+				  "name":"alcoholconsumption",
+				  "children": [
+				    {"name":"leggero","value":"1"},
+				    {"name":"moderato","value":"0"},
+				    {"name":"elevato","value":"1"}
+				  ]
+				}
+			      ]
 			    },
-			    {"name":"'85-89'","children":"0"}
+			    {"name":"'85-89'","value":"1"}
 			  ]
 			}
-		      }
-		    ]
-		  }
+		      ]
+		    },
+		    {"name":"obeso","value":"1"}
+		  ]
 		}
 	      ]
 	    }
-	  }
-	]
-      }
+	  ]
+	}
+      ]
+    },
+    {
+      "name":"'estremamente severo'",
+      "children": [
+	{
+	  "name":"tremor",
+	  "children": [
+	    {
+	      "name":"0",
+	      "children": [
+		{
+		  "name":"functionalassessment",
+		  "children": [
+		    {
+		      "name":"severa",
+		      "children": [
+			{
+			  "name":"moca",
+			  "children": [
+			    {
+			      "name":"severo",
+			      "children": [
+				{
+				  "name":"cholesteroltotal",
+				  "children": [
+				    {
+				      "name":"desiderabile",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"'50-54'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'55-59'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'60-64'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'65-69'",
+					      "children": [
+						{
+						  "name":"alcoholconsumption",
+						  "children": [
+						    {
+						      "name":"leggero",
+						      "value":"1"
+						    },
+						    {
+						      "name":"moderato",
+						      "value":"0"
+						    },
+						    {
+						      "name":"elevato",
+						      "value":"1"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"'70-74'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'75-79'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'80-84'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'85-89'",
+					      "value":"1"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"'al limite'",
+				      "value":"1"
+				    },
+				    {"name":"alto","value":"1"}
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"moderato","value":"1"},
+			    {"name":"lieve","value":"1"},
+			    {
+			      "name":"normale",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {"name":"'50-54'","value":"0"},
+				    {"name":"'55-59'","value":"0"},
+				    {"name":"'60-64'","value":"0"},
+				    {"name":"'65-69'","value":"0"},
+				    {"name":"'70-74'","value":"0"},
+				    {
+				      "name":"'75-79'",
+				      "children": [
+					{
+					  "name":"alcoholconsumption",
+					  "children": [
+					    {
+					      "name":"leggero",
+					      "value":"0"
+					    },
+					    {
+					      "name":"moderato",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"elevato",
+					      "value":"1"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"'80-84'",
+				      "children": [
+					{
+					  "name":"bmi",
+					  "children": [
+					    {
+					      "name":"sottopeso",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'peso ideale'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"sovrappeso",
+					      "value":"0"
+					    },
+					    {
+					      "name":"obeso",
+					      "value":"1"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"'85-89'",
+				      "children": [
+					{
+					  "name":"cholesterolhdl",
+					  "children": [
+					    {
+					      "name":"basso",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"normale",
+					      "value":"0"
+					    },
+					    {
+					      "name":"protettivo",
+					      "value":"1"
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"moderata",
+		      "children": [
+			{
+			  "name":"moca",
+			  "children": [
+			    {
+			      "name":"severo",
+			      "children": [
+				{
+				  "name":"dietquality",
+				  "children": [
+				    {
+				      "name":"'molto scarsa'",
+				      "children": [
+					{
+					  "name":"cholesterolhdl",
+					  "children": [
+					    {
+					      "name":"basso",
+					      "value":"0"
+					    },
+					    {
+					      "name":"normale",
+					      "value":"1"
+					    },
+					    {
+					      "name":"protettivo",
+					      "value":"1"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {"name":"scarsa","value":"1"},
+				    {"name":"media","value":"1"},
+				    {"name":"buona","value":"1"},
+				    {
+				      "name":"eccellente",
+				      "children": [
+					{
+					  "name":"cholesterolldl",
+					  "children": [
+					    {
+					      "name":"ottimale",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'quasi ottimale'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'al limite'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"alto",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'molto alto'",
+					      "value":"1"
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"moderato","value":"1"},
+			    {
+			      "name":"lieve",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {"name":"'50-54'","value":"0"},
+				    {"name":"'55-59'","value":"1"},
+				    {"name":"'60-64'","value":"1"},
+				    {"name":"'65-69'","value":"1"},
+				    {"name":"'70-74'","value":"1"},
+				    {"name":"'75-79'","value":"1"},
+				    {"name":"'80-84'","value":"1"},
+				    {"name":"'85-89'","value":"1"}
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"normale",
+			      "children": [
+				{
+				  "name":"dietquality",
+				  "children": [
+				    {
+				      "name":"'molto scarsa'",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"'50-54'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'55-59'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'60-64'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'65-69'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'70-74'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'75-79'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'80-84'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"'85-89'",
+					      "value":"1"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"scarsa",
+				      "children": [
+					{
+					  "name":"ethnicity",
+					  "children": [
+					    {"name":"0","value":"0"},
+					    {"name":"1","value":"1"},
+					    {"name":"2","value":"0"},
+					    {
+					      "name":"3",
+					      "value":"SCONOSCIUTO"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {"name":"media","value":"1"},
+				    {"name":"buona","value":"0"},
+				    {"name":"eccellente","value":"1"}
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"lieve",
+		      "children": [
+			{
+			  "name":"posturalinstability",
+			  "children": [
+			    {
+			      "name":"0",
+			      "children": [
+				{
+				  "name":"bradykinesia",
+				  "children": [
+				    {
+				      "name":"0",
+				      "children": [
+					{
+					  "name":"rigidity",
+					  "children": [
+					    {"name":"0","value":"0"},
+					    {
+					      "name":"1",
+					      "children": [
+						{
+						  "name":"moca",
+						  "children": [
+						    {
+						      "name":"severo",
+						      "children": [
+							{
+							  "name":"cholesteroltriglycerides",
+							  "children": [
+							    {
+							      "name":"normale",
+							      "value":"0"
+							    },
+							    {
+							      "name":"limite",
+							      "value":"0"
+							    },
+							    {
+							      "name":"alto",
+							      "children": [
+								{
+								  "name":"age",
+								  "children": [
+								    {
+								      "name":"'50-54'",
+								      "children": [
+									{
+									  "name":"alcoholconsumption",
+									  "children": [
+									    {
+									      "name":"leggero",
+									      "value":"0"
+									    },
+									    {
+									      "name":"moderato",
+									      "value":"1"
+									    },
+									    {
+									      "name":"elevato",
+									      "value":"1"
+									    }
+									  ]
+									}
+								      ]
+								    },
+								    {
+								      "name":"'55-59'",
+								      "value":"1"
+								    },
+								    {
+								      "name":"'60-64'",
+								      "value":"1"
+								    },
+								    {
+								      "name":"'65-69'",
+								      "value":"1"
+								    },
+								    {
+								      "name":"'70-74'",
+								      "value":"1"
+								    },
+								    {
+								      "name":"'75-79'",
+								      "value":"1"
+								    },
+								    {
+								      "name":"'80-84'",
+								      "value":"1"
+								    },
+								    {
+								      "name":"'85-89'",
+								      "value":"SCONOSCIUTO"
+								    }
+								  ]
+								}
+							      ]
+							    }
+							  ]
+							}
+						      ]
+						    },
+						    {
+						      "name":"moderato",
+						      "children": [
+							{
+							  "name":"age",
+							  "children": [
+							    {
+							      "name":"'50-54'",
+							      "value":"0"
+							    },
+							    {
+							      "name":"'55-59'",
+							      "value":"SCONOSCIUTO"
+							    },
+							    {
+							      "name":"'60-64'",
+							      "value":"1"
+							    },
+							    {
+							      "name":"'65-69'",
+							      "value":"SCONOSCIUTO"
+							    },
+							    {
+							      "name":"'70-74'",
+							      "value":"1"
+							    },
+							    {
+							      "name":"'75-79'",
+							      "value":"1"
+							    },
+							    {
+							      "name":"'80-84'",
+							      "value":"SCONOSCIUTO"
+							    },
+							    {
+							      "name":"'85-89'",
+							      "value":"SCONOSCIUTO"
+							    }
+							  ]
+							}
+						      ]
+						    },
+						    {
+						      "name":"lieve",
+						      "value":"1"
+						    },
+						    {
+						      "name":"normale",
+						      "value":"0"
+						    }
+						  ]
+						}
+					      ]
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"1",
+				      "children": [
+					{
+					  "name":"hypertension",
+					  "children": [
+					    {"name":"0","value":"1"},
+					    {"name":"1","value":"0"}
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"1",
+			      "children": [
+				{
+				  "name":"moca",
+				  "children": [
+				    {
+				      "name":"severo",
+				      "children": [
+					{
+					  "name":"dietquality",
+					  "children": [
+					    {
+					      "name":"'molto scarsa'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"scarsa",
+					      "value":"1"
+					    },
+					    {
+					      "name":"media",
+					      "value":"1"
+					    },
+					    {
+					      "name":"buona",
+					      "value":"1"
+					    },
+					    {
+					      "name":"eccellente",
+					      "value":"0"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {"name":"moderato","value":"1"},
+				    {"name":"lieve","value":"1"},
+				    {"name":"normale","value":"0"}
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"normale",
+		      "children": [
+			{
+			  "name":"rigidity",
+			  "children": [
+			    {
+			      "name":"0",
+			      "children": [
+				{
+				  "name":"posturalinstability",
+				  "children": [
+				    {
+				      "name":"0",
+				      "children": [
+					{
+					  "name":"bradykinesia",
+					  "children": [
+					    {"name":"0","value":"0"},
+					    {
+					      "name":"1",
+					      "children": [
+						{
+						  "name":"moca",
+						  "children": [
+						    {
+						      "name":"severo",
+						      "value":"1"
+						    },
+						    {
+						      "name":"moderato",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"lieve",
+						      "children": [
+							{
+							  "name":"age",
+							  "children": [
+							    {
+							      "name":"'50-54'",
+							      "value":"SCONOSCIUTO"
+							    },
+							    {
+							      "name":"'55-59'",
+							      "value":"0"
+							    },
+							    {
+							      "name":"'60-64'",
+							      "value":"SCONOSCIUTO"
+							    },
+							    {
+							      "name":"'65-69'",
+							      "value":"SCONOSCIUTO"
+							    },
+							    {
+							      "name":"'70-74'",
+							      "value":"SCONOSCIUTO"
+							    },
+							    {
+							      "name":"'75-79'",
+							      "value":"1"
+							    },
+							    {
+							      "name":"'80-84'",
+							      "value":"SCONOSCIUTO"
+							    },
+							    {
+							      "name":"'85-89'",
+							      "value":"SCONOSCIUTO"
+							    }
+							  ]
+							}
+						      ]
+						    },
+						    {
+						      "name":"normale",
+						      "value":"0"
+						    }
+						  ]
+						}
+					      ]
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"1",
+				      "children": [
+					{
+					  "name":"cholesterolldl",
+					  "children": [
+					    {
+					      "name":"ottimale",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'quasi ottimale'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'al limite'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"alto",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'molto alto'",
+					      "value":"SCONOSCIUTO"
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"1",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {
+				      "name":"'50-54'",
+				      "children": [
+					{
+					  "name":"bmi",
+					  "children": [
+					    {
+					      "name":"sottopeso",
+					      "value":"1"
+					    },
+					    {
+					      "name":"'peso ideale'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"sovrappeso",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"obeso",
+					      "value":"SCONOSCIUTO"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {"name":"'55-59'","value":"1"},
+				    {"name":"'60-64'","value":"1"},
+				    {
+				      "name":"'65-69'",
+				      "children": [
+					{
+					  "name":"bmi",
+					  "children": [
+					    {
+					      "name":"sottopeso",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'peso ideale'",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"sovrappeso",
+					      "value":"1"
+					    },
+					    {
+					      "name":"obeso",
+					      "value":"0"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {"name":"'70-74'","value":"0"},
+				    {"name":"'75-79'","value":"1"},
+				    {
+				      "name":"'80-84'",
+				      "children": [
+					{
+					  "name":"alcoholconsumption",
+					  "children": [
+					    {
+					      "name":"leggero",
+					      "value":"0"
+					    },
+					    {
+					      "name":"moderato",
+					      "value":"1"
+					    },
+					    {
+					      "name":"elevato",
+					      "value":"1"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {"name":"'85-89'","value":"1"}
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    }
+		  ]
+		}
+	      ]
+	    },
+	    {
+	      "name":"1",
+	      "children": [
+		{
+		  "name":"moca",
+		  "children": [
+		    {
+		      "name":"severo",
+		      "children": [
+			{
+			  "name":"age",
+			  "children": [
+			    {
+			      "name":"'50-54'",
+			      "children": [
+				{
+				  "name":"ethnicity",
+				  "children": [
+				    {"name":"0","value":"1"},
+				    {"name":"1","value":"1"},
+				    {
+				      "name":"2",
+				      "children": [
+					{
+					  "name":"cholesteroltotal",
+					  "children": [
+					    {
+					      "name":"desiderabile",
+					      "value":"0"
+					    },
+					    {
+					      "name":"'al limite'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"alto",
+					      "value":"SCONOSCIUTO"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {"name":"3","value":"1"}
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"'55-59'",
+			      "children": [
+				{
+				  "name":"functionalassessment",
+				  "children": [
+				    {"name":"severa","value":"1"},
+				    {"name":"moderata","value":"1"},
+				    {
+				      "name":"lieve",
+				      "children": [
+					{
+					  "name":"cholesteroltotal",
+					  "children": [
+					    {
+					      "name":"desiderabile",
+					      "children": [
+						{
+						  "name":"cholesterolhdl",
+						  "children": [
+						    {
+						      "name":"basso",
+						      "value":"0"
+						    },
+						    {
+						      "name":"normale",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"protettivo",
+						      "value":"1"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"'al limite'",
+					      "value":"0"
+					    },
+					    {
+					      "name":"alto",
+					      "value":"1"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"normale",
+				      "children": [
+					{
+					  "name":"dietquality",
+					  "children": [
+					    {
+					      "name":"'molto scarsa'",
+					      "value":"1"
+					    },
+					    {
+					      "name":"scarsa",
+					      "value":"1"
+					    },
+					    {
+					      "name":"media",
+					      "value":"1"
+					    },
+					    {
+					      "name":"buona",
+					      "value":"0"
+					    },
+					    {
+					      "name":"eccellente",
+					      "value":"0"
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"'60-64'",
+			      "children": [
+				{
+				  "name":"ethnicity",
+				  "children": [
+				    {"name":"0","value":"1"},
+				    {"name":"1","value":"1"},
+				    {"name":"2","value":"0"},
+				    {"name":"3","value":"1"}
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"'65-69'","value":"1"},
+			    {
+			      "name":"'70-74'",
+			      "children": [
+				{
+				  "name":"sleepdisorders",
+				  "children": [
+				    {"name":"0","value":"1"},
+				    {
+				      "name":"1",
+				      "children": [
+					{
+					  "name":"cholesterolhdl",
+					  "children": [
+					    {
+					      "name":"basso",
+					      "value":"0"
+					    },
+					    {
+					      "name":"normale",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"protettivo",
+					      "value":"1"
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"'75-79'","value":"1"},
+			    {"name":"'80-84'","value":"1"},
+			    {"name":"'85-89'","value":"1"}
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"moderato",
+		      "children": [
+			{
+			  "name":"age",
+			  "children": [
+			    {
+			      "name":"'50-54'",
+			      "children": [
+				{
+				  "name":"cholesteroltriglycerides",
+				  "children": [
+				    {"name":"normale","value":"0"},
+				    {"name":"limite","value":"1"},
+				    {"name":"alto","value":"1"}
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"'55-59'","value":"1"},
+			    {"name":"'60-64'","value":"1"},
+			    {"name":"'65-69'","value":"1"},
+			    {"name":"'70-74'","value":"1"},
+			    {"name":"'75-79'","value":"1"},
+			    {"name":"'80-84'","value":"1"},
+			    {"name":"'85-89'","value":"1"}
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"lieve",
+		      "children": [
+			{
+			  "name":"age",
+			  "children": [
+			    {"name":"'50-54'","value":"1"},
+			    {
+			      "name":"'55-59'",
+			      "children": [
+				{
+				  "name":"alcoholconsumption",
+				  "children": [
+				    {"name":"leggero","value":"0"},
+				    {"name":"moderato","value":"1"},
+				    {"name":"elevato","value":"1"}
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"'60-64'","value":"1"},
+			    {"name":"'65-69'","value":"1"},
+			    {"name":"'70-74'","value":"1"},
+			    {"name":"'75-79'","value":"1"},
+			    {"name":"'80-84'","value":"1"},
+			    {"name":"'85-89'","value":"1"}
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"normale",
+		      "children": [
+			{
+			  "name":"functionalassessment",
+			  "children": [
+			    {
+			      "name":"severa",
+			      "children": [
+				{
+				  "name":"systolicbp",
+				  "children": [
+				    {"name":"normale","value":"1"},
+				    {"name":"elevata","value":"0"},
+				    {
+				      "name":"'ipertensione tipo 1'",
+				      "value":"1"
+				    },
+				    {
+				      "name":"'ipertensione tipo 2'",
+				      "value":"1"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"moderata","value":"1"},
+			    {
+			      "name":"lieve",
+			      "children": [
+				{
+				  "name":"bradykinesia",
+				  "children": [
+				    {"name":"0","value":"0"},
+				    {"name":"1","value":"1"}
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"normale",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {
+				      "name":"'50-54'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {"name":"'55-59'","value":"1"},
+				    {"name":"'60-64'","value":"1"},
+				    {"name":"'65-69'","value":"0"},
+				    {
+				      "name":"'70-74'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'75-79'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'80-84'",
+				      "children": [
+					{
+					  "name":"alcoholconsumption",
+					  "children": [
+					    {
+					      "name":"leggero",
+					      "value":"1"
+					    },
+					    {
+					      "name":"moderato",
+					      "value":"SCONOSCIUTO"
+					    },
+					    {
+					      "name":"elevato",
+					      "value":"0"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {"name":"'85-89'","value":"0"}
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    }
+		  ]
+		}
+	      ]
+	    }
+	  ]
+	}
+      ]
     }
   ]
 }
