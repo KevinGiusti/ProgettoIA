@@ -232,14 +232,25 @@ salva_json(Albero, NomeFile) :-
         close(Stream). 
 
 % Conversione dell'albero in una struttura compatibile con JSON
-converti_albero_json(null,V, json(['name'=V, 'children'='SCONOSCIUTO'])). % Nodo sconosciuto → oggetto vuoto
-converti_albero_json(l(X), V, json(['name'=V, 'children'=Y])) :- number_string(X, Y). % Nodo foglia con valore numerico
+converti_albero_json(null, V, 'SCONOSCIUTO'). % Nodo sconosciuto → oggetto vuoto
+converti_albero_json(l(X), V, Y) :- number_string(X, Y). % Nodo foglia con valore numerico
 converti_albero_json(t(A, L), _, json(['name'=A, 'children'=Lista])) :-
     converti_lista_json(L, Lista).   % Converte la lista di figli
  
 % Conversione della lista di figli in JSON
 converti_lista_json([], []).
-converti_lista_json([V:T | C], [json(['name'=String, 'children'=Figlio]) | ListaRestante]) :-
+converti_lista_json([V:T | C], [json(['name'=String, Prova=FiglioArray]) | ListaRestante]) :-
     term_string(V, String),
     converti_albero_json(T, V, Figlio),
+    (   Figlio = json(_)  % Se Figlio è un JSON, lo inseriamo in una lista
+    ->  Prova = 'children'
+    ;   Prova = 'value'  % Altrimenti lo lasciamo così com'è
+    ),
+    (   Figlio = json(_)  % Se Figlio è un JSON, lo inseriamo in una lista
+    ->  FiglioArray = [Figlio]
+    ;   FiglioArray = Figlio  % Altrimenti lo lasciamo così com'è
+    ),
     converti_lista_json(C, ListaRestante).
+
+
+
