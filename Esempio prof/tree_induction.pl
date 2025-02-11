@@ -234,14 +234,13 @@ salva_json(Albero, NomeFile) :-
 % Conversione dell'albero in una struttura compatibile con JSON
 converti_albero_json(null, 'SCONOSCIUTO'). % Nodo sconosciuto → oggetto vuoto
 converti_albero_json(l(X), Y) :- number_string(X, Y). % Nodo foglia con valore numerico
-converti_albero_json(t(A, L), json([A=Lista])) :-
+converti_albero_json(t(A, L), json(['name'=A, 'children'=Lista])) :-
     converti_lista_json(L, Lista).   % Converte la lista di figli
  
 % Conversione della lista di figli in JSON
 converti_lista_json([], []).
-converti_lista_json([V:T | C], [json([String=Figlio]) | ListaRestante]) :-
+converti_lista_json([V:T | C], [json(['name'=String, 'children'=Figlio]) | ListaRestante]) :-
     term_string(V, String),
     converti_albero_json(T, Figlio),
     converti_lista_json(C, ListaRestante).
 
-    
