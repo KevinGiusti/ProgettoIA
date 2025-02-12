@@ -4,21 +4,21 @@ public class CsvToProlog {
 
     public static String age(int i) {
         if(i < 55) {
-            return "age='50-54'";
+            return "age='50_54'";
         } else if (i < 60) {
-            return "age='55-59'";
+            return "age='55_59'";
         } else if(i < 65) {
-            return "age='60-64'";
+            return "age='60_64'";
         } else if(i < 70) {
-            return "age='65-69'";
+            return "age='65_69'";
         } else if(i < 75) {
-            return "age='70-74'";
+            return "age='70_74'";
         } else if(i < 80) {
-            return "age='75-79'";
+            return "age='75_79'";
         } else if (i < 85) {
-            return "age='80-84'";
+            return "age='80_84'";
         } else {
-            return "age='85-89'";
+            return "age='85_89'";
         }
     }
 
@@ -26,7 +26,7 @@ public class CsvToProlog {
         if(i < 18.5) {
             return "'sottopeso'";
         } else if (i < 25) {
-            return "'peso ideale'";
+            return "'peso_ideale'";
         } else if(i < 30) {
             return "'sovrappeso'";
         } else {
@@ -56,7 +56,7 @@ public class CsvToProlog {
 
     public static String dietquality(Double i) {
         if(i < 3) {
-            return "'molto scarsa'";
+            return "'molto_scarsa'";
         } else if (i < 5) {
             return "'scarsa'";
         } else if (i < 7){
@@ -84,9 +84,9 @@ public class CsvToProlog {
         } else if(i < 130) {
             return "'elevata'";
         } else if(i < 140) {
-            return "'ipertensione tipo 1'";
+            return "'ipertensione_tipo_1'";
         } else {
-            return "'ipertensione tipo 2'";
+            return "'ipertensione_tipo_2'";
         }
     }
 
@@ -94,9 +94,9 @@ public class CsvToProlog {
         if(i < 80) {
             return "'normale'";
         } else if(i < 89) {
-            return "'ipertensione tipo 1'";
+            return "'ipertensione_tipo_1'";
         } else {
-            return "'ipertensione tipo 2'";
+            return "'ipertensione_tipo_2'";
         }
     }
 
@@ -104,7 +104,7 @@ public class CsvToProlog {
         if(i < 200) {
             return "'desiderabile'";
         } else if(i < 240) {
-            return "'al limite'";
+            return "'al_limite'";
         } else {
             return "'alto'";
         }
@@ -114,13 +114,13 @@ public class CsvToProlog {
         if(i < 100) {
             return "'ottimale'";
         } else if(i < 130) {
-            return "'quasi ottimale'";
+            return "'quasi_ottimale'";
         } else if (i < 160) {
-            return "'al limite'";
+            return "'al_limite'";
         } else if (i < 190) {
             return "'alto'";
         } else {
-            return "'molto alto'";
+            return "'molto_alto'";
         }
     }
 
@@ -150,11 +150,11 @@ public class CsvToProlog {
         } else if(i < 66) {
             return "'moderato'";
         } else if(i < 99) {
-            return "'moderato severo'";
+            return "'moderato_severo'";
         } else if(i < 131) {
             return "'severo'";
         } else {
-            return "'estremamente severo'";
+            return "'estremamente_severo'";
         }
     }
 
