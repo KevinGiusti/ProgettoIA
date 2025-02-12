@@ -193,7 +193,7 @@ stampa_matrice_di_confusione([Albero|_]) :-
         arrotonda(P, Precisione),
 	write('Test effettuati :'),  writeln(N),
 	write('Test non classificati :'),  writeln(NC),
-	write('Veri sani  '), write(VN), write('   Falsi ifortuni '), writeln(FP),
+	write('Veri sani  '), write(VN), write('   Falsi infortuni '), writeln(FP),
 	write('Falsi sani '), write(FN), write('   Veri infortuni  '), writeln(VP),
 	write('Accuratezza: '), writeln(Accuratezza),
 	write('Errore: '), writeln(Errore),

@@ -1,3 +1,36 @@
+a(age, ['50_54', '55_59', '60_64', '65_69', '70_74', '75_79', '80_84', '85_89']).
+a(gender, [0,1]).             														% 0=M, 1=F
+a(ethnicity, [0,1,2,3]).     													    % 0=Caucasian, 1=African American, 2=Asian, 3=Other
+a(educationlevel, [0,1,2,3]). 														% 0=None, 1=High School, 2=Bachelor's, 3=Higher
+a(bmi, ['sottopeso','peso_ideale','sovrappeso', 'obeso']).
+a(smoking, [0,1]).           														% 0=NO, 1=SI
+a(alcoholconsumption, ['leggero', 'moderato','elevato']).
+a(physicalactivity, ['bassa','moderata','alta']).
+a(dietquality, ['molto_scarsa', 'scarsa', 'media', 'buona', 'eccellente']).
+a(sleepquality, ['bassa', 'media','alta']).
+a(familyhistoryparkinsons, [0,1]).													% 0=NO, 1=SI
+a(traumaticbraininjury, [0,1]).														% 0=NO, 1=SI
+a(hypertension, [0,1]).																% 0=NO, 1=SI
+a(diabetes, [0,1]).																	% 0=NO, 1=SI
+a(depression, [0,1]).																% 0=NO, 1=SI
+a(stroke, [0,1]).																	% 0=NO, 1=SI
+a(systolicbp, ['normale','elevata','ipertensione_tipo_1','ipertensione_tipo_2']).
+a(diastolicbp, ['normale','ipertensione_tipo_1','ipertensione_tipo_2']).
+a(cholesteroltotal, ['desiderabile','al_limite','alto']).
+a(cholesterolldl, ['ottimale','quasi_ottimale','al_limite','alto','molto_alto']).
+a(cholesterolhdl, ['basso','normale','protettivo']).
+a(cholesteroltriglycerides, ['normale','limite','alto']).
+%attributo(updrs, ['lieve','moderato','moderato severo','severo','estremamente severo']).
+a(moca, ['severo','moderato','lieve','normale']).
+a(functionalassessment, ['severa','moderata','lieve','normale']).
+a(tremor, [0,1]).																	% 0=NO, 1=SI
+a(rigidity, [0,1]).																	% 0=NO, 1=SI
+a(bradykinesia, [0,1]).																% 0=NO, 1=SI
+a(posturalinstability, [0,1]).														% 0=NO, 1=SI
+a(speechproblems, [0,1]).															% 0=NO, 1=SI	
+a(sleepdisorders, [0,1]).															% 0=NO, 1=SI
+a(constipation, [0,1]).																% 0=NO, 1=SI
+a(updrs, ['lieve','moderato','moderato_severo','severo','estremamente_severo']).
 e(0, [age='85_89', gender=0, ethnicity=3, educationlevel=1, bmi='peso_ideale', smoking=0, alcoholconsumption='leggero', physicalactivity='bassa', dietquality='scarsa', sleepquality='alta', familyhistoryparkinson=0, traumaticbraininjury=0, hypertension=0, diabetes=0, depression=0, stroke=0, systolicbp='elevata', diastolicbp='normale', cholesteroltotal='al_limite', cholesterolldl='al_limite', cholesterolhdl='basso', cholesteroltriglycerides='alto', updrs='lieve', moca='normale', functionalassessment='severa', tremor=1, rigidity=0, bradykinesia=0, posturalinstability=0, speechproblems=0, sleepdisorders=0, constipation=0]).
 e(1, [age='75_79', gender=0, ethnicity=0, educationlevel=2, bmi='sottopeso', smoking=1, alcoholconsumption='leggero', physicalactivity='alta', dietquality='buona', sleepquality='bassa', familyhistoryparkinson=0, traumaticbraininjury=0, hypertension=0, diabetes=0, depression=0, stroke=0, systolicbp='ipertensione_tipo_2', diastolicbp='normale', cholesteroltotal='al_limite', cholesterolldl='al_limite', cholesterolhdl='protettivo', cholesteroltriglycerides='alto', updrs='moderato', moca='severo', functionalassessment='moderata', tremor=0, rigidity=1, bradykinesia=0, posturalinstability=1, speechproblems=0, sleepdisorders=1, constipation=0]).
 e(1, [age='70_74', gender=1, ethnicity=0, educationlevel=0, bmi='sottopeso', smoking=0, alcoholconsumption='leggero', physicalactivity='bassa', dietquality='media', sleepquality='alta', familyhistoryparkinson=0, traumaticbraininjury=0, hypertension=0, diabetes=1, depression=0, stroke=0, systolicbp='normale', diastolicbp='ipertensione_tipo_2', cholesteroltotal='alto', cholesterolldl='quasi_ottimale', cholesterolhdl='protettivo', cholesteroltriglycerides='alto', updrs='moderato_severo', moca='normale', functionalassessment='severa', tremor=1, rigidity=0, bradykinesia=0, posturalinstability=0, speechproblems=1, sleepdisorders=0, constipation=1]).

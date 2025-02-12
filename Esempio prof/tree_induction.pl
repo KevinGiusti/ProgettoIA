@@ -113,6 +113,7 @@ induce_albero( Albero ) :-
         salva_json(Albero, 'albero.json'),
         open('albero.pl', write, Output),
         write(Output, Albero),
+        write(Output, '.'),
         close(Output).
 
 % induce_albero( +Attributi, +Esempi, -Albero):
