@@ -102,7 +102,7 @@ più (cioé fornisce una maggior diminuzione della Gini-disuguaglianza).
 Allo scopo questo programma usa il setof, che non è il modo più
 efficiente per fare quest'operazione
 */
-:- ensure_loaded(training_set).
+:- ensure_loaded(esempi).
 :- use_module(library(http/json)).
 
 induce_albero( Albero ) :-
@@ -110,7 +110,10 @@ induce_albero( Albero ) :-
         findall( Att,a(Att,_), Attributi),
         induce_albero( Attributi, Esempi, Albero),
         mostra(Albero),
-        salva_json(Albero, 'albero.json').
+        salva_json(Albero, 'albero.json'),
+        open('albero.pl', write, Output),
+        write(Output, Albero),
+        close(Output).
 
 % induce_albero( +Attributi, +Esempi, -Albero):
 % l'Albero indotto dipende da questi tre casi:

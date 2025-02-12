@@ -33,19 +33,19 @@
 					  "name":"age",
 					  "children": [
 					    {
-					      "name":"'50-54'",
+					      "name":"'50_54'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'55-59'",
+					      "name":"'55_59'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'60-64'",
+					      "name":"'60_64'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'65-69'",
+					      "name":"'65_69'",
 					      "children": [
 						{
 						  "name":"moca",
@@ -89,19 +89,19 @@
 					      ]
 					    },
 					    {
-					      "name":"'70-74'",
+					      "name":"'70_74'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'75-79'",
+					      "name":"'75_79'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'80-84'",
+					      "name":"'80_84'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'85-89'",
+					      "name":"'85_89'",
 					      "value":"0"
 					    }
 					  ]
@@ -133,11 +133,11 @@
 						      "value":"1"
 						    },
 						    {
-						      "name":"'quasi ottimale'",
+						      "name":"quasi_ottimale",
 						      "value":"0"
 						    },
 						    {
-						      "name":"'al limite'",
+						      "name":"al_limite",
 						      "value":"0"
 						    },
 						    {
@@ -145,7 +145,7 @@
 						      "value":"SCONOSCIUTO"
 						    },
 						    {
-						      "name":"'molto alto'",
+						      "name":"molto_alto",
 						      "value":"0"
 						    }
 						  ]
@@ -163,15 +163,15 @@
 					  "name":"age",
 					  "children": [
 					    {
-					      "name":"'50-54'",
+					      "name":"'50_54'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'55-59'",
+					      "name":"'55_59'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'60-64'",
+					      "name":"'60_64'",
 					      "children": [
 						{
 						  "name":"alcoholconsumption",
@@ -193,15 +193,15 @@
 					      ]
 					    },
 					    {
-					      "name":"'65-69'",
+					      "name":"'65_69'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'70-74'",
+					      "name":"'70_74'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'75-79'",
+					      "name":"'75_79'",
 					      "children": [
 						{
 						  "name":"cholesteroltotal",
@@ -211,7 +211,7 @@
 						      "value":"1"
 						    },
 						    {
-						      "name":"'al limite'",
+						      "name":"al_limite",
 						      "value":"0"
 						    },
 						    {
@@ -223,11 +223,11 @@
 					      ]
 					    },
 					    {
-					      "name":"'80-84'",
+					      "name":"'80_84'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'85-89'",
+					      "name":"'85_89'",
 					      "value":"0"
 					    }
 					  ]
@@ -252,11 +252,11 @@
 					  "name":"age",
 					  "children": [
 					    {
-					      "name":"'50-54'",
+					      "name":"'50_54'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'55-59'",
+					      "name":"'55_59'",
 					      "children": [
 						{
 						  "name":"cholesterolhdl",
@@ -278,11 +278,11 @@
 					      ]
 					    },
 					    {
-					      "name":"'60-64'",
+					      "name":"'60_64'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'65-69'",
+					      "name":"'65_69'",
 					      "children": [
 						{
 						  "name":"cholesterolhdl",
@@ -304,7 +304,7 @@
 					      ]
 					    },
 					    {
-					      "name":"'70-74'",
+					      "name":"'70_74'",
 					      "children": [
 						{
 						  "name":"alcoholconsumption",
@@ -326,7 +326,7 @@
 					      ]
 					    },
 					    {
-					      "name":"'75-79'",
+					      "name":"'75_79'",
 					      "children": [
 						{
 						  "name":"alcoholconsumption",
@@ -348,11 +348,11 @@
 					      ]
 					    },
 					    {
-					      "name":"'80-84'",
+					      "name":"'80_84'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'85-89'",
+					      "name":"'85_89'",
 					      "value":"1"
 					    }
 					  ]
@@ -380,7 +380,7 @@
 				  "name":"dietquality",
 				  "children": [
 				    {
-				      "name":"'molto scarsa'",
+				      "name":"molto_scarsa",
 				      "children": [
 					{
 					  "name":"diabetes",
@@ -392,35 +392,35 @@
 						  "name":"age",
 						  "children": [
 						    {
-						      "name":"'50-54'",
+						      "name":"'50_54'",
 						      "value":"0"
 						    },
 						    {
-						      "name":"'55-59'",
+						      "name":"'55_59'",
 						      "value":"SCONOSCIUTO"
 						    },
 						    {
-						      "name":"'60-64'",
+						      "name":"'60_64'",
 						      "value":"SCONOSCIUTO"
 						    },
 						    {
-						      "name":"'65-69'",
+						      "name":"'65_69'",
 						      "value":"0"
 						    },
 						    {
-						      "name":"'70-74'",
+						      "name":"'70_74'",
 						      "value":"1"
 						    },
 						    {
-						      "name":"'75-79'",
+						      "name":"'75_79'",
 						      "value":"SCONOSCIUTO"
 						    },
 						    {
-						      "name":"'80-84'",
+						      "name":"'80_84'",
 						      "value":"0"
 						    },
 						    {
-						      "name":"'85-89'",
+						      "name":"'85_89'",
 						      "children": [
 							{
 							  "name":"cholesterolhdl",
@@ -459,11 +459,11 @@
 					  "name":"age",
 					  "children": [
 					    {
-					      "name":"'50-54'",
+					      "name":"'50_54'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'55-59'",
+					      "name":"'55_59'",
 					      "children": [
 						{
 						  "name":"alcoholconsumption",
@@ -485,27 +485,27 @@
 					      ]
 					    },
 					    {
-					      "name":"'60-64'",
+					      "name":"'60_64'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'65-69'",
+					      "name":"'65_69'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'70-74'",
+					      "name":"'70_74'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'75-79'",
+					      "name":"'75_79'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'80-84'",
+					      "name":"'80_84'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'85-89'",
+					      "name":"'85_89'",
 					      "value":"0"
 					    }
 					  ]
@@ -534,11 +534,11 @@
 					      "value":"1"
 					    },
 					    {
-					      "name":"'ipertensione tipo 1'",
+					      "name":"ipertensione_tipo_1",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'ipertensione tipo 2'",
+					      "name":"ipertensione_tipo_2",
 					      "value":"1"
 					    }
 					  ]
@@ -554,35 +554,35 @@
 					  "name":"age",
 					  "children": [
 					    {
-					      "name":"'50-54'",
+					      "name":"'50_54'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'55-59'",
+					      "name":"'55_59'",
 					      "value":"1"
 					    },
 					    {
-					      "name":"'60-64'",
+					      "name":"'60_64'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'65-69'",
+					      "name":"'65_69'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'70-74'",
+					      "name":"'70_74'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'75-79'",
+					      "name":"'75_79'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'80-84'",
+					      "name":"'80_84'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'85-89'",
+					      "name":"'85_89'",
 					      "value":"0"
 					    }
 					  ]
@@ -614,34 +614,34 @@
 			  "name":"bmi",
 			  "children": [
 			    {"name":"sottopeso","value":"1"},
-			    {"name":"'peso ideale'","value":"0"},
+			    {"name":"peso_ideale","value":"0"},
 			    {
 			      "name":"sovrappeso",
 			      "children": [
 				{
 				  "name":"age",
 				  "children": [
-				    {"name":"'50-54'","value":"1"},
+				    {"name":"'50_54'","value":"1"},
 				    {
-				      "name":"'55-59'",
+				      "name":"'55_59'",
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'60-64'",
+				      "name":"'60_64'",
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'65-69'",
+				      "name":"'65_69'",
 				      "value":"SCONOSCIUTO"
 				    },
-				    {"name":"'70-74'","value":"1"},
-				    {"name":"'75-79'","value":"0"},
+				    {"name":"'70_74'","value":"1"},
+				    {"name":"'75_79'","value":"0"},
 				    {
-				      "name":"'80-84'",
+				      "name":"'80_84'",
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'85-89'",
+				      "name":"'85_89'",
 				      "value":"SCONOSCIUTO"
 				    }
 				  ]
@@ -654,12 +654,12 @@
 		      ]
 		    },
 		    {
-		      "name":"'quasi ottimale'",
+		      "name":"quasi_ottimale",
 		      "children": [
 			{
 			  "name":"dietquality",
 			  "children": [
-			    {"name":"'molto scarsa'","value":"1"},
+			    {"name":"molto_scarsa","value":"1"},
 			    {"name":"scarsa","value":"0"},
 			    {"name":"media","value":"0"},
 			    {"name":"buona","value":"0"},
@@ -669,7 +669,7 @@
 		      ]
 		    },
 		    {
-		      "name":"'al limite'",
+		      "name":"al_limite",
 		      "children": [
 			{
 			  "name":"moca",
@@ -688,20 +688,20 @@
 			{
 			  "name":"age",
 			  "children": [
-			    {"name":"'50-54'","value":"0"},
-			    {"name":"'55-59'","value":"0"},
-			    {"name":"'60-64'","value":"SCONOSCIUTO"},
-			    {"name":"'65-69'","value":"SCONOSCIUTO"},
-			    {"name":"'70-74'","value":"0"},
-			    {"name":"'75-79'","value":"1"},
-			    {"name":"'80-84'","value":"SCONOSCIUTO"},
-			    {"name":"'85-89'","value":"1"}
+			    {"name":"'50_54'","value":"0"},
+			    {"name":"'55_59'","value":"0"},
+			    {"name":"'60_64'","value":"SCONOSCIUTO"},
+			    {"name":"'65_69'","value":"SCONOSCIUTO"},
+			    {"name":"'70_74'","value":"0"},
+			    {"name":"'75_79'","value":"1"},
+			    {"name":"'80_84'","value":"SCONOSCIUTO"},
+			    {"name":"'85_89'","value":"1"}
 			  ]
 			}
 		      ]
 		    },
 		    {
-		      "name":"'molto alto'",
+		      "name":"molto_alto",
 		      "children": [
 			{
 			  "name":"alcoholconsumption",
@@ -746,17 +746,17 @@
 				  "name":"dietquality",
 				  "children": [
 				    {
-				      "name":"'molto scarsa'",
+				      "name":"molto_scarsa",
 				      "children": [
 					{
 					  "name":"age",
 					  "children": [
 					    {
-					      "name":"'50-54'",
+					      "name":"'50_54'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'55-59'",
+					      "name":"'55_59'",
 					      "children": [
 						{
 						  "name":"alcoholconsumption",
@@ -778,15 +778,15 @@
 					      ]
 					    },
 					    {
-					      "name":"'60-64'",
+					      "name":"'60_64'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'65-69'",
+					      "name":"'65_69'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'70-74'",
+					      "name":"'70_74'",
 					      "children": [
 						{
 						  "name":"bmi",
@@ -796,7 +796,7 @@
 						      "value":"SCONOSCIUTO"
 						    },
 						    {
-						      "name":"'peso ideale'",
+						      "name":"peso_ideale",
 						      "value":"0"
 						    },
 						    {
@@ -812,7 +812,7 @@
 					      ]
 					    },
 					    {
-					      "name":"'75-79'",
+					      "name":"'75_79'",
 					      "children": [
 						{
 						  "name":"bmi",
@@ -822,7 +822,7 @@
 						      "value":"SCONOSCIUTO"
 						    },
 						    {
-						      "name":"'peso ideale'",
+						      "name":"peso_ideale",
 						      "value":"1"
 						    },
 						    {
@@ -838,11 +838,11 @@
 					      ]
 					    },
 					    {
-					      "name":"'80-84'",
+					      "name":"'80_84'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'85-89'",
+					      "name":"'85_89'",
 					      "value":"0"
 					    }
 					  ]
@@ -879,35 +879,35 @@
 					  "name":"age",
 					  "children": [
 					    {
-					      "name":"'50-54'",
+					      "name":"'50_54'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'55-59'",
+					      "name":"'55_59'",
 					      "value":"1"
 					    },
 					    {
-					      "name":"'60-64'",
+					      "name":"'60_64'",
 					      "value":"1"
 					    },
 					    {
-					      "name":"'65-69'",
+					      "name":"'65_69'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'70-74'",
+					      "name":"'70_74'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'75-79'",
+					      "name":"'75_79'",
 					      "value":"1"
 					    },
 					    {
-					      "name":"'80-84'",
+					      "name":"'80_84'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'85-89'",
+					      "name":"'85_89'",
 					      "value":"1"
 					    }
 					  ]
@@ -921,35 +921,35 @@
 					  "name":"age",
 					  "children": [
 					    {
-					      "name":"'50-54'",
+					      "name":"'50_54'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'55-59'",
+					      "name":"'55_59'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'60-64'",
+					      "name":"'60_64'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'65-69'",
+					      "name":"'65_69'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'70-74'",
+					      "name":"'70_74'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'75-79'",
+					      "name":"'75_79'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'80-84'",
+					      "name":"'80_84'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'85-89'",
+					      "name":"'85_89'",
 					      "value":"1"
 					    }
 					  ]
@@ -999,37 +999,37 @@
 			      ]
 			    },
 			    {
-			      "name":"'ipertensione tipo 1'",
+			      "name":"ipertensione_tipo_1",
 			      "children": [
 				{
 				  "name":"age",
 				  "children": [
-				    {"name":"'50-54'","value":"1"},
+				    {"name":"'50_54'","value":"1"},
 				    {
-				      "name":"'55-59'",
+				      "name":"'55_59'",
 				      "value":"SCONOSCIUTO"
 				    },
-				    {"name":"'60-64'","value":"1"},
+				    {"name":"'60_64'","value":"1"},
 				    {
-				      "name":"'65-69'",
+				      "name":"'65_69'",
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'70-74'",
+				      "name":"'70_74'",
 				      "value":"SCONOSCIUTO"
 				    },
-				    {"name":"'75-79'","value":"0"},
+				    {"name":"'75_79'","value":"0"},
 				    {
-				      "name":"'80-84'",
+				      "name":"'80_84'",
 				      "value":"SCONOSCIUTO"
 				    },
-				    {"name":"'85-89'","value":"0"}
+				    {"name":"'85_89'","value":"0"}
 				  ]
 				}
 			      ]
 			    },
 			    {
-			      "name":"'ipertensione tipo 2'",
+			      "name":"ipertensione_tipo_2",
 			      "children": [
 				{
 				  "name":"gender",
@@ -1041,7 +1041,7 @@
 					  "name":"age",
 					  "children": [
 					    {
-					      "name":"'50-54'",
+					      "name":"'50_54'",
 					      "children": [
 						{
 						  "name":"alcoholconsumption",
@@ -1063,7 +1063,7 @@
 					      ]
 					    },
 					    {
-					      "name":"'55-59'",
+					      "name":"'55_59'",
 					      "children": [
 						{
 						  "name":"alcoholconsumption",
@@ -1085,7 +1085,7 @@
 					      ]
 					    },
 					    {
-					      "name":"'60-64'",
+					      "name":"'60_64'",
 					      "children": [
 						{
 						  "name":"bmi",
@@ -1095,7 +1095,7 @@
 						      "value":"SCONOSCIUTO"
 						    },
 						    {
-						      "name":"'peso ideale'",
+						      "name":"peso_ideale",
 						      "value":"1"
 						    },
 						    {
@@ -1111,11 +1111,11 @@
 					      ]
 					    },
 					    {
-					      "name":"'65-69'",
+					      "name":"'65_69'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'70-74'",
+					      "name":"'70_74'",
 					      "children": [
 						{
 						  "name":"cholesteroltotal",
@@ -1125,7 +1125,7 @@
 						      "value":"SCONOSCIUTO"
 						    },
 						    {
-						      "name":"'al limite'",
+						      "name":"al_limite",
 						      "value":"0"
 						    },
 						    {
@@ -1137,15 +1137,15 @@
 					      ]
 					    },
 					    {
-					      "name":"'75-79'",
+					      "name":"'75_79'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'80-84'",
+					      "name":"'80_84'",
 					      "value":"1"
 					    },
 					    {
-					      "name":"'85-89'",
+					      "name":"'85_89'",
 					      "value":"1"
 					    }
 					  ]
@@ -1172,7 +1172,7 @@
 							  "name":"dietquality",
 							  "children": [
 							    {
-							      "name":"'molto scarsa'",
+							      "name":"molto_scarsa",
 							      "value":"0"
 							    },
 							    {
@@ -1196,11 +1196,11 @@
 						      ]
 						    },
 						    {
-						      "name":"'quasi ottimale'",
+						      "name":"quasi_ottimale",
 						      "value":"1"
 						    },
 						    {
-						      "name":"'al limite'",
+						      "name":"al_limite",
 						      "value":"SCONOSCIUTO"
 						    },
 						    {
@@ -1208,7 +1208,7 @@
 						      "value":"0"
 						    },
 						    {
-						      "name":"'molto alto'",
+						      "name":"molto_alto",
 						      "value":"0"
 						    }
 						  ]
@@ -1226,7 +1226,7 @@
 						      "value":"1"
 						    },
 						    {
-						      "name":"'peso ideale'",
+						      "name":"peso_ideale",
 						      "value":"0"
 						    },
 						    {
@@ -1260,15 +1260,15 @@
 			{
 			  "name":"age",
 			  "children": [
-			    {"name":"'50-54'","value":"0"},
+			    {"name":"'50_54'","value":"0"},
 			    {
-			      "name":"'55-59'",
+			      "name":"'55_59'",
 			      "children": [
 				{
 				  "name":"dietquality",
 				  "children": [
 				    {
-				      "name":"'molto scarsa'",
+				      "name":"molto_scarsa",
 				      "value":"0"
 				    },
 				    {"name":"scarsa","value":"1"},
@@ -1283,7 +1283,7 @@
 			      ]
 			    },
 			    {
-			      "name":"'60-64'",
+			      "name":"'60_64'",
 			      "children": [
 				{
 				  "name":"alcoholconsumption",
@@ -1299,14 +1299,14 @@
 			      ]
 			    },
 			    {
-			      "name":"'65-69'",
+			      "name":"'65_69'",
 			      "children": [
 				{
 				  "name":"bmi",
 				  "children": [
 				    {"name":"sottopeso","value":"0"},
 				    {
-				      "name":"'peso ideale'",
+				      "name":"peso_ideale",
 				      "value":"1"
 				    },
 				    {"name":"sovrappeso","value":"0"},
@@ -1316,7 +1316,7 @@
 			      ]
 			    },
 			    {
-			      "name":"'70-74'",
+			      "name":"'70_74'",
 			      "children": [
 				{
 				  "name":"cholesterolldl",
@@ -1332,7 +1332,7 @@
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'peso ideale'",
+					      "name":"peso_ideale",
 					      "value":"1"
 					    },
 					    {
@@ -1348,16 +1348,13 @@
 				      ]
 				    },
 				    {
-				      "name":"'quasi ottimale'",
+				      "name":"quasi_ottimale",
 				      "value":"1"
 				    },
-				    {
-				      "name":"'al limite'",
-				      "value":"1"
-				    },
+				    {"name":"al_limite","value":"1"},
 				    {"name":"alto","value":"0"},
 				    {
-				      "name":"'molto alto'",
+				      "name":"molto_alto",
 				      "value":"SCONOSCIUTO"
 				    }
 				  ]
@@ -1365,7 +1362,7 @@
 			      ]
 			    },
 			    {
-			      "name":"'75-79'",
+			      "name":"'75_79'",
 			      "children": [
 				{
 				  "name":"alcoholconsumption",
@@ -1378,7 +1375,7 @@
 			      ]
 			    },
 			    {
-			      "name":"'80-84'",
+			      "name":"'80_84'",
 			      "children": [
 				{
 				  "name":"educationlevel",
@@ -1396,11 +1393,11 @@
 					      "value":"0"
 					    },
 					    {
-					      "name":"'quasi ottimale'",
+					      "name":"quasi_ottimale",
 					      "value":"1"
 					    },
 					    {
-					      "name":"'al limite'",
+					      "name":"al_limite",
 					      "children": [
 						{
 						  "name":"alcoholconsumption",
@@ -1426,7 +1423,7 @@
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'molto alto'",
+					      "name":"molto_alto",
 					      "value":"SCONOSCIUTO"
 					    }
 					  ]
@@ -1439,7 +1436,7 @@
 			      ]
 			    },
 			    {
-			      "name":"'85-89'",
+			      "name":"'85_89'",
 			      "children": [
 				{
 				  "name":"educationlevel",
@@ -1478,11 +1475,11 @@
 					  "name":"age",
 					  "children": [
 					    {
-					      "name":"'50-54'",
+					      "name":"'50_54'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'55-59'",
+					      "name":"'55_59'",
 					      "children": [
 						{
 						  "name":"cholesterolhdl",
@@ -1504,27 +1501,27 @@
 					      ]
 					    },
 					    {
-					      "name":"'60-64'",
+					      "name":"'60_64'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'65-69'",
+					      "name":"'65_69'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'70-74'",
+					      "name":"'70_74'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'75-79'",
+					      "name":"'75_79'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'80-84'",
+					      "name":"'80_84'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'85-89'",
+					      "name":"'85_89'",
 					      "value":"0"
 					    }
 					  ]
@@ -1532,33 +1529,33 @@
 				      ]
 				    },
 				    {
-				      "name":"'quasi ottimale'",
+				      "name":"quasi_ottimale",
 				      "children": [
 					{
 					  "name":"age",
 					  "children": [
 					    {
-					      "name":"'50-54'",
+					      "name":"'50_54'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'55-59'",
+					      "name":"'55_59'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'60-64'",
+					      "name":"'60_64'",
 					      "value":"1"
 					    },
 					    {
-					      "name":"'65-69'",
+					      "name":"'65_69'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'70-74'",
+					      "name":"'70_74'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'75-79'",
+					      "name":"'75_79'",
 					      "children": [
 						{
 						  "name":"alcoholconsumption",
@@ -1580,7 +1577,7 @@
 					      ]
 					    },
 					    {
-					      "name":"'80-84'",
+					      "name":"'80_84'",
 					      "children": [
 						{
 						  "name":"cholesterolhdl",
@@ -1602,7 +1599,7 @@
 					      ]
 					    },
 					    {
-					      "name":"'85-89'",
+					      "name":"'85_89'",
 					      "value":"1"
 					    }
 					  ]
@@ -1610,7 +1607,7 @@
 				      ]
 				    },
 				    {
-				      "name":"'al limite'",
+				      "name":"al_limite",
 				      "children": [
 					{
 					  "name":"bmi",
@@ -1620,7 +1617,7 @@
 					      "value":"1"
 					    },
 					    {
-					      "name":"'peso ideale'",
+					      "name":"peso_ideale",
 					      "value":"0"
 					    },
 					    {
@@ -1654,10 +1651,7 @@
 				      ]
 				    },
 				    {"name":"alto","value":"0"},
-				    {
-				      "name":"'molto alto'",
-				      "value":"0"
-				    }
+				    {"name":"molto_alto","value":"0"}
 				  ]
 				}
 			      ]
@@ -1675,7 +1669,7 @@
 					  "name":"age",
 					  "children": [
 					    {
-					      "name":"'50-54'",
+					      "name":"'50_54'",
 					      "children": [
 						{
 						  "name":"constipation",
@@ -1693,7 +1687,7 @@
 					      ]
 					    },
 					    {
-					      "name":"'55-59'",
+					      "name":"'55_59'",
 					      "children": [
 						{
 						  "name":"alcoholconsumption",
@@ -1715,27 +1709,27 @@
 					      ]
 					    },
 					    {
-					      "name":"'60-64'",
+					      "name":"'60_64'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'65-69'",
+					      "name":"'65_69'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'70-74'",
+					      "name":"'70_74'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'75-79'",
+					      "name":"'75_79'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'80-84'",
+					      "name":"'80_84'",
 					      "value":"1"
 					    },
 					    {
-					      "name":"'85-89'",
+					      "name":"'85_89'",
 					      "value":"0"
 					    }
 					  ]
@@ -1747,11 +1741,11 @@
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'ipertensione tipo 1'",
+				      "name":"ipertensione_tipo_1",
 				      "value":"0"
 				    },
 				    {
-				      "name":"'ipertensione tipo 2'",
+				      "name":"ipertensione_tipo_2",
 				      "children": [
 					{
 					  "name":"cholesterolldl",
@@ -1761,11 +1755,11 @@
 					      "value":"1"
 					    },
 					    {
-					      "name":"'quasi ottimale'",
+					      "name":"quasi_ottimale",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'al limite'",
+					      "name":"al_limite",
 					      "value":"1"
 					    },
 					    {
@@ -1775,35 +1769,35 @@
 						  "name":"age",
 						  "children": [
 						    {
-						      "name":"'50-54'",
+						      "name":"'50_54'",
 						      "value":"0"
 						    },
 						    {
-						      "name":"'55-59'",
+						      "name":"'55_59'",
 						      "value":"SCONOSCIUTO"
 						    },
 						    {
-						      "name":"'60-64'",
+						      "name":"'60_64'",
 						      "value":"SCONOSCIUTO"
 						    },
 						    {
-						      "name":"'65-69'",
+						      "name":"'65_69'",
 						      "value":"SCONOSCIUTO"
 						    },
 						    {
-						      "name":"'70-74'",
+						      "name":"'70_74'",
 						      "value":"SCONOSCIUTO"
 						    },
 						    {
-						      "name":"'75-79'",
+						      "name":"'75_79'",
 						      "value":"1"
 						    },
 						    {
-						      "name":"'80-84'",
+						      "name":"'80_84'",
 						      "value":"SCONOSCIUTO"
 						    },
 						    {
-						      "name":"'85-89'",
+						      "name":"'85_89'",
 						      "value":"SCONOSCIUTO"
 						    }
 						  ]
@@ -1811,7 +1805,7 @@
 					      ]
 					    },
 					    {
-					      "name":"'molto alto'",
+					      "name":"molto_alto",
 					      "value":"1"
 					    }
 					  ]
@@ -1838,14 +1832,14 @@
 				{
 				  "name":"age",
 				  "children": [
-				    {"name":"'50-54'","value":"0"},
-				    {"name":"'55-59'","value":"0"},
-				    {"name":"'60-64'","value":"0"},
-				    {"name":"'65-69'","value":"0"},
-				    {"name":"'70-74'","value":"0"},
-				    {"name":"'75-79'","value":"0"},
+				    {"name":"'50_54'","value":"0"},
+				    {"name":"'55_59'","value":"0"},
+				    {"name":"'60_64'","value":"0"},
+				    {"name":"'65_69'","value":"0"},
+				    {"name":"'70_74'","value":"0"},
+				    {"name":"'75_79'","value":"0"},
 				    {
-				      "name":"'80-84'",
+				      "name":"'80_84'",
 				      "children": [
 					{
 					  "name":"physicalactivity",
@@ -1866,7 +1860,7 @@
 					}
 				      ]
 				    },
-				    {"name":"'85-89'","value":"0"}
+				    {"name":"'85_89'","value":"0"}
 				  ]
 				}
 			      ]
@@ -1878,14 +1872,14 @@
 				  "name":"age",
 				  "children": [
 				    {
-				      "name":"'50-54'",
+				      "name":"'50_54'",
 				      "value":"SCONOSCIUTO"
 				    },
-				    {"name":"'55-59'","value":"1"},
-				    {"name":"'60-64'","value":"0"},
-				    {"name":"'65-69'","value":"0"},
+				    {"name":"'55_59'","value":"1"},
+				    {"name":"'60_64'","value":"0"},
+				    {"name":"'65_69'","value":"0"},
 				    {
-				      "name":"'70-74'",
+				      "name":"'70_74'",
 				      "children": [
 					{
 					  "name":"bmi",
@@ -1895,7 +1889,7 @@
 					      "value":"0"
 					    },
 					    {
-					      "name":"'peso ideale'",
+					      "name":"peso_ideale",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
@@ -1911,7 +1905,7 @@
 				      ]
 				    },
 				    {
-				      "name":"'75-79'",
+				      "name":"'75_79'",
 				      "children": [
 					{
 					  "name":"cholesterolldl",
@@ -1921,11 +1915,11 @@
 					      "value":"1"
 					    },
 					    {
-					      "name":"'quasi ottimale'",
+					      "name":"quasi_ottimale",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'al limite'",
+					      "name":"al_limite",
 					      "value":"0"
 					    },
 					    {
@@ -1933,7 +1927,7 @@
 					      "value":"0"
 					    },
 					    {
-					      "name":"'molto alto'",
+					      "name":"molto_alto",
 					      "value":"SCONOSCIUTO"
 					    }
 					  ]
@@ -1941,7 +1935,7 @@
 				      ]
 				    },
 				    {
-				      "name":"'80-84'",
+				      "name":"'80_84'",
 				      "children": [
 					{
 					  "name":"alcoholconsumption",
@@ -1957,11 +1951,11 @@
 						      "value":"SCONOSCIUTO"
 						    },
 						    {
-						      "name":"'quasi ottimale'",
+						      "name":"quasi_ottimale",
 						      "value":"SCONOSCIUTO"
 						    },
 						    {
-						      "name":"'al limite'",
+						      "name":"al_limite",
 						      "value":"0"
 						    },
 						    {
@@ -1969,7 +1963,7 @@
 						      "value":"SCONOSCIUTO"
 						    },
 						    {
-						      "name":"'molto alto'",
+						      "name":"molto_alto",
 						      "value":"1"
 						    }
 						  ]
@@ -1989,7 +1983,7 @@
 				      ]
 				    },
 				    {
-				      "name":"'85-89'",
+				      "name":"'85_89'",
 				      "children": [
 					{
 					  "name":"bmi",
@@ -1999,7 +1993,7 @@
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'peso ideale'",
+					      "name":"peso_ideale",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
@@ -2044,15 +2038,15 @@
 				{
 				  "name":"age",
 				  "children": [
-				    {"name":"'50-54'","value":"1"},
-				    {"name":"'55-59'","value":"1"},
-				    {"name":"'60-64'","value":"1"},
-				    {"name":"'65-69'","value":"1"},
-				    {"name":"'70-74'","value":"1"},
-				    {"name":"'75-79'","value":"1"},
-				    {"name":"'80-84'","value":"1"},
+				    {"name":"'50_54'","value":"1"},
+				    {"name":"'55_59'","value":"1"},
+				    {"name":"'60_64'","value":"1"},
+				    {"name":"'65_69'","value":"1"},
+				    {"name":"'70_74'","value":"1"},
+				    {"name":"'75_79'","value":"1"},
+				    {"name":"'80_84'","value":"1"},
 				    {
-				      "name":"'85-89'",
+				      "name":"'85_89'",
 				      "children": [
 					{
 					  "name":"alcoholconsumption",
@@ -2085,7 +2079,7 @@
 		      ]
 		    },
 		    {
-		      "name":"'ipertensione tipo 1'",
+		      "name":"ipertensione_tipo_1",
 		      "children": [
 			{
 			  "name":"systolicbp",
@@ -2097,39 +2091,39 @@
 				  "name":"age",
 				  "children": [
 				    {
-				      "name":"'50-54'",
+				      "name":"'50_54'",
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'55-59'",
+				      "name":"'55_59'",
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'60-64'",
+				      "name":"'60_64'",
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'65-69'",
+				      "name":"'65_69'",
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'70-74'",
+				      "name":"'70_74'",
 				      "value":"SCONOSCIUTO"
 				    },
-				    {"name":"'75-79'","value":"1"},
-				    {"name":"'80-84'","value":"1"},
-				    {"name":"'85-89'","value":"0"}
+				    {"name":"'75_79'","value":"1"},
+				    {"name":"'80_84'","value":"1"},
+				    {"name":"'85_89'","value":"0"}
 				  ]
 				}
 			      ]
 			    },
 			    {"name":"elevata","value":"SCONOSCIUTO"},
 			    {
-			      "name":"'ipertensione tipo 1'",
+			      "name":"ipertensione_tipo_1",
 			      "value":"1"
 			    },
 			    {
-			      "name":"'ipertensione tipo 2'",
+			      "name":"ipertensione_tipo_2",
 			      "value":"0"
 			    }
 			  ]
@@ -2137,7 +2131,7 @@
 		      ]
 		    },
 		    {
-		      "name":"'ipertensione tipo 2'",
+		      "name":"ipertensione_tipo_2",
 		      "children": [
 			{
 			  "name":"ethnicity",
@@ -2159,7 +2153,7 @@
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'peso ideale'",
+					      "name":"peso_ideale",
 					      "value":"0"
 					    },
 					    {
@@ -2175,18 +2169,12 @@
 				      ]
 				    },
 				    {
-				      "name":"'quasi ottimale'",
+				      "name":"quasi_ottimale",
 				      "value":"1"
 				    },
-				    {
-				      "name":"'al limite'",
-				      "value":"0"
-				    },
+				    {"name":"al_limite","value":"0"},
 				    {"name":"alto","value":"1"},
-				    {
-				      "name":"'molto alto'",
-				      "value":"0"
-				    }
+				    {"name":"molto_alto","value":"0"}
 				  ]
 				}
 			      ]
@@ -2198,27 +2186,27 @@
 				{
 				  "name":"age",
 				  "children": [
-				    {"name":"'50-54'","value":"0"},
-				    {"name":"'55-59'","value":"0"},
+				    {"name":"'50_54'","value":"0"},
+				    {"name":"'55_59'","value":"0"},
 				    {
-				      "name":"'60-64'",
+				      "name":"'60_64'",
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'65-69'",
+				      "name":"'65_69'",
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'70-74'",
+				      "name":"'70_74'",
 				      "value":"SCONOSCIUTO"
 				    },
-				    {"name":"'75-79'","value":"1"},
+				    {"name":"'75_79'","value":"1"},
 				    {
-				      "name":"'80-84'",
+				      "name":"'80_84'",
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'85-89'",
+				      "name":"'85_89'",
 				      "value":"SCONOSCIUTO"
 				    }
 				  ]
@@ -2239,7 +2227,7 @@
       ]
     },
     {
-      "name":"'moderato severo'",
+      "name":"moderato_severo",
       "children": [
 	{
 	  "name":"moca",
@@ -2269,35 +2257,35 @@
 					  "name":"age",
 					  "children": [
 					    {
-					      "name":"'50-54'",
+					      "name":"'50_54'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'55-59'",
+					      "name":"'55_59'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'60-64'",
+					      "name":"'60_64'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'65-69'",
+					      "name":"'65_69'",
 					      "value":"1"
 					    },
 					    {
-					      "name":"'70-74'",
+					      "name":"'70_74'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'75-79'",
+					      "name":"'75_79'",
 					      "value":"1"
 					    },
 					    {
-					      "name":"'80-84'",
+					      "name":"'80_84'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'85-89'",
+					      "name":"'85_89'",
 					      "value":"1"
 					    }
 					  ]
@@ -2316,9 +2304,9 @@
 				{
 				  "name":"age",
 				  "children": [
-				    {"name":"'50-54'","value":"1"},
+				    {"name":"'50_54'","value":"1"},
 				    {
-				      "name":"'55-59'",
+				      "name":"'55_59'",
 				      "children": [
 					{
 					  "name":"alcoholconsumption",
@@ -2339,15 +2327,15 @@
 					}
 				      ]
 				    },
-				    {"name":"'60-64'","value":"1"},
+				    {"name":"'60_64'","value":"1"},
 				    {
-				      "name":"'65-69'",
+				      "name":"'65_69'",
 				      "value":"SCONOSCIUTO"
 				    },
-				    {"name":"'70-74'","value":"1"},
-				    {"name":"'75-79'","value":"1"},
-				    {"name":"'80-84'","value":"1"},
-				    {"name":"'85-89'","value":"1"}
+				    {"name":"'70_74'","value":"1"},
+				    {"name":"'75_79'","value":"1"},
+				    {"name":"'80_84'","value":"1"},
+				    {"name":"'85_89'","value":"1"}
 				  ]
 				}
 			      ]
@@ -2398,29 +2386,29 @@
 				  "name":"age",
 				  "children": [
 				    {
-				      "name":"'50-54'",
+				      "name":"'50_54'",
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'55-59'",
+				      "name":"'55_59'",
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'60-64'",
+				      "name":"'60_64'",
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'65-69'",
+				      "name":"'65_69'",
 				      "value":"SCONOSCIUTO"
 				    },
-				    {"name":"'70-74'","value":"0"},
+				    {"name":"'70_74'","value":"0"},
 				    {
-				      "name":"'75-79'",
+				      "name":"'75_79'",
 				      "value":"SCONOSCIUTO"
 				    },
-				    {"name":"'80-84'","value":"1"},
+				    {"name":"'80_84'","value":"1"},
 				    {
-				      "name":"'85-89'",
+				      "name":"'85_89'",
 				      "value":"SCONOSCIUTO"
 				    }
 				  ]
@@ -2437,16 +2425,16 @@
 			{
 			  "name":"age",
 			  "children": [
-			    {"name":"'50-54'","value":"1"},
-			    {"name":"'55-59'","value":"1"},
+			    {"name":"'50_54'","value":"1"},
+			    {"name":"'55_59'","value":"1"},
 			    {
-			      "name":"'60-64'",
+			      "name":"'60_64'",
 			      "children": [
 				{
 				  "name":"dietquality",
 				  "children": [
 				    {
-				      "name":"'molto scarsa'",
+				      "name":"molto_scarsa",
 				      "value":"1"
 				    },
 				    {"name":"scarsa","value":"0"},
@@ -2460,9 +2448,9 @@
 				}
 			      ]
 			    },
-			    {"name":"'65-69'","value":"0"},
+			    {"name":"'65_69'","value":"0"},
 			    {
-			      "name":"'70-74'",
+			      "name":"'70_74'",
 			      "children": [
 				{
 				  "name":"depression",
@@ -2474,7 +2462,7 @@
 			      ]
 			    },
 			    {
-			      "name":"'75-79'",
+			      "name":"'75_79'",
 			      "children": [
 				{
 				  "name":"alcoholconsumption",
@@ -2487,7 +2475,7 @@
 			      ]
 			    },
 			    {
-			      "name":"'80-84'",
+			      "name":"'80_84'",
 			      "children": [
 				{
 				  "name":"alcoholconsumption",
@@ -2504,11 +2492,11 @@
 					      "value":"1"
 					    },
 					    {
-					      "name":"'quasi ottimale'",
+					      "name":"quasi_ottimale",
 					      "value":"1"
 					    },
 					    {
-					      "name":"'al limite'",
+					      "name":"al_limite",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
@@ -2516,7 +2504,7 @@
 					      "value":"0"
 					    },
 					    {
-					      "name":"'molto alto'",
+					      "name":"molto_alto",
 					      "value":"SCONOSCIUTO"
 					    }
 					  ]
@@ -2531,7 +2519,7 @@
 				}
 			      ]
 			    },
-			    {"name":"'85-89'","value":"1"}
+			    {"name":"'85_89'","value":"1"}
 			  ]
 			}
 		      ]
@@ -2549,7 +2537,7 @@
 				  "name":"age",
 				  "children": [
 				    {
-				      "name":"'50-54'",
+				      "name":"'50_54'",
 				      "children": [
 					{
 					  "name":"alcoholconsumption",
@@ -2571,13 +2559,13 @@
 				      ]
 				    },
 				    {
-				      "name":"'55-59'",
+				      "name":"'55_59'",
 				      "value":"SCONOSCIUTO"
 				    },
-				    {"name":"'60-64'","value":"0"},
-				    {"name":"'65-69'","value":"1"},
+				    {"name":"'60_64'","value":"0"},
+				    {"name":"'65_69'","value":"1"},
 				    {
-				      "name":"'70-74'",
+				      "name":"'70_74'",
 				      "children": [
 					{
 					  "name":"cholesteroltotal",
@@ -2587,7 +2575,7 @@
 					      "value":"1"
 					    },
 					    {
-					      "name":"'al limite'",
+					      "name":"al_limite",
 					      "value":"0"
 					    },
 					    {
@@ -2598,10 +2586,10 @@
 					}
 				      ]
 				    },
-				    {"name":"'75-79'","value":"1"},
-				    {"name":"'80-84'","value":"1"},
+				    {"name":"'75_79'","value":"1"},
+				    {"name":"'80_84'","value":"1"},
 				    {
-				      "name":"'85-89'",
+				      "name":"'85_89'",
 				      "children": [
 					{
 					  "name":"alcoholconsumption",
@@ -2668,11 +2656,11 @@
 				    {"name":"normale","value":"1"},
 				    {"name":"elevata","value":"0"},
 				    {
-				      "name":"'ipertensione tipo 1'",
+				      "name":"ipertensione_tipo_1",
 				      "value":"1"
 				    },
 				    {
-				      "name":"'ipertensione tipo 2'",
+				      "name":"ipertensione_tipo_2",
 				      "value":"1"
 				    }
 				  ]
@@ -2680,7 +2668,7 @@
 			      ]
 			    },
 			    {
-			      "name":"'quasi ottimale'",
+			      "name":"quasi_ottimale",
 			      "children": [
 				{
 				  "name":"sleepdisorders",
@@ -2692,7 +2680,7 @@
 			      ]
 			    },
 			    {
-			      "name":"'al limite'",
+			      "name":"al_limite",
 			      "children": [
 				{
 				  "name":"smoking",
@@ -2717,34 +2705,34 @@
 			      ]
 			    },
 			    {
-			      "name":"'molto alto'",
+			      "name":"molto_alto",
 			      "children": [
 				{
 				  "name":"age",
 				  "children": [
 				    {
-				      "name":"'50-54'",
+				      "name":"'50_54'",
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'55-59'",
+				      "name":"'55_59'",
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'60-64'",
+				      "name":"'60_64'",
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'65-69'",
+				      "name":"'65_69'",
 				      "value":"SCONOSCIUTO"
 				    },
-				    {"name":"'70-74'","value":"1"},
-				    {"name":"'75-79'","value":"0"},
+				    {"name":"'70_74'","value":"1"},
+				    {"name":"'75_79'","value":"0"},
 				    {
-				      "name":"'80-84'",
+				      "name":"'80_84'",
 				      "value":"SCONOSCIUTO"
 				    },
-				    {"name":"'85-89'","value":"1"}
+				    {"name":"'85_89'","value":"1"}
 				  ]
 				}
 			      ]
@@ -2768,29 +2756,29 @@
 				  "name":"age",
 				  "children": [
 				    {
-				      "name":"'50-54'",
+				      "name":"'50_54'",
 				      "value":"SCONOSCIUTO"
 				    },
-				    {"name":"'55-59'","value":"0"},
+				    {"name":"'55_59'","value":"0"},
 				    {
-				      "name":"'60-64'",
-				      "value":"SCONOSCIUTO"
-				    },
-				    {
-				      "name":"'65-69'",
-				      "value":"SCONOSCIUTO"
-				    },
-				    {"name":"'70-74'","value":"1"},
-				    {
-				      "name":"'75-79'",
+				      "name":"'60_64'",
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'80-84'",
+				      "name":"'65_69'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {"name":"'70_74'","value":"1"},
+				    {
+				      "name":"'75_79'",
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'85-89'",
+				      "name":"'80_84'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'85_89'",
 				      "value":"SCONOSCIUTO"
 				    }
 				  ]
@@ -2824,14 +2812,14 @@
 			{
 			  "name":"age",
 			  "children": [
-			    {"name":"'50-54'","value":"1"},
-			    {"name":"'55-59'","value":"SCONOSCIUTO"},
-			    {"name":"'60-64'","value":"1"},
-			    {"name":"'65-69'","value":"SCONOSCIUTO"},
-			    {"name":"'70-74'","value":"1"},
-			    {"name":"'75-79'","value":"0"},
-			    {"name":"'80-84'","value":"1"},
-			    {"name":"'85-89'","value":"1"}
+			    {"name":"'50_54'","value":"1"},
+			    {"name":"'55_59'","value":"SCONOSCIUTO"},
+			    {"name":"'60_64'","value":"1"},
+			    {"name":"'65_69'","value":"SCONOSCIUTO"},
+			    {"name":"'70_74'","value":"1"},
+			    {"name":"'75_79'","value":"0"},
+			    {"name":"'80_84'","value":"1"},
+			    {"name":"'85_89'","value":"1"}
 			  ]
 			}
 		      ]
@@ -2843,7 +2831,7 @@
 			  "name":"bmi",
 			  "children": [
 			    {"name":"sottopeso","value":"0"},
-			    {"name":"'peso ideale'","value":"0"},
+			    {"name":"peso_ideale","value":"0"},
 			    {"name":"sovrappeso","value":"0"},
 			    {"name":"obeso","value":"1"}
 			  ]
@@ -2867,14 +2855,14 @@
 			{
 			  "name":"age",
 			  "children": [
-			    {"name":"'50-54'","value":"1"},
-			    {"name":"'55-59'","value":"0"},
-			    {"name":"'60-64'","value":"0"},
-			    {"name":"'65-69'","value":"1"},
-			    {"name":"'70-74'","value":"1"},
-			    {"name":"'75-79'","value":"0"},
-			    {"name":"'80-84'","value":"1"},
-			    {"name":"'85-89'","value":"SCONOSCIUTO"}
+			    {"name":"'50_54'","value":"1"},
+			    {"name":"'55_59'","value":"0"},
+			    {"name":"'60_64'","value":"0"},
+			    {"name":"'65_69'","value":"1"},
+			    {"name":"'70_74'","value":"1"},
+			    {"name":"'75_79'","value":"0"},
+			    {"name":"'80_84'","value":"1"},
+			    {"name":"'85_89'","value":"SCONOSCIUTO"}
 			  ]
 			}
 		      ]
@@ -2934,7 +2922,7 @@
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'peso ideale'",
+				      "name":"peso_ideale",
 				      "value":"1"
 				    },
 				    {"name":"sovrappeso","value":"0"},
@@ -2954,14 +2942,14 @@
 			  "name":"age",
 			  "children": [
 			    {
-			      "name":"'50-54'",
+			      "name":"'50_54'",
 			      "children": [
 				{
 				  "name":"bmi",
 				  "children": [
 				    {"name":"sottopeso","value":"0"},
 				    {
-				      "name":"'peso ideale'",
+				      "name":"peso_ideale",
 				      "value":"1"
 				    },
 				    {
@@ -2973,9 +2961,9 @@
 				}
 			      ]
 			    },
-			    {"name":"'55-59'","value":"1"},
+			    {"name":"'55_59'","value":"1"},
 			    {
-			      "name":"'60-64'",
+			      "name":"'60_64'",
 			      "children": [
 				{
 				  "name":"ethnicity",
@@ -2991,11 +2979,11 @@
 				}
 			      ]
 			    },
-			    {"name":"'65-69'","value":"1"},
-			    {"name":"'70-74'","value":"1"},
-			    {"name":"'75-79'","value":"1"},
+			    {"name":"'65_69'","value":"1"},
+			    {"name":"'70_74'","value":"1"},
+			    {"name":"'75_79'","value":"1"},
 			    {
-			      "name":"'80-84'",
+			      "name":"'80_84'",
 			      "children": [
 				{
 				  "name":"cholesteroltotal",
@@ -3004,24 +2992,21 @@
 				      "name":"desiderabile",
 				      "value":"0"
 				    },
-				    {
-				      "name":"'al limite'",
-				      "value":"1"
-				    },
+				    {"name":"al_limite","value":"1"},
 				    {"name":"alto","value":"1"}
 				  ]
 				}
 			      ]
 			    },
 			    {
-			      "name":"'85-89'",
+			      "name":"'85_89'",
 			      "children": [
 				{
 				  "name":"bmi",
 				  "children": [
 				    {"name":"sottopeso","value":"1"},
 				    {
-				      "name":"'peso ideale'",
+				      "name":"peso_ideale",
 				      "value":"0"
 				    },
 				    {"name":"sovrappeso","value":"0"},
@@ -3071,56 +3056,50 @@
 				  "children": [
 				    {"name":"ottimale","value":"1"},
 				    {
-				      "name":"'quasi ottimale'",
+				      "name":"quasi_ottimale",
 				      "children": [
 					{
 					  "name":"age",
 					  "children": [
 					    {
-					      "name":"'50-54'",
+					      "name":"'50_54'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'55-59'",
+					      "name":"'55_59'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'60-64'",
+					      "name":"'60_64'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'65-69'",
+					      "name":"'65_69'",
 					      "value":"1"
 					    },
 					    {
-					      "name":"'70-74'",
+					      "name":"'70_74'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'75-79'",
+					      "name":"'75_79'",
 					      "value":"1"
 					    },
 					    {
-					      "name":"'80-84'",
+					      "name":"'80_84'",
 					      "value":"1"
 					    },
 					    {
-					      "name":"'85-89'",
+					      "name":"'85_89'",
 					      "value":"SCONOSCIUTO"
 					    }
 					  ]
 					}
 				      ]
 				    },
-				    {
-				      "name":"'al limite'",
-				      "value":"1"
-				    },
+				    {"name":"al_limite","value":"1"},
 				    {"name":"alto","value":"1"},
-				    {
-				      "name":"'molto alto'",
-				      "value":"1"
-				    }
+				    {"name":"molto_alto","value":"1"}
 				  ]
 				}
 			      ]
@@ -3132,11 +3111,11 @@
 				  "name":"age",
 				  "children": [
 				    {
-				      "name":"'50-54'",
+				      "name":"'50_54'",
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'55-59'",
+				      "name":"'55_59'",
 				      "children": [
 					{
 					  "name":"alcoholconsumption",
@@ -3158,11 +3137,11 @@
 				      ]
 				    },
 				    {
-				      "name":"'60-64'",
+				      "name":"'60_64'",
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'65-69'",
+				      "name":"'65_69'",
 				      "children": [
 					{
 					  "name":"alcoholconsumption",
@@ -3184,12 +3163,12 @@
 				      ]
 				    },
 				    {
-				      "name":"'70-74'",
+				      "name":"'70_74'",
 				      "value":"SCONOSCIUTO"
 				    },
-				    {"name":"'75-79'","value":"1"},
-				    {"name":"'80-84'","value":"0"},
-				    {"name":"'85-89'","value":"1"}
+				    {"name":"'75_79'","value":"1"},
+				    {"name":"'80_84'","value":"0"},
+				    {"name":"'85_89'","value":"1"}
 				  ]
 				}
 			      ]
@@ -3218,7 +3197,7 @@
 			  "name":"age",
 			  "children": [
 			    {
-			      "name":"'50-54'",
+			      "name":"'50_54'",
 			      "children": [
 				{
 				  "name":"sleepdisorders",
@@ -3234,7 +3213,7 @@
 					      "value":"0"
 					    },
 					    {
-					      "name":"'al limite'",
+					      "name":"al_limite",
 					      "value":"1"
 					    },
 					    {
@@ -3251,7 +3230,7 @@
 			      ]
 			    },
 			    {
-			      "name":"'55-59'",
+			      "name":"'55_59'",
 			      "children": [
 				{
 				  "name":"alcoholconsumption",
@@ -3275,7 +3254,7 @@
 			      ]
 			    },
 			    {
-			      "name":"'60-64'",
+			      "name":"'60_64'",
 			      "children": [
 				{
 				  "name":"ethnicity",
@@ -3292,7 +3271,7 @@
 			      ]
 			    },
 			    {
-			      "name":"'65-69'",
+			      "name":"'65_69'",
 			      "children": [
 				{
 				  "name":"educationlevel",
@@ -3326,10 +3305,10 @@
 				}
 			      ]
 			    },
-			    {"name":"'70-74'","value":"1"},
-			    {"name":"'75-79'","value":"1"},
-			    {"name":"'80-84'","value":"1"},
-			    {"name":"'85-89'","value":"1"}
+			    {"name":"'70_74'","value":"1"},
+			    {"name":"'75_79'","value":"1"},
+			    {"name":"'80_84'","value":"1"},
+			    {"name":"'85_89'","value":"1"}
 			  ]
 			}
 		      ]
@@ -3399,7 +3378,7 @@
 						      "value":"0"
 						    },
 						    {
-						      "name":"'peso ideale'",
+						      "name":"peso_ideale",
 						      "value":"0"
 						    },
 						    {
@@ -3425,7 +3404,7 @@
 					  "name":"dietquality",
 					  "children": [
 					    {
-					      "name":"'molto scarsa'",
+					      "name":"molto_scarsa",
 					      "value":"1"
 					    },
 					    {
@@ -3489,23 +3468,23 @@
 					  "name":"age",
 					  "children": [
 					    {
-					      "name":"'50-54'",
+					      "name":"'50_54'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'55-59'",
+					      "name":"'55_59'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'60-64'",
+					      "name":"'60_64'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'65-69'",
+					      "name":"'65_69'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'70-74'",
+					      "name":"'70_74'",
 					      "children": [
 						{
 						  "name":"bmi",
@@ -3515,7 +3494,7 @@
 						      "value":"0"
 						    },
 						    {
-						      "name":"'peso ideale'",
+						      "name":"peso_ideale",
 						      "value":"1"
 						    },
 						    {
@@ -3531,7 +3510,7 @@
 					      ]
 					    },
 					    {
-					      "name":"'75-79'",
+					      "name":"'75_79'",
 					      "children": [
 						{
 						  "name":"hypertension",
@@ -3549,11 +3528,11 @@
 					      ]
 					    },
 					    {
-					      "name":"'80-84'",
+					      "name":"'80_84'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'85-89'",
+					      "name":"'85_89'",
 					      "value":"0"
 					    }
 					  ]
@@ -3567,35 +3546,35 @@
 					  "name":"age",
 					  "children": [
 					    {
-					      "name":"'50-54'",
+					      "name":"'50_54'",
 					      "value":"1"
 					    },
 					    {
-					      "name":"'55-59'",
+					      "name":"'55_59'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'60-64'",
+					      "name":"'60_64'",
 					      "value":"1"
 					    },
 					    {
-					      "name":"'65-69'",
+					      "name":"'65_69'",
 					      "value":"1"
 					    },
 					    {
-					      "name":"'70-74'",
+					      "name":"'70_74'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'75-79'",
+					      "name":"'75_79'",
 					      "value":"1"
 					    },
 					    {
-					      "name":"'80-84'",
+					      "name":"'80_84'",
 					      "value":"1"
 					    },
 					    {
-					      "name":"'85-89'",
+					      "name":"'85_89'",
 					      "children": [
 						{
 						  "name":"bmi",
@@ -3605,7 +3584,7 @@
 						      "value":"1"
 						    },
 						    {
-						      "name":"'peso ideale'",
+						      "name":"peso_ideale",
 						      "value":"SCONOSCIUTO"
 						    },
 						    {
@@ -3634,18 +3613,18 @@
 				{
 				  "name":"age",
 				  "children": [
-				    {"name":"'50-54'","value":"1"},
-				    {"name":"'55-59'","value":"0"},
-				    {"name":"'60-64'","value":"1"},
+				    {"name":"'50_54'","value":"1"},
+				    {"name":"'55_59'","value":"0"},
+				    {"name":"'60_64'","value":"1"},
 				    {
-				      "name":"'65-69'",
+				      "name":"'65_69'",
 				      "value":"SCONOSCIUTO"
 				    },
-				    {"name":"'70-74'","value":"1"},
-				    {"name":"'75-79'","value":"1"},
-				    {"name":"'80-84'","value":"1"},
+				    {"name":"'70_74'","value":"1"},
+				    {"name":"'75_79'","value":"1"},
+				    {"name":"'80_84'","value":"1"},
 				    {
-				      "name":"'85-89'",
+				      "name":"'85_89'",
 				      "value":"SCONOSCIUTO"
 				    }
 				  ]
@@ -3678,30 +3657,30 @@
 				{
 				  "name":"age",
 				  "children": [
-				    {"name":"'50-54'","value":"1"},
+				    {"name":"'50_54'","value":"1"},
 				    {
-				      "name":"'55-59'",
+				      "name":"'55_59'",
 				      "value":"SCONOSCIUTO"
 				    },
-				    {"name":"'60-64'","value":"0"},
+				    {"name":"'60_64'","value":"0"},
 				    {
-				      "name":"'65-69'",
-				      "value":"SCONOSCIUTO"
-				    },
-				    {
-				      "name":"'70-74'",
+				      "name":"'65_69'",
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'75-79'",
+				      "name":"'70_74'",
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'80-84'",
+				      "name":"'75_79'",
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'85-89'",
+				      "name":"'80_84'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'85_89'",
 				      "value":"SCONOSCIUTO"
 				    }
 				  ]
@@ -3709,11 +3688,11 @@
 			      ]
 			    },
 			    {
-			      "name":"'ipertensione tipo 1'",
+			      "name":"ipertensione_tipo_1",
 			      "value":"1"
 			    },
 			    {
-			      "name":"'ipertensione tipo 2'",
+			      "name":"ipertensione_tipo_2",
 			      "value":"1"
 			    }
 			  ]
@@ -3721,7 +3700,7 @@
 		      ]
 		    },
 		    {
-		      "name":"'peso ideale'",
+		      "name":"peso_ideale",
 		      "children": [
 			{
 			  "name":"cholesteroltotal",
@@ -3740,35 +3719,35 @@
 					  "name":"age",
 					  "children": [
 					    {
-					      "name":"'50-54'",
+					      "name":"'50_54'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'55-59'",
+					      "name":"'55_59'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'60-64'",
+					      "name":"'60_64'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'65-69'",
+					      "name":"'65_69'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'70-74'",
+					      "name":"'70_74'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'75-79'",
+					      "name":"'75_79'",
 					      "value":"1"
 					    },
 					    {
-					      "name":"'80-84'",
+					      "name":"'80_84'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'85-89'",
+					      "name":"'85_89'",
 					      "value":"SCONOSCIUTO"
 					    }
 					  ]
@@ -3784,7 +3763,7 @@
 				}
 			      ]
 			    },
-			    {"name":"'al limite'","value":"1"},
+			    {"name":"al_limite","value":"1"},
 			    {"name":"alto","value":"1"}
 			  ]
 			}
@@ -3797,7 +3776,7 @@
 			  "name":"age",
 			  "children": [
 			    {
-			      "name":"'50-54'",
+			      "name":"'50_54'",
 			      "children": [
 				{
 				  "name":"cholesterolhdl",
@@ -3810,38 +3789,32 @@
 			      ]
 			    },
 			    {
-			      "name":"'55-59'",
+			      "name":"'55_59'",
 			      "children": [
 				{
 				  "name":"cholesterolldl",
 				  "children": [
 				    {"name":"ottimale","value":"1"},
 				    {
-				      "name":"'quasi ottimale'",
+				      "name":"quasi_ottimale",
 				      "value":"SCONOSCIUTO"
 				    },
-				    {
-				      "name":"'al limite'",
-				      "value":"0"
-				    },
+				    {"name":"al_limite","value":"0"},
 				    {
 				      "name":"alto",
 				      "value":"SCONOSCIUTO"
 				    },
-				    {
-				      "name":"'molto alto'",
-				      "value":"1"
-				    }
+				    {"name":"molto_alto","value":"1"}
 				  ]
 				}
 			      ]
 			    },
-			    {"name":"'60-64'","value":"1"},
-			    {"name":"'65-69'","value":"1"},
-			    {"name":"'70-74'","value":"1"},
-			    {"name":"'75-79'","value":"1"},
+			    {"name":"'60_64'","value":"1"},
+			    {"name":"'65_69'","value":"1"},
+			    {"name":"'70_74'","value":"1"},
+			    {"name":"'75_79'","value":"1"},
 			    {
-			      "name":"'80-84'",
+			      "name":"'80_84'",
 			      "children": [
 				{
 				  "name":"alcoholconsumption",
@@ -3853,7 +3826,7 @@
 				}
 			      ]
 			    },
-			    {"name":"'85-89'","value":"1"}
+			    {"name":"'85_89'","value":"1"}
 			  ]
 			}
 		      ]
@@ -3868,7 +3841,7 @@
       ]
     },
     {
-      "name":"'estremamente severo'",
+      "name":"estremamente_severo",
       "children": [
 	{
 	  "name":"tremor",
@@ -3898,19 +3871,19 @@
 					  "name":"age",
 					  "children": [
 					    {
-					      "name":"'50-54'",
+					      "name":"'50_54'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'55-59'",
+					      "name":"'55_59'",
 					      "value":"1"
 					    },
 					    {
-					      "name":"'60-64'",
+					      "name":"'60_64'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'65-69'",
+					      "name":"'65_69'",
 					      "children": [
 						{
 						  "name":"alcoholconsumption",
@@ -3932,29 +3905,26 @@
 					      ]
 					    },
 					    {
-					      "name":"'70-74'",
+					      "name":"'70_74'",
 					      "value":"1"
 					    },
 					    {
-					      "name":"'75-79'",
+					      "name":"'75_79'",
 					      "value":"1"
 					    },
 					    {
-					      "name":"'80-84'",
+					      "name":"'80_84'",
 					      "value":"1"
 					    },
 					    {
-					      "name":"'85-89'",
+					      "name":"'85_89'",
 					      "value":"1"
 					    }
 					  ]
 					}
 				      ]
 				    },
-				    {
-				      "name":"'al limite'",
-				      "value":"1"
-				    },
+				    {"name":"al_limite","value":"1"},
 				    {"name":"alto","value":"1"}
 				  ]
 				}
@@ -3968,13 +3938,13 @@
 				{
 				  "name":"age",
 				  "children": [
-				    {"name":"'50-54'","value":"0"},
-				    {"name":"'55-59'","value":"0"},
-				    {"name":"'60-64'","value":"0"},
-				    {"name":"'65-69'","value":"0"},
-				    {"name":"'70-74'","value":"0"},
+				    {"name":"'50_54'","value":"0"},
+				    {"name":"'55_59'","value":"0"},
+				    {"name":"'60_64'","value":"0"},
+				    {"name":"'65_69'","value":"0"},
+				    {"name":"'70_74'","value":"0"},
 				    {
-				      "name":"'75-79'",
+				      "name":"'75_79'",
 				      "children": [
 					{
 					  "name":"alcoholconsumption",
@@ -3996,7 +3966,7 @@
 				      ]
 				    },
 				    {
-				      "name":"'80-84'",
+				      "name":"'80_84'",
 				      "children": [
 					{
 					  "name":"bmi",
@@ -4006,7 +3976,7 @@
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'peso ideale'",
+					      "name":"peso_ideale",
 					      "value":"1"
 					    },
 					    {
@@ -4022,7 +3992,7 @@
 				      ]
 				    },
 				    {
-				      "name":"'85-89'",
+				      "name":"'85_89'",
 				      "children": [
 					{
 					  "name":"cholesterolhdl",
@@ -4064,7 +4034,7 @@
 				  "name":"dietquality",
 				  "children": [
 				    {
-				      "name":"'molto scarsa'",
+				      "name":"molto_scarsa",
 				      "children": [
 					{
 					  "name":"cholesterolhdl",
@@ -4099,11 +4069,11 @@
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'quasi ottimale'",
+					      "name":"quasi_ottimale",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'al limite'",
+					      "name":"al_limite",
 					      "value":"1"
 					    },
 					    {
@@ -4111,7 +4081,7 @@
 					      "value":"0"
 					    },
 					    {
-					      "name":"'molto alto'",
+					      "name":"molto_alto",
 					      "value":"1"
 					    }
 					  ]
@@ -4129,14 +4099,14 @@
 				{
 				  "name":"age",
 				  "children": [
-				    {"name":"'50-54'","value":"0"},
-				    {"name":"'55-59'","value":"1"},
-				    {"name":"'60-64'","value":"1"},
-				    {"name":"'65-69'","value":"1"},
-				    {"name":"'70-74'","value":"1"},
-				    {"name":"'75-79'","value":"1"},
-				    {"name":"'80-84'","value":"1"},
-				    {"name":"'85-89'","value":"1"}
+				    {"name":"'50_54'","value":"0"},
+				    {"name":"'55_59'","value":"1"},
+				    {"name":"'60_64'","value":"1"},
+				    {"name":"'65_69'","value":"1"},
+				    {"name":"'70_74'","value":"1"},
+				    {"name":"'75_79'","value":"1"},
+				    {"name":"'80_84'","value":"1"},
+				    {"name":"'85_89'","value":"1"}
 				  ]
 				}
 			      ]
@@ -4148,41 +4118,41 @@
 				  "name":"dietquality",
 				  "children": [
 				    {
-				      "name":"'molto scarsa'",
+				      "name":"molto_scarsa",
 				      "children": [
 					{
 					  "name":"age",
 					  "children": [
 					    {
-					      "name":"'50-54'",
+					      "name":"'50_54'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'55-59'",
+					      "name":"'55_59'",
 					      "value":"1"
 					    },
 					    {
-					      "name":"'60-64'",
+					      "name":"'60_64'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'65-69'",
+					      "name":"'65_69'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'70-74'",
+					      "name":"'70_74'",
 					      "value":"0"
 					    },
 					    {
-					      "name":"'75-79'",
+					      "name":"'75_79'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'80-84'",
+					      "name":"'80_84'",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
-					      "name":"'85-89'",
+					      "name":"'85_89'",
 					      "value":"1"
 					    }
 					  ]
@@ -4263,7 +4233,7 @@
 								  "name":"age",
 								  "children": [
 								    {
-								      "name":"'50-54'",
+								      "name":"'50_54'",
 								      "children": [
 									{
 									  "name":"alcoholconsumption",
@@ -4285,31 +4255,31 @@
 								      ]
 								    },
 								    {
-								      "name":"'55-59'",
+								      "name":"'55_59'",
 								      "value":"1"
 								    },
 								    {
-								      "name":"'60-64'",
+								      "name":"'60_64'",
 								      "value":"1"
 								    },
 								    {
-								      "name":"'65-69'",
+								      "name":"'65_69'",
 								      "value":"1"
 								    },
 								    {
-								      "name":"'70-74'",
+								      "name":"'70_74'",
 								      "value":"1"
 								    },
 								    {
-								      "name":"'75-79'",
+								      "name":"'75_79'",
 								      "value":"1"
 								    },
 								    {
-								      "name":"'80-84'",
+								      "name":"'80_84'",
 								      "value":"1"
 								    },
 								    {
-								      "name":"'85-89'",
+								      "name":"'85_89'",
 								      "value":"SCONOSCIUTO"
 								    }
 								  ]
@@ -4327,35 +4297,35 @@
 							  "name":"age",
 							  "children": [
 							    {
-							      "name":"'50-54'",
+							      "name":"'50_54'",
 							      "value":"0"
 							    },
 							    {
-							      "name":"'55-59'",
+							      "name":"'55_59'",
 							      "value":"SCONOSCIUTO"
 							    },
 							    {
-							      "name":"'60-64'",
+							      "name":"'60_64'",
 							      "value":"1"
 							    },
 							    {
-							      "name":"'65-69'",
+							      "name":"'65_69'",
 							      "value":"SCONOSCIUTO"
 							    },
 							    {
-							      "name":"'70-74'",
+							      "name":"'70_74'",
 							      "value":"1"
 							    },
 							    {
-							      "name":"'75-79'",
+							      "name":"'75_79'",
 							      "value":"1"
 							    },
 							    {
-							      "name":"'80-84'",
+							      "name":"'80_84'",
 							      "value":"SCONOSCIUTO"
 							    },
 							    {
-							      "name":"'85-89'",
+							      "name":"'85_89'",
 							      "value":"SCONOSCIUTO"
 							    }
 							  ]
@@ -4407,7 +4377,7 @@
 					  "name":"dietquality",
 					  "children": [
 					    {
-					      "name":"'molto scarsa'",
+					      "name":"molto_scarsa",
 					      "value":"1"
 					    },
 					    {
@@ -4481,35 +4451,35 @@
 							  "name":"age",
 							  "children": [
 							    {
-							      "name":"'50-54'",
+							      "name":"'50_54'",
 							      "value":"SCONOSCIUTO"
 							    },
 							    {
-							      "name":"'55-59'",
+							      "name":"'55_59'",
 							      "value":"0"
 							    },
 							    {
-							      "name":"'60-64'",
+							      "name":"'60_64'",
 							      "value":"SCONOSCIUTO"
 							    },
 							    {
-							      "name":"'65-69'",
+							      "name":"'65_69'",
 							      "value":"SCONOSCIUTO"
 							    },
 							    {
-							      "name":"'70-74'",
+							      "name":"'70_74'",
 							      "value":"SCONOSCIUTO"
 							    },
 							    {
-							      "name":"'75-79'",
+							      "name":"'75_79'",
 							      "value":"1"
 							    },
 							    {
-							      "name":"'80-84'",
+							      "name":"'80_84'",
 							      "value":"SCONOSCIUTO"
 							    },
 							    {
-							      "name":"'85-89'",
+							      "name":"'85_89'",
 							      "value":"SCONOSCIUTO"
 							    }
 							  ]
@@ -4539,11 +4509,11 @@
 					      "value":"1"
 					    },
 					    {
-					      "name":"'quasi ottimale'",
+					      "name":"quasi_ottimale",
 					      "value":"1"
 					    },
 					    {
-					      "name":"'al limite'",
+					      "name":"al_limite",
 					      "value":"1"
 					    },
 					    {
@@ -4551,7 +4521,7 @@
 					      "value":"0"
 					    },
 					    {
-					      "name":"'molto alto'",
+					      "name":"molto_alto",
 					      "value":"SCONOSCIUTO"
 					    }
 					  ]
@@ -4569,7 +4539,7 @@
 				  "name":"age",
 				  "children": [
 				    {
-				      "name":"'50-54'",
+				      "name":"'50_54'",
 				      "children": [
 					{
 					  "name":"bmi",
@@ -4579,7 +4549,7 @@
 					      "value":"1"
 					    },
 					    {
-					      "name":"'peso ideale'",
+					      "name":"peso_ideale",
 					      "value":"0"
 					    },
 					    {
@@ -4594,10 +4564,10 @@
 					}
 				      ]
 				    },
-				    {"name":"'55-59'","value":"1"},
-				    {"name":"'60-64'","value":"1"},
+				    {"name":"'55_59'","value":"1"},
+				    {"name":"'60_64'","value":"1"},
 				    {
-				      "name":"'65-69'",
+				      "name":"'65_69'",
 				      "children": [
 					{
 					  "name":"bmi",
@@ -4607,7 +4577,7 @@
 					      "value":"0"
 					    },
 					    {
-					      "name":"'peso ideale'",
+					      "name":"peso_ideale",
 					      "value":"SCONOSCIUTO"
 					    },
 					    {
@@ -4622,10 +4592,10 @@
 					}
 				      ]
 				    },
-				    {"name":"'70-74'","value":"0"},
-				    {"name":"'75-79'","value":"1"},
+				    {"name":"'70_74'","value":"0"},
+				    {"name":"'75_79'","value":"1"},
 				    {
-				      "name":"'80-84'",
+				      "name":"'80_84'",
 				      "children": [
 					{
 					  "name":"alcoholconsumption",
@@ -4646,7 +4616,7 @@
 					}
 				      ]
 				    },
-				    {"name":"'85-89'","value":"1"}
+				    {"name":"'85_89'","value":"1"}
 				  ]
 				}
 			      ]
@@ -4672,7 +4642,7 @@
 			  "name":"age",
 			  "children": [
 			    {
-			      "name":"'50-54'",
+			      "name":"'50_54'",
 			      "children": [
 				{
 				  "name":"ethnicity",
@@ -4690,7 +4660,7 @@
 					      "value":"0"
 					    },
 					    {
-					      "name":"'al limite'",
+					      "name":"al_limite",
 					      "value":"1"
 					    },
 					    {
@@ -4707,7 +4677,7 @@
 			      ]
 			    },
 			    {
-			      "name":"'55-59'",
+			      "name":"'55_59'",
 			      "children": [
 				{
 				  "name":"functionalassessment",
@@ -4743,7 +4713,7 @@
 					      ]
 					    },
 					    {
-					      "name":"'al limite'",
+					      "name":"al_limite",
 					      "value":"0"
 					    },
 					    {
@@ -4761,7 +4731,7 @@
 					  "name":"dietquality",
 					  "children": [
 					    {
-					      "name":"'molto scarsa'",
+					      "name":"molto_scarsa",
 					      "value":"1"
 					    },
 					    {
@@ -4789,7 +4759,7 @@
 			      ]
 			    },
 			    {
-			      "name":"'60-64'",
+			      "name":"'60_64'",
 			      "children": [
 				{
 				  "name":"ethnicity",
@@ -4802,9 +4772,9 @@
 				}
 			      ]
 			    },
-			    {"name":"'65-69'","value":"1"},
+			    {"name":"'65_69'","value":"1"},
 			    {
-			      "name":"'70-74'",
+			      "name":"'70_74'",
 			      "children": [
 				{
 				  "name":"sleepdisorders",
@@ -4836,9 +4806,9 @@
 				}
 			      ]
 			    },
-			    {"name":"'75-79'","value":"1"},
-			    {"name":"'80-84'","value":"1"},
-			    {"name":"'85-89'","value":"1"}
+			    {"name":"'75_79'","value":"1"},
+			    {"name":"'80_84'","value":"1"},
+			    {"name":"'85_89'","value":"1"}
 			  ]
 			}
 		      ]
@@ -4850,7 +4820,7 @@
 			  "name":"age",
 			  "children": [
 			    {
-			      "name":"'50-54'",
+			      "name":"'50_54'",
 			      "children": [
 				{
 				  "name":"cholesteroltriglycerides",
@@ -4862,13 +4832,13 @@
 				}
 			      ]
 			    },
-			    {"name":"'55-59'","value":"1"},
-			    {"name":"'60-64'","value":"1"},
-			    {"name":"'65-69'","value":"1"},
-			    {"name":"'70-74'","value":"1"},
-			    {"name":"'75-79'","value":"1"},
-			    {"name":"'80-84'","value":"1"},
-			    {"name":"'85-89'","value":"1"}
+			    {"name":"'55_59'","value":"1"},
+			    {"name":"'60_64'","value":"1"},
+			    {"name":"'65_69'","value":"1"},
+			    {"name":"'70_74'","value":"1"},
+			    {"name":"'75_79'","value":"1"},
+			    {"name":"'80_84'","value":"1"},
+			    {"name":"'85_89'","value":"1"}
 			  ]
 			}
 		      ]
@@ -4879,9 +4849,9 @@
 			{
 			  "name":"age",
 			  "children": [
-			    {"name":"'50-54'","value":"1"},
+			    {"name":"'50_54'","value":"1"},
 			    {
-			      "name":"'55-59'",
+			      "name":"'55_59'",
 			      "children": [
 				{
 				  "name":"alcoholconsumption",
@@ -4893,12 +4863,12 @@
 				}
 			      ]
 			    },
-			    {"name":"'60-64'","value":"1"},
-			    {"name":"'65-69'","value":"1"},
-			    {"name":"'70-74'","value":"1"},
-			    {"name":"'75-79'","value":"1"},
-			    {"name":"'80-84'","value":"1"},
-			    {"name":"'85-89'","value":"1"}
+			    {"name":"'60_64'","value":"1"},
+			    {"name":"'65_69'","value":"1"},
+			    {"name":"'70_74'","value":"1"},
+			    {"name":"'75_79'","value":"1"},
+			    {"name":"'80_84'","value":"1"},
+			    {"name":"'85_89'","value":"1"}
 			  ]
 			}
 		      ]
@@ -4918,11 +4888,11 @@
 				    {"name":"normale","value":"1"},
 				    {"name":"elevata","value":"0"},
 				    {
-				      "name":"'ipertensione tipo 1'",
+				      "name":"ipertensione_tipo_1",
 				      "value":"1"
 				    },
 				    {
-				      "name":"'ipertensione tipo 2'",
+				      "name":"ipertensione_tipo_2",
 				      "value":"1"
 				    }
 				  ]
@@ -4949,22 +4919,22 @@
 				  "name":"age",
 				  "children": [
 				    {
-				      "name":"'50-54'",
+				      "name":"'50_54'",
 				      "value":"SCONOSCIUTO"
 				    },
-				    {"name":"'55-59'","value":"1"},
-				    {"name":"'60-64'","value":"1"},
-				    {"name":"'65-69'","value":"0"},
+				    {"name":"'55_59'","value":"1"},
+				    {"name":"'60_64'","value":"1"},
+				    {"name":"'65_69'","value":"0"},
 				    {
-				      "name":"'70-74'",
-				      "value":"SCONOSCIUTO"
-				    },
-				    {
-				      "name":"'75-79'",
+				      "name":"'70_74'",
 				      "value":"SCONOSCIUTO"
 				    },
 				    {
-				      "name":"'80-84'",
+				      "name":"'75_79'",
+				      "value":"SCONOSCIUTO"
+				    },
+				    {
+				      "name":"'80_84'",
 				      "children": [
 					{
 					  "name":"alcoholconsumption",
@@ -4985,7 +4955,7 @@
 					}
 				      ]
 				    },
-				    {"name":"'85-89'","value":"0"}
+				    {"name":"'85_89'","value":"0"}
 				  ]
 				}
 			      ]
