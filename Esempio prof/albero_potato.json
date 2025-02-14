@@ -1,0 +1,7 @@
+{
+  "name":"age",
+  "children": [
+    {"name":"tier_5","children": [ {"name":"bmi","children": []} ]},
+    {"name":"tier_6","value":"sano"}
+  ]
+}

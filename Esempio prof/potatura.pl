@@ -4,6 +4,7 @@
 :- ensure_loaded(albero).
 :- op(300, xfx, <==).
 :- dynamic alb/1.
+:- use_module(library(http/json)).
 
 % Programma Prolog che effettua la potatura di un albero di decisione
 % per valutare il cambiamento delle sue prestazioni.
@@ -74,7 +75,7 @@ ricava_sottoalberi(t(Att, [Val|Resto]), ListaCorrente, ListaFinale) :-
                                          costruisci_albero(Att2, [Val2], Risultato),
                                          ricava_sottoalberi(t(Att2,Resto2), [Risultato|ListaCorrente], ListaFinale))
                                         ;
-                                        (rimuovi_valore([Val], [l()|Resto]);rimuovi_valore([Val],l());rimuovi_valore([Val],null)),
+                                        (rimuovi_valore([Val], [l(_)|Resto]);rimuovi_valore([Val],l(_));rimuovi_valore([Val],null)),
                                         ricava_sottoalberi(t(Att,Resto),[Resto|ListaCorrente], ListaFinale))
     ;
     controlla_se_lista(Val, ValAggiustato),
@@ -120,7 +121,7 @@ remove_subtree_from_list([H|T], Att, SottoalberoDaRimuovere, T1) :-
         remove_subtree_from_list(T, Att, SottoalberoDaRimuovere, T2)
     ).
 remove_subtree_from_list([H|T], Att ,SottoalberoDaRimuovere, [H|T1]) :-
-    H \= :,
+    H \= _:_,
     remove_subtree_from_list(T, Att, SottoalberoDaRimuovere, T1).
 
 % Predicato che decide qual e' l'albero "migliore" in base al punteggio
@@ -191,15 +192,45 @@ stampa_matrice_di_confusione([Albero|_]) :-
         arrotonda(E, Errore),
         P is VP / (VP + FN), % Precisione
         arrotonda(P, Precisione),
+        salva_json(Albero,'albero_potato.json'),
 	write('Test effettuati :'),  writeln(N),
 	write('Test non classificati :'),  writeln(NC),
-	write('Veri sani  '), write(VN), write('   Falsi infortuni '), writeln(FP),
+	write('Veri sani  '), write(VN), write('   Falsi ifortuni '), writeln(FP),
 	write('Falsi sani '), write(FN), write('   Veri infortuni  '), writeln(VP),
 	write('Accuratezza: '), writeln(Accuratezza),
 	write('Errore: '), writeln(Errore),
-        write('Precisione: '), writeln(Precisione).
+        write('Precisione: '), writeln(Precisione). 
 
 % Predicato ausiliario per arrotondare un numero decimale
 arrotonda(Numero, Arrotondamento) :-
     Temp is round(Numero * 100),
     Arrotondamento is Temp / 100.
+
+% Punto di ingresso principale 
+salva_json(Albero, NomeFile) :-     
+    converti_albero_json(Albero, JSONTerm), 
+    write(JSONTerm),    
+    open(NomeFile, write, Stream),     
+    json_write_dict(Stream, JSONTerm),     % Scrive il JSON nel file     
+    close(Stream). 
+
+% Conversione dell'albero in una struttura compatibile con JSON
+converti_albero_json(null, 'SCONOSCIUTO'). % Nodo sconosciuto → oggetto vuoto
+converti_albero_json(l(X), X). % Nodo foglia con valore numerico
+converti_albero_json(t(A, L), json(['name'=A, 'children'=Lista])) :-
+    converti_lista_json(L, Lista).   % Converte la lista di figli
+ 
+% Conversione della lista di figli in JSON
+converti_lista_json([], []).
+converti_lista_json([V:T | C], [json(['name'=String, Prova=FiglioArray]) | ListaRestante]) :-
+    term_string(V, String),
+    converti_albero_json(T, Figlio),
+    (   Figlio = json(_)  % Se Figlio è un JSON, lo inseriamo in una lista
+    ->  Prova = 'children'
+    ;   Prova = 'value'  % Altrimenti lo lasciamo così com'è
+    ),
+    (   Figlio = json(_)  % Se Figlio è un JSON, lo inseriamo in una lista
+    ->  FiglioArray = [Figlio]
+    ;   FiglioArray = Figlio  % Altrimenti lo lasciamo così com'è
+    ),
+    converti_lista_json(C, ListaRestante).

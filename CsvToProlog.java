@@ -4,182 +4,225 @@ public class CsvToProlog {
 
     public static String age(int i) {
         if(i < 55) {
-            return "age='50_54'";
+            return "age=tier_1";
         } else if (i < 60) {
-            return "age='55_59'";
+            return "age=tier_2";
         } else if(i < 65) {
-            return "age='60_64'";
+            return "age=tier_3";
         } else if(i < 70) {
-            return "age='65_69'";
+            return "age=tier_4";
         } else if(i < 75) {
-            return "age='70_74'";
+            return "age=tier_5";
         } else if(i < 80) {
-            return "age='75_79'";
+            return "age=tier_6";
         } else if (i < 85) {
-            return "age='80_84'";
+            return "age=tier_7";
         } else {
-            return "age='85_89'";
+            return "age=tier_8";
         }
     }
 
     public static String bmi(Double i) {
         if(i < 18.5) {
-            return "'sottopeso'";
+            return "sottopeso";
         } else if (i < 25) {
-            return "'peso_ideale'";
+            return "peso_ideale";
         } else if(i < 30) {
-            return "'sovrappeso'";
+            return "sovrappeso";
         } else {
-            return "'obeso'";
+            return "obeso";
         }
     }
 
     public static String alcoholconsumption(Double i) {
         if(i < 8) {
-            return "'leggero'";
+            return "leggero";
         } else if (i < 15) {
-            return "'moderato'";
+            return "moderato";
         } else {
-            return "'elevato'";
+            return "elevato";
         }
     }
 
     public static String physicalactivity(Double i) {
         if(i < 2.5) {
-            return "'bassa'";
+            return "bassa";
         } else if (i < 5) {
-            return "'moderata'";
+            return "moderata";
         } else {
-            return "'alta'";
+            return "alta";
         }
     }
 
     public static String dietquality(Double i) {
         if(i < 3) {
-            return "'molto_scarsa'";
+            return "molto_scarsa";
         } else if (i < 5) {
-            return "'scarsa'";
+            return "scarsa";
         } else if (i < 7){
-            return "'media'";
+            return "media";
         } else if (i < 9) {
-            return "'buona'";
+            return "buona";
         } else {
-            return "'eccellente'";
+            return "eccellente";
         }
     }
 
     public static String sleepquality(Double i) {
         if(i < 7) {
-            return "'bassa'";
+            return "bassa";
         } else if(i < 9) {
-            return "'media'";
+            return "media";
         } else {
-            return "'alta'";
+            return "alta";
         }
     }
 
     public static String systolicbp(int i) {
         if(i < 120) {
-            return "'normale'";
+            return "normale";
         } else if(i < 130) {
-            return "'elevata'";
+            return "elevata";
         } else if(i < 140) {
-            return "'ipertensione_tipo_1'";
+            return "ipertensione_tipo_1";
         } else {
-            return "'ipertensione_tipo_2'";
+            return "ipertensione_tipo_2";
         }
     }
 
     public static String diastolicbp(int i) {
         if(i < 80) {
-            return "'normale'";
+            return "normale";
         } else if(i < 89) {
-            return "'ipertensione_tipo_1'";
+            return "ipertensione_tipo_1";
         } else {
-            return "'ipertensione_tipo_2'";
+            return "ipertensione_tipo_2";
         }
     }
 
     public static String cholesteroltotal(Double i) {
         if(i < 200) {
-            return "'desiderabile'";
+            return "desiderabile";
         } else if(i < 240) {
-            return "'al_limite'";
+            return "al_limite";
         } else {
-            return "'alto'";
+            return "alto";
         }
     }
 
     public static String cholesterolldl(Double i) {
         if(i < 100) {
-            return "'ottimale'";
+            return "ottimale";
         } else if(i < 130) {
-            return "'quasi_ottimale'";
+            return "quasi_ottimale";
         } else if (i < 160) {
-            return "'al_limite'";
+            return "al_limite";
         } else if (i < 190) {
-            return "'alto'";
+            return "alto";
         } else {
-            return "'molto_alto'";
+            return "molto_alto";
         }
     }
 
     public static String cholesterolhdl(Double i) {
         if(i < 40) {
-            return "'basso'";
+            return "basso";
         } else if(i < 60) {
-            return "'normale'";
+            return "normale";
         } else {
-            return "'protettivo'";
+            return "protettivo";
         }
     }
 
     public static String cholesteroltriglycerides(Double i) {
         if(i < 150) {
-            return "'normale'";
+            return "normale";
         } if (i < 200) {
-            return "'limite'";
+            return "limite";
         } else {
-            return "'alto'";
+            return "alto";
         }
     }
 
     public static String updrs(Double i) {
         if(i < 33) {
-            return "'lieve'";
+            return "lieve";
         } else if(i < 66) {
-            return "'moderato'";
+            return "moderato";
         } else if(i < 99) {
-            return "'moderato_severo'";
+            return "moderato_severo";
         } else if(i < 131) {
-            return "'severo'";
+            return "severo";
         } else {
-            return "'estremamente_severo'";
+            return "estremamente_severo";
         }
     }
 
     public static String moca(Double i) {
         if(i < 16) {
-            return "'severo'";
+            return "severo";
         } else if(i < 22) {
-            return "'moderato'";
+            return "moderato";
         } else if(i < 26) {
-            return "'lieve'";
+            return "lieve";
         } else {
-            return "'normale'";
+            return "normale";
         }
     }
 
     public static String functionalassessment(Double i) {
         if(i < 3) {
-            return "'severa'";
+            return "severa";
         } else if(i < 5) {
-            return "'moderata'";
+            return "moderata";
         } else if(i < 8) {
-            return "'lieve'";
+            return "lieve";
         } else {
-            return "'normale'";
+            return "normale";
         }
+    }
+
+    public static String diagnosis(int i){
+        System.out.println(i);
+        if (i == 0) {
+            return "sano";
+        } else {
+            return "infortunato";
+        }
+    }
+
+    public static String result(int i) {
+        if(i == 0) {
+            return "negativo";
+        } else {
+            return "positivo";
+        }
+    }
+
+    public static String gender(int i) {
+        if (i == 0) {
+            return "maschio";
+        } else return "femmina";
+    }
+
+    public static String ethnicity(int i) {
+        if(i == 0) {
+            return "caucasico";
+        } else if(i == 1) {
+            return "afroamericano";
+        } else if(i == 2) {
+            return "asiatico";
+        } else return "altro";
+    }
+
+    public static String educationLevel(int i) {
+        if(i == 0) {
+            return "nessuna";
+        } else if(i == 1) {
+            return "superiori";
+        } else if(i == 2) {
+            return "laurea";
+        } else return "dottorato";
     }
 
     public static void main(String[] args) throws IOException {
@@ -190,25 +233,25 @@ public class CsvToProlog {
             br.readLine();
             while ((line = br.readLine()) != null) {
                 String[] values = line.split(",");
-                String esempio = "e(" + values[values.length - 2] + ", [";
+                String esempio = "e("  + diagnosis(Integer.parseInt(values[values.length - 2])) + ", [";
                 for (int i = 0; i < values.length - 2; i++) {
                     switch(i) {
                         case 1: esempio += age(Integer.parseInt(values[i])); break;
-                        case 2: esempio += ", gender=" + values[i]; break;
-                        case 3: esempio += ", ethnicity=" + values[i]; break;
-                        case 4: esempio += ", educationlevel=" + values[i]; break;
+                        case 2: esempio += ", gender=" + gender(Integer.parseInt(values[i])); break;
+                        case 3: esempio += ", ethnicity=" + ethnicity(Integer.parseInt(values[i])); break;
+                        case 4: esempio += ", educationlevel=" + educationLevel(Integer.parseInt(values[i])); break;
                         case 5: esempio += ", bmi=" + bmi(Double.parseDouble(values[i])); break;
-                        case 6: esempio += ", smoking=" + values[i]; break;
+                        case 6: esempio += ", smoking=" + result(Integer.parseInt(values[i])); break;
                         case 7: esempio += ", alcoholconsumption=" + alcoholconsumption(Double.parseDouble(values[i])); break;
                         case 8: esempio += ", physicalactivity=" + physicalactivity(Double.parseDouble(values[i])); break;
                         case 9: esempio += ", dietquality=" + dietquality(Double.parseDouble(values[i])); break;
                         case 10: esempio += ", sleepquality=" + sleepquality(Double.parseDouble(values[i])); break;
-                        case 11: esempio += ", familyhistoryparkinson=" + values[i]; break;
-                        case 12: esempio += ", traumaticbraininjury=" + values[i]; break;
-                        case 13: esempio += ", hypertension=" + values[i]; break;
-                        case 14: esempio += ", diabetes=" + values[i]; break;
-                        case 15: esempio += ", depression=" + values[i]; break;
-                        case 16: esempio += ", stroke=" + values[i]; break;
+                        case 11: esempio += ", familyhistoryparkinson=" + result(Integer.parseInt(values[i])); break;
+                        case 12: esempio += ", traumaticbraininjury=" + result(Integer.parseInt(values[i])); break;
+                        case 13: esempio += ", hypertension=" + result(Integer.parseInt(values[i])); break;
+                        case 14: esempio += ", diabetes=" + result(Integer.parseInt(values[i])); break;
+                        case 15: esempio += ", depression=" + result(Integer.parseInt(values[i])); break;
+                        case 16: esempio += ", stroke=" + result(Integer.parseInt(values[i])); break;
                         case 17: esempio += ", systolicbp=" + systolicbp(Integer.parseInt(values[i])); break;
                         case 18: esempio += ", diastolicbp=" + diastolicbp(Integer.parseInt(values[i])); break;
                         case 19: esempio += ", cholesteroltotal=" + cholesteroltotal(Double.parseDouble(values[i])); break;
@@ -218,13 +261,13 @@ public class CsvToProlog {
                         case 23: esempio += ", updrs=" + updrs(Double.parseDouble(values[i])); break;
                         case 24: esempio += ", moca=" + moca(Double.parseDouble(values[i])); break;
                         case 25: esempio += ", functionalassessment=" + functionalassessment(Double.parseDouble(values[i])); break;
-                        case 26: esempio += ", tremor=" + values[i]; break;
-                        case 27: esempio += ", rigidity=" + values[i]; break;
-                        case 28: esempio += ", bradykinesia=" + values[i]; break;
-                        case 29: esempio += ", posturalinstability=" + values[i]; break;
-                        case 30: esempio += ", speechproblems=" + values[i]; break;
-                        case 31: esempio += ", sleepdisorders=" + values[i]; break;
-                        case 32: esempio += ", constipation=" + values[i]; break;
+                        case 26: esempio += ", tremor=" + result(Integer.parseInt(values[i])); break;
+                        case 27: esempio += ", rigidity=" + result(Integer.parseInt(values[i])); break;
+                        case 28: esempio += ", bradykinesia=" + result(Integer.parseInt(values[i])); break;
+                        case 29: esempio += ", posturalinstability=" + result(Integer.parseInt(values[i])); break;
+                        case 30: esempio += ", speechproblems=" + result(Integer.parseInt(values[i])); break;
+                        case 31: esempio += ", sleepdisorders=" + result(Integer.parseInt(values[i])); break;
+                        case 32: esempio += ", constipation=" + result(Integer.parseInt(values[i])); break;
                         default: break;
                     }
                 }
