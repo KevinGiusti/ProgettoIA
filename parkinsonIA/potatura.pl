@@ -158,11 +158,11 @@ chi_quadro(InfOss, SaniOss, InfAtt, SaniAtt, Costo) :-
 valuta(_,[],VN,VN,VP,VP,FN,FN,FP,FP,NC,NC).
 valuta(Albero,[sano/Oggetto|Coda],VN,VNA,VP,VPA,FN,FNA,FP,FPA,NC,NCA) :-
 	(classifica(Oggetto,sano,Albero)-> VNA1 is VNA + 1, FPA1 = FNA, NCA1 = NCA ;
-	(classifica(Oggetto,infortunato,Albero)-> FPA1 is FPA + 1, VNA1 = VNA, NCA1 = NCA ;
+	(classifica(Oggetto,malato,Albero)-> FPA1 is FPA + 1, VNA1 = VNA, NCA1 = NCA ;
 	NCA1 is NCA + 1, VNA1 = VNA, FPA1 = FPA)),
 	valuta(Albero,Coda,VN,VNA1,VP,VPA,FN,FNA,FP,FPA1,NC,NCA1).
-valuta(Albero,[infortunato/Oggetto|Coda],VN,VNA,VP,VPA,FN,FNA,FP,FPA,NC,NCA) :-
-	(classifica(Oggetto,infortunato,Albero)-> VPA1 is VPA + 1, FNA1 = FNA, NCA1 = NCA ;
+valuta(Albero,[malato/Oggetto|Coda],VN,VNA,VP,VPA,FN,FNA,FP,FPA,NC,NCA) :-
+	(classifica(Oggetto,malato,Albero)-> VPA1 is VPA + 1, FNA1 = FNA, NCA1 = NCA ;
 	(classifica(Oggetto,sano,Albero)-> FNA1 is FNA + 1, VPA1 = VPA, NCA1 = NCA ;
 	NCA1 is NCA + 1, VPA1 = VPA, FNA1 = FNA)),
 	valuta(Albero,Coda,VN,VNA,VP,VPA1,FN,FNA1,FP,FPA,NC,NCA1).
@@ -195,8 +195,8 @@ stampa_matrice_di_confusione([Albero|_]) :-
         salva_json(Albero,'albero_potato.json'),
 	write('Test effettuati :'),  writeln(N),
 	write('Test non classificati :'),  writeln(NC),
-	write('Veri sani  '), write(VN), write('   Falsi ifortuni '), writeln(FP),
-	write('Falsi sani '), write(FN), write('   Veri infortuni  '), writeln(VP),
+	write('Veri sani  '), write(VN), write('   Falsi malati '), writeln(FP),
+	write('Falsi sani '), write(FN), write('   Veri malati  '), writeln(VP),
 	write('Accuratezza: '), writeln(Accuratezza),
 	write('Errore: '), writeln(Errore),
         write('Precisione: '), writeln(Precisione). 

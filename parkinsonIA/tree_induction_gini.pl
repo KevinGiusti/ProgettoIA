@@ -2,10 +2,12 @@
 :- ensure_loaded(training_set).
 :- ensure_loaded(test_set).
 :- op(300, xfx, <==).
+:- use_module(library(http/json)).
+
 
 % Programma Prolog di apprendimento automatico per la classificazione di
 % infortuni dei giocatori in un campionato di basket.
-% Con il predicato lancia_apprendi(Classe) (Classe = sano/infortunato),
+% Con il predicato lancia_apprendi(Classe) (Classe = sano/malato),
 % viene lanciato l'apprendimento relativo alla classe specificata.
 % Una volta concluso l'apprendimento, con il predicato
 % classifica_oggetto e' possibile far classificare al programma
@@ -16,7 +18,7 @@
 % visualizzare le prestazioni dell'albero indotto.
 
 % Cambiare percorso con quello della propria workspace
-file_output('D:/projects/ProgettoIA/Esempio prof/albero.pl').
+file_output('D:/projects/ProgettoIA/parkinsonIA/albero.pl').
 
 
 % Predicato per lanciare l'apprendimento
@@ -41,6 +43,7 @@ lancia_induzione(Albero) :-
     write(Albero),
     write('.'),
     told,
+	salva_json(Albero, 'albero.json'),
     assert(alb(Albero)).
 
 apprendi(Classe) :-
@@ -286,8 +289,8 @@ stampa_matrice_di_confusione :-
         P is VP / (VP + FN), % Precisione
 	write('Test effettuati :'),  writeln(N),
 	write('Test non classificati :'),  writeln(NC),
-	write('Veri sani  '), write(VN), write('   Falsi infortuni '), writeln(FP),
-	write('Falsi sani '), write(FN), write('   Veri infortuni  '), writeln(VP),
+	write('Veri sani  '), write(VN), write('   Falsi malati '), writeln(FP),
+	write('Falsi sani '), write(FN), write('   Veri malati  '), writeln(VP),
 	write('Accuratezza: '), writeln(A),
 	write('Errore: '), writeln(E),
         write('Precisione: '), writeln(P).
@@ -297,19 +300,48 @@ valuta(Albero,[sano/Oggetto|Coda],VN,VNA,VP,VPA,FN,FNA,FP,FPA,NC,NCA) :-
 	classifica(Oggetto,sano,Albero), !,      % prevede correttamente non infortunio
 	VNA1 is VNA + 1,
 	valuta(Albero,Coda,VN,VNA1,VP,VPA,FN,FNA,FP,FPA,NC,NCA).
-valuta(Albero,[infortunato/Oggetto|Coda],VN,VNA,VP,VPA,FN,FNA,FP,FPA,NC,NCA) :-
-	classifica(Oggetto,infortunato,Albero), !, % prevede correttamente infortunio
+valuta(Albero,[malato/Oggetto|Coda],VN,VNA,VP,VPA,FN,FNA,FP,FPA,NC,NCA) :-
+	classifica(Oggetto,malato,Albero), !, % prevede correttamente infortunio
 	VPA1 is VPA + 1,
 	valuta(Albero,Coda,VN,VNA,VP,VPA1,FN,FNA,FP,FPA,NC,NCA).
-valuta(Albero,[infortunato/Oggetto|Coda],VN,VNA,VP,VPA,FN,FNA,FP,FPA,NC,NCA) :-
+valuta(Albero,[malato/Oggetto|Coda],VN,VNA,VP,VPA,FN,FNA,FP,FPA,NC,NCA) :-
 	classifica(Oggetto,sano,Albero), !,      % prevede erroneamente non infortunio
 	FNA1 is FNA + 1,
 	valuta(Albero,Coda,VN,VNA,VP,VPA,FN,FNA1,FP,FPA,NC,NCA).
 valuta(Albero,[sano/Oggetto|Coda],VN,VNA,VP,VPA,FN,FNA,FP,FPA,NC,NCA) :-
-	classifica(Oggetto,infortunato,Albero), !, % prevede erroneamente infortunio
+	classifica(Oggetto,malato,Albero), !, % prevede erroneamente infortunio
 	FPA1 is FPA + 1,
 	valuta(Albero,Coda,VN,VNA,VP,VPA,FN,FNA,FP,FPA1,NC,NCA).
 valuta(Albero,[_/Oggetto|Coda],VN,VNA,VP,VPA,FN,FNA,FP,FPA,NC,NCA) :- % non classifica
 	classifica(Oggetto,nc,Albero), !, % non classificato
 	NCA1 is NCA + 1,
 	valuta(Albero,Coda,VN,VNA,VP,VPA,FN,FNA,FP,FPA,NC,NCA1).
+
+
+% Punto di ingresso principale 
+salva_json(Albero, NomeFile) :-     
+	converti_albero_json(Albero,JSONTerm),     
+	open(NomeFile, write, Stream),     
+	json_write_dict(Stream, JSONTerm),     % Scrive il JSON nel file     
+	close(Stream). 
+
+% Conversione dell'albero in una struttura compatibile con JSON
+converti_albero_json(null, 'SCONOSCIUTO'). % Nodo sconosciuto → oggetto vuoto
+converti_albero_json(l(X), X). % Nodo foglia con valore numerico
+converti_albero_json(t(A, L), json(['name'=A, 'children'=Lista])) :-
+converti_lista_json(L, Lista).   % Converte la lista di figli
+
+% Conversione della lista di figli in JSON
+converti_lista_json([], []).
+converti_lista_json([V:T | C], [json(['name'=String, Prova=FiglioArray]) | ListaRestante]) :-
+term_string(V, String),
+converti_albero_json(T, Figlio),
+(   Figlio = json(_)  % Se Figlio è un JSON, lo inseriamo in una lista
+->  Prova = 'children'
+;   Prova = 'value'  % Altrimenti lo lasciamo così com'è
+),
+(   Figlio = json(_)  % Se Figlio è un JSON, lo inseriamo in una lista
+->  FiglioArray = [Figlio]
+;   FiglioArray = Figlio  % Altrimenti lo lasciamo così com'è
+),
+converti_lista_json(C, ListaRestante).

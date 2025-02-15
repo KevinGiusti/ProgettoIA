@@ -187,7 +187,7 @@ public class CsvToProlog {
         if (i == 0) {
             return "sano";
         } else {
-            return "infortunato";
+            return "malato";
         }
     }
 

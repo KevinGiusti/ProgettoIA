@@ -1,9 +1,9 @@
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
 async function drawTree() {
-    const data = await fetch("./parkinsonIA/albero.json").then(res => res.json());
+    const data = await fetch("./parkinsonIA/albero_potato.json").then(res => res.json());
     const width = document.getElementById("tree-container").offsetWidth + 300;
-    const marginTop = 250;
+    const marginTop = 200;
     const marginLeft = 40;
     // Compute the tree height; this approach will allow the height of the
     // SVG to scale according to the breadth (width) of the tree layout.

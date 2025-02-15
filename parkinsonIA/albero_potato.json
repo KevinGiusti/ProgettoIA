@@ -1,0 +1,3594 @@
+{
+  "name":"updrs",
+  "children": [
+    {
+      "name":"lieve",
+      "children": [
+	{
+	  "name":"posturalinstability",
+	  "children": [
+	    {
+	      "name":"negativo",
+	      "children": [
+		{
+		  "name":"rigidity",
+		  "children": [
+		    {
+		      "name":"negativo",
+		      "children": [
+			{
+			  "name":"cholesterolldl",
+			  "children": [
+			    {
+			      "name":"ottimale",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {
+				      "name":"tier_1",
+				      "children": [
+					{
+					  "name":"cholesteroltotal",
+					  "children": [
+					    {
+					      "name":"desiderabile",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"alto",
+					      "value":"sano"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"tier_2",
+				      "children": [
+					{
+					  "name":"cholesteroltriglycerides",
+					  "children": [
+					    {
+					      "name":"normale",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"limite",
+					      "value":"sano"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {"name":"tier_3","value":"sano"},
+				    {
+				      "name":"tier_4",
+				      "children": [
+					{
+					  "name":"alcoholconsumption",
+					  "children": [
+					    {
+					      "name":"leggero",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"elevato",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {"name":"tier_5","value":"sano"},
+				    {
+				      "name":"tier_6",
+				      "children": [
+					{
+					  "name":"dietquality",
+					  "children": [
+					    {
+					      "name":"molto_scarsa",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"buona",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {"name":"tier_7","value":"sano"},
+				    {
+				      "name":"tier_8",
+				      "children": [
+					{
+					  "name":"moca",
+					  "children": [
+					    {
+					      "name":"lieve",
+					      "children": [
+						{
+						  "name":"alcoholconsumption",
+						  "children": [
+						    {
+						      "name":"moderato",
+						      "value":"sano"
+						    },
+						    {
+						      "name":"elevato",
+						      "value":"malato"
+						    }
+						  ]
+						}
+					      ]
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"quasi_ottimale","value":"sano"},
+			    {
+			      "name":"al_limite",
+			      "children": [
+				{
+				  "name":"systolicbp",
+				  "children": [
+				    {
+				      "name":"normale",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"tier_1",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"tier_2",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"tier_4",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"tier_5",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"tier_7",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"tier_8",
+					      "value":"sano"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"elevata",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"tier_1",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"tier_4",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"tier_5",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"tier_8",
+					      "value":"sano"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"ipertensione_tipo_2",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"tier_4",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"tier_5",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"tier_7",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"tier_8",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"alto","value":"sano"},
+			    {"name":"molto_alto","value":"sano"}
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"positivo",
+		      "children": [
+			{
+			  "name":"functionalassessment",
+			  "children": [
+			    {
+			      "name":"severa",
+			      "children": [
+				{
+				  "name":"tremor",
+				  "children": [
+				    {
+				      "name":"negativo",
+				      "children": [
+					{
+					  "name":"bmi",
+					  "children": [
+					    {
+					      "name":"peso_ideale",
+					      "children": [
+						{
+						  "name":"age",
+						  "children": [
+						    {
+						      "name":"tier_1",
+						      "value":"sano"
+						    },
+						    {
+						      "name":"tier_2",
+						      "value":"malato"
+						    },
+						    {
+						      "name":"tier_7",
+						      "value":"sano"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"obeso",
+					      "value":"sano"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"positivo",
+				      "children": [
+					{
+					  "name":"cholesterolldl",
+					  "children": [
+					    {
+					      "name":"ottimale",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"quasi_ottimale",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"alto",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"moderata",
+			      "children": [
+				{
+				  "name":"dietquality",
+				  "children": [
+				    {
+				      "name":"molto_scarsa",
+				      "children": [
+					{
+					  "name":"diastolicbp",
+					  "children": [
+					    {
+					      "name":"normale",
+					      "children": [
+						{
+						  "name":"age",
+						  "children": [
+						    {
+						      "name":"tier_5",
+						      "value":"malato"
+						    },
+						    {
+						      "name":"tier_8",
+						      "value":"sano"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"ipertensione_tipo_2",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"scarsa",
+				      "value":"malato"
+				    },
+				    {"name":"media","value":"malato"},
+				    {"name":"buona","value":"sano"}
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"lieve",
+			      "children": [
+				{
+				  "name":"diastolicbp",
+				  "children": [
+				    {
+				      "name":"ipertensione_tipo_1",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"ipertensione_tipo_2",
+				      "value":"sano"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"normale",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {"name":"tier_1","value":"sano"},
+				    {
+				      "name":"tier_2",
+				      "value":"malato"
+				    },
+				    {"name":"tier_3","value":"sano"},
+				    {"name":"tier_4","value":"sano"},
+				    {"name":"tier_5","value":"sano"},
+				    {"name":"tier_7","value":"sano"},
+				    {"name":"tier_8","value":"sano"}
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    }
+		  ]
+		}
+	      ]
+	    },
+	    {
+	      "name":"positivo",
+	      "children": [
+		{
+		  "name":"cholesterolldl",
+		  "children": [
+		    {
+		      "name":"ottimale",
+		      "children": [
+			{
+			  "name":"bmi",
+			  "children": [
+			    {"name":"peso_ideale","value":"sano"},
+			    {
+			      "name":"sovrappeso",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {
+				      "name":"tier_1",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_5",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"obeso","value":"malato"}
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"quasi_ottimale",
+		      "children": [
+			{
+			  "name":"age",
+			  "children": [
+			    {"name":"tier_2","value":"sano"},
+			    {"name":"tier_4","value":"sano"},
+			    {"name":"tier_8","value":"malato"}
+			  ]
+			}
+		      ]
+		    },
+		    {"name":"al_limite","value":"malato"},
+		    {
+		      "name":"alto",
+		      "children": [
+			{
+			  "name":"age",
+			  "children": [
+			    {"name":"tier_2","value":"sano"},
+			    {"name":"tier_5","value":"sano"},
+			    {"name":"tier_6","value":"malato"},
+			    {"name":"tier_8","value":"malato"}
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"molto_alto",
+		      "children": [
+			{
+			  "name":"alcoholconsumption",
+			  "children": [
+			    {"name":"leggero","value":"sano"},
+			    {"name":"moderato","value":"malato"}
+			  ]
+			}
+		      ]
+		    }
+		  ]
+		}
+	      ]
+	    }
+	  ]
+	}
+      ]
+    },
+    {
+      "name":"moderato",
+      "children": [
+	{
+	  "name":"tremor",
+	  "children": [
+	    {
+	      "name":"negativo",
+	      "children": [
+		{
+		  "name":"bradykinesia",
+		  "children": [
+		    {
+		      "name":"negativo",
+		      "children": [
+			{
+			  "name":"posturalinstability",
+			  "children": [
+			    {
+			      "name":"negativo",
+			      "children": [
+				{
+				  "name":"rigidity",
+				  "children": [
+				    {
+				      "name":"negativo",
+				      "children": [
+					{
+					  "name":"cholesterolldl",
+					  "children": [
+					    {
+					      "name":"ottimale",
+					      "children": [
+						{
+						  "name":"systolicbp",
+						  "children": [
+						    {
+						      "name":"normale",
+						      "value":"sano"
+						    },
+						    {
+						      "name":"elevata",
+						      "children": [
+							{
+							  "name":"bmi",
+							  "children": [
+							    {
+							      "name":"sottopeso",
+							      "value":"sano"
+							    },
+							    {
+							      "name":"peso_ideale",
+							      "value":"malato"
+							    },
+							    {
+							      "name":"obeso",
+							      "value":"SCONOSCIUTO"
+							    }
+							  ]
+							}
+						      ]
+						    },
+						    {
+						      "name":"ipertensione_tipo_2",
+						      "value":"sano"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"quasi_ottimale",
+					      "children": [
+						{
+						  "name":"age",
+						  "children": [
+						    {
+						      "name":"tier_1",
+						      "value":"sano"
+						    },
+						    {
+						      "name":"tier_2",
+						      "value":"sano"
+						    },
+						    {
+						      "name":"tier_3",
+						      "children": [
+							{
+							  "name":"cholesteroltriglycerides",
+							  "children": [
+							    {
+							      "name":"limite",
+							      "value":"malato"
+							    }
+							  ]
+							}
+						      ]
+						    },
+						    {
+						      "name":"tier_5",
+						      "value":"sano"
+						    },
+						    {
+						      "name":"tier_6",
+						      "children": [
+							{
+							  "name":"cholesterolhdl",
+							  "children": [
+							    {
+							      "name":"protettivo",
+							      "value":"malato"
+							    }
+							  ]
+							}
+						      ]
+						    },
+						    {
+						      "name":"tier_7",
+						      "children": [
+							{
+							  "name":"alcoholconsumption",
+							  "children": [
+							    {
+							      "name":"leggero",
+							      "value":"sano"
+							    },
+							    {
+							      "name":"moderato",
+							      "value":"malato"
+							    }
+							  ]
+							}
+						      ]
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"al_limite",
+					      "children": [
+						{
+						  "name":"dietquality",
+						  "children": [
+						    {
+						      "name":"molto_scarsa",
+						      "value":"sano"
+						    },
+						    {
+						      "name":"media",
+						      "value":"malato"
+						    },
+						    {
+						      "name":"buona",
+						      "value":"sano"
+						    },
+						    {
+						      "name":"eccellente",
+						      "value":"sano"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"alto",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"molto_alto",
+					      "children": [
+						{
+						  "name":"age",
+						  "children": [
+						    {
+						      "name":"tier_3",
+						      "value":"sano"
+						    },
+						    {
+						      "name":"tier_4",
+						      "value":"sano"
+						    },
+						    {
+						      "name":"tier_7",
+						      "value":"malato"
+						    }
+						  ]
+						}
+					      ]
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"positivo",
+				      "children": [
+					{
+					  "name":"bmi",
+					  "children": [
+					    {
+					      "name":"sottopeso",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"peso_ideale",
+					      "children": [
+						{
+						  "name":"functionalassessment",
+						  "children": [
+						    {
+						      "name":"severa",
+						      "children": [
+							{
+							  "name":"alcoholconsumption",
+							  "children": [
+							    {
+							      "name":"leggero",
+							      "value":"malato"
+							    },
+							    {
+							      "name":"moderato",
+							      "value":"sano"
+							    }
+							  ]
+							}
+						      ]
+						    },
+						    {
+						      "name":"moderata",
+						      "value":"malato"
+						    },
+						    {
+						      "name":"lieve",
+						      "value":"sano"
+						    },
+						    {
+						      "name":"normale",
+						      "value":"sano"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"sovrappeso",
+					      "children": [
+						{
+						  "name":"age",
+						  "children": [
+						    {
+						      "name":"tier_1",
+						      "value":"sano"
+						    },
+						    {
+						      "name":"tier_2",
+						      "value":"malato"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"obeso",
+					      "children": [
+						{
+						  "name":"sleepquality",
+						  "children": [
+						    {
+						      "name":"bassa",
+						      "value":"malato"
+						    },
+						    {
+						      "name":"media",
+						      "value":"sano"
+						    },
+						    {
+						      "name":"alta",
+						      "children": [
+							{
+							  "name":"age",
+							  "children": [
+							    {
+							      "name":"tier_2",
+							      "value":"sano"
+							    },
+							    {
+							      "name":"tier_3",
+							      "value":"malato"
+							    },
+							    {
+							      "name":"tier_8",
+							      "value":"sano"
+							    }
+							  ]
+							}
+						      ]
+						    }
+						  ]
+						}
+					      ]
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"positivo",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {
+				      "name":"tier_1",
+				      "children": [
+					{
+					  "name":"dietquality",
+					  "children": [
+					    {
+					      "name":"molto_scarsa",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"media",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"buona",
+					      "value":"sano"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"tier_2",
+				      "children": [
+					{
+					  "name":"cholesterolldl",
+					  "children": [
+					    {
+					      "name":"quasi_ottimale",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"alto",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {"name":"tier_3","value":"sano"},
+				    {
+				      "name":"tier_4",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_5",
+				      "children": [
+					{
+					  "name":"alcoholconsumption",
+					  "children": [
+					    {
+					      "name":"moderato",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"elevato",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"tier_6",
+				      "value":"malato"
+				    },
+				    {"name":"tier_7","value":"sano"},
+				    {
+				      "name":"tier_8",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"positivo",
+		      "children": [
+			{
+			  "name":"age",
+			  "children": [
+			    {
+			      "name":"tier_1",
+			      "children": [
+				{
+				  "name":"bmi",
+				  "children": [
+				    {
+				      "name":"peso_ideale",
+				      "value":"malato"
+				    },
+				    {"name":"obeso","value":"sano"}
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"tier_2","value":"sano"},
+			    {"name":"tier_3","value":"sano"},
+			    {"name":"tier_4","value":"malato"},
+			    {
+			      "name":"tier_5",
+			      "children": [
+				{
+				  "name":"alcoholconsumption",
+				  "children": [
+				    {"name":"leggero","value":"sano"},
+				    {
+				      "name":"moderato",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"elevato",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"tier_6","value":"malato"},
+			    {
+			      "name":"tier_7",
+			      "children": [
+				{
+				  "name":"alcoholconsumption",
+				  "children": [
+				    {
+				      "name":"leggero",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    }
+		  ]
+		}
+	      ]
+	    },
+	    {
+	      "name":"positivo",
+	      "children": [
+		{
+		  "name":"bradykinesia",
+		  "children": [
+		    {
+		      "name":"negativo",
+		      "children": [
+			{
+			  "name":"sleepquality",
+			  "children": [
+			    {
+			      "name":"bassa",
+			      "children": [
+				{
+				  "name":"cholesterolldl",
+				  "children": [
+				    {
+				      "name":"ottimale",
+				      "children": [
+					{
+					  "name":"bmi",
+					  "children": [
+					    {
+					      "name":"sottopeso",
+					      "children": [
+						{
+						  "name":"age",
+						  "children": [
+						    {
+						      "name":"tier_2",
+						      "value":"malato"
+						    },
+						    {
+						      "name":"tier_3",
+						      "value":"malato"
+						    },
+						    {
+						      "name":"tier_4",
+						      "value":"sano"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"peso_ideale",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"obeso",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"quasi_ottimale",
+				      "children": [
+					{
+					  "name":"cholesteroltotal",
+					  "children": [
+					    {
+					      "name":"al_limite",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"al_limite",
+				      "children": [
+					{
+					  "name":"educationlevel",
+					  "children": [
+					    {
+					      "name":"nessuna",
+					      "children": [
+						{
+						  "name":"age",
+						  "children": [
+						    {
+						      "name":"tier_1",
+						      "value":"malato"
+						    },
+						    {
+						      "name":"tier_6",
+						      "value":"malato"
+						    },
+						    {
+						      "name":"tier_7",
+						      "value":"sano"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"superiori",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"laurea",
+					      "children": [
+						{
+						  "name":"age",
+						  "children": [
+						    {
+						      "name":"tier_3",
+						      "value":"malato"
+						    },
+						    {
+						      "name":"tier_7",
+						      "value":"malato"
+						    },
+						    {
+						      "name":"tier_8",
+						      "value":"sano"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"dottorato",
+					      "value":"sano"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"alto",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"tier_1",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"tier_5",
+					      "children": [
+						{
+						  "name":"alcoholconsumption",
+						  "children": [
+						    {
+						      "name":"leggero",
+						      "value":"sano"
+						    },
+						    {
+						      "name":"moderato",
+						      "value":"malato"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"tier_7",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"tier_8",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"molto_alto",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"media",
+			      "children": [
+				{
+				  "name":"educationlevel",
+				  "children": [
+				    {
+				      "name":"nessuna",
+				      "children": [
+					{
+					  "name":"cholesteroltriglycerides",
+					  "children": [
+					    {
+					      "name":"limite",
+					      "value":"sano"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"superiori",
+				      "children": [
+					{
+					  "name":"cholesteroltotal",
+					  "children": [
+					    {
+					      "name":"desiderabile",
+					      "children": [
+						{
+						  "name":"cholesteroltriglycerides",
+						  "children": [
+						    {
+						      "name":"normale",
+						      "children": [
+							{
+							  "name":"age",
+							  "children": [
+							    {
+							      "name":"tier_3",
+							      "value":"sano"
+							    },
+							    {
+							      "name":"tier_5",
+							      "value":"malato"
+							    },
+							    {
+							      "name":"tier_8",
+							      "value":"sano"
+							    }
+							  ]
+							}
+						      ]
+						    },
+						    {
+						      "name":"limite",
+						      "value":"sano"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"al_limite",
+					      "children": [
+						{
+						  "name":"age",
+						  "children": [
+						    {
+						      "name":"tier_2",
+						      "value":"sano"
+						    },
+						    {
+						      "name":"tier_5",
+						      "value":"sano"
+						    },
+						    {
+						      "name":"tier_7",
+						      "value":"malato"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"alto",
+					      "children": [
+						{
+						  "name":"cholesterolhdl",
+						  "children": [
+						    {
+						      "name":"normale",
+						      "children": [
+							{
+							  "name":"alcoholconsumption",
+							  "children": [
+							    {
+							      "name":"leggero",
+							      "value":"sano"
+							    },
+							    {
+							      "name":"elevato",
+							      "value":"malato"
+							    }
+							  ]
+							}
+						      ]
+						    },
+						    {
+						      "name":"protettivo",
+						      "value":"malato"
+						    }
+						  ]
+						}
+					      ]
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"laurea",
+				      "children": [
+					{
+					  "name":"dietquality",
+					  "children": [
+					    {
+					      "name":"molto_scarsa",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"scarsa",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"media",
+					      "children": [
+						{
+						  "name":"age",
+						  "children": [
+						    {
+						      "name":"tier_1",
+						      "value":"malato"
+						    },
+						    {
+						      "name":"tier_7",
+						      "value":"sano"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"buona",
+					      "value":"sano"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"dottorato",
+				      "children": [
+					{
+					  "name":"functionalassessment",
+					  "children": [
+					    {
+					      "name":"severa",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"lieve",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"normale",
+					      "value":"sano"
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"alta",
+			      "children": [
+				{
+				  "name":"cholesterolldl",
+				  "children": [
+				    {
+				      "name":"ottimale",
+				      "children": [
+					{
+					  "name":"cholesteroltotal",
+					  "children": [
+					    {
+					      "name":"desiderabile",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"alto",
+					      "value":"sano"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"quasi_ottimale",
+				      "children": [
+					{
+					  "name":"dietquality",
+					  "children": [
+					    {
+					      "name":"molto_scarsa",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"buona",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"al_limite",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"alto",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"tier_2",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"tier_5",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"tier_8",
+					      "value":"sano"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"molto_alto",
+				      "value":"sano"
+				    }
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"positivo",
+		      "children": [
+			{
+			  "name":"cholesterolhdl",
+			  "children": [
+			    {
+			      "name":"normale",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {"name":"tier_1","value":"sano"},
+				    {
+				      "name":"tier_2",
+				      "value":"malato"
+				    },
+				    {"name":"tier_5","value":"sano"},
+				    {
+				      "name":"tier_7",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"protettivo",
+			      "children": [
+				{
+				  "name":"cholesteroltriglycerides",
+				  "children": [
+				    {
+				      "name":"normale",
+				      "value":"malato"
+				    },
+				    {"name":"limite","value":"sano"}
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    }
+		  ]
+		}
+	      ]
+	    }
+	  ]
+	}
+      ]
+    },
+    {
+      "name":"moderato_severo",
+      "children": [
+	{
+	  "name":"moca",
+	  "children": [
+	    {
+	      "name":"severo",
+	      "children": [
+		{
+		  "name":"functionalassessment",
+		  "children": [
+		    {
+		      "name":"severa",
+		      "children": [
+			{
+			  "name":"ethnicity",
+			  "children": [
+			    {"name":"caucasico","value":"malato"},
+			    {"name":"afroamericano","value":"malato"},
+			    {
+			      "name":"asiatico",
+			      "children": [
+				{
+				  "name":"depression",
+				  "children": [
+				    {
+				      "name":"negativo",
+				      "value":"sano"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"altro","value":"malato"}
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"moderata",
+		      "children": [
+			{
+			  "name":"educationlevel",
+			  "children": [
+			    {"name":"superiori","value":"malato"},
+			    {
+			      "name":"laurea",
+			      "children": [
+				{
+				  "name":"sleepquality",
+				  "children": [
+				    {"name":"bassa","value":"malato"},
+				    {"name":"media","value":"malato"}
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"dottorato","value":"sano"}
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"lieve",
+		      "children": [
+			{
+			  "name":"age",
+			  "children": [
+			    {"name":"tier_1","value":"malato"},
+			    {"name":"tier_2","value":"malato"},
+			    {
+			      "name":"tier_3",
+			      "children": [
+				{
+				  "name":"constipation",
+				  "children": [
+				    {
+				      "name":"negativo",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"positivo",
+				      "value":"sano"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"tier_4","value":"sano"},
+			    {"name":"tier_5","value":"malato"},
+			    {
+			      "name":"tier_6",
+			      "children": [
+				{
+				  "name":"alcoholconsumption",
+				  "children": [
+				    {"name":"leggero","value":"sano"},
+				    {
+				      "name":"moderato",
+				      "value":"sano"
+				    },
+				    {
+				      "name":"elevato",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"tier_7",
+			      "children": [
+				{
+				  "name":"alcoholconsumption",
+				  "children": [
+				    {"name":"leggero","value":"sano"},
+				    {
+				      "name":"moderato",
+				      "children": [
+					{
+					  "name":"cholesterolldl",
+					  "children": [
+					    {
+					      "name":"ottimale",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"quasi_ottimale",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"alto",
+					      "value":"sano"
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"tier_8","value":"malato"}
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"normale",
+		      "children": [
+			{
+			  "name":"tremor",
+			  "children": [
+			    {
+			      "name":"negativo",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {"name":"tier_1","value":"sano"},
+				    {"name":"tier_2","value":"sano"},
+				    {"name":"tier_3","value":"sano"},
+				    {
+				      "name":"tier_4",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_5",
+				      "children": [
+					{
+					  "name":"cholesterolldl",
+					  "children": [
+					    {
+					      "name":"alto",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"tier_6",
+				      "value":"malato"
+				    },
+				    {"name":"tier_7","value":"sano"},
+				    {
+				      "name":"tier_8",
+				      "children": [
+					{
+					  "name":"alcoholconsumption",
+					  "children": [
+					    {
+					      "name":"leggero",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"moderato",
+					      "value":"sano"
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"positivo","value":"malato"}
+			  ]
+			}
+		      ]
+		    }
+		  ]
+		}
+	      ]
+	    },
+	    {
+	      "name":"moderato",
+	      "children": [
+		{
+		  "name":"ethnicity",
+		  "children": [
+		    {
+		      "name":"caucasico",
+		      "children": [
+			{
+			  "name":"smoking",
+			  "children": [
+			    {
+			      "name":"negativo",
+			      "children": [
+				{
+				  "name":"cholesterolldl",
+				  "children": [
+				    {
+				      "name":"ottimale",
+				      "children": [
+					{
+					  "name":"dietquality",
+					  "children": [
+					    {
+					      "name":"molto_scarsa",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"scarsa",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"eccellente",
+					      "value":"sano"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"quasi_ottimale",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"al_limite",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"alto",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"tier_2",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"tier_4",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"tier_5",
+					      "value":"sano"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"molto_alto",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"positivo",
+			      "children": [
+				{
+				  "name":"alcoholconsumption",
+				  "children": [
+				    {"name":"leggero","value":"sano"},
+				    {
+				      "name":"moderato",
+				      "value":"sano"
+				    },
+				    {
+				      "name":"elevato",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"afroamericano",
+		      "children": [
+			{
+			  "name":"functionalassessment",
+			  "children": [
+			    {"name":"severa","value":"malato"},
+			    {"name":"moderata","value":"malato"},
+			    {"name":"lieve","value":"sano"},
+			    {"name":"normale","value":"sano"}
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"asiatico",
+		      "children": [
+			{
+			  "name":"age",
+			  "children": [
+			    {"name":"tier_1","value":"malato"},
+			    {"name":"tier_3","value":"malato"},
+			    {"name":"tier_7","value":"malato"},
+			    {"name":"tier_8","value":"malato"}
+			  ]
+			}
+		      ]
+		    },
+		    {"name":"altro","value":"sano"}
+		  ]
+		}
+	      ]
+	    },
+	    {
+	      "name":"lieve",
+	      "children": [
+		{
+		  "name":"functionalassessment",
+		  "children": [
+		    {"name":"severa","value":"malato"},
+		    {"name":"moderata","value":"malato"},
+		    {
+		      "name":"lieve",
+		      "children": [
+			{
+			  "name":"ethnicity",
+			  "children": [
+			    {"name":"caucasico","value":"malato"},
+			    {"name":"afroamericano","value":"sano"}
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"normale",
+		      "children": [
+			{
+			  "name":"dietquality",
+			  "children": [
+			    {"name":"molto_scarsa","value":"sano"},
+			    {"name":"scarsa","value":"malato"},
+			    {"name":"media","value":"malato"},
+			    {
+			      "name":"buona",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {
+				      "name":"tier_1",
+				      "value":"malato"
+				    },
+				    {"name":"tier_2","value":"sano"}
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    }
+		  ]
+		}
+	      ]
+	    },
+	    {
+	      "name":"normale",
+	      "children": [
+		{
+		  "name":"tremor",
+		  "children": [
+		    {
+		      "name":"negativo",
+		      "children": [
+			{
+			  "name":"bradykinesia",
+			  "children": [
+			    {"name":"negativo","value":"sano"},
+			    {
+			      "name":"positivo",
+			      "children": [
+				{
+				  "name":"bmi",
+				  "children": [
+				    {
+				      "name":"peso_ideale",
+				      "value":"malato"
+				    },
+				    {"name":"obeso","value":"sano"}
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"positivo",
+		      "children": [
+			{
+			  "name":"age",
+			  "children": [
+			    {"name":"tier_1","value":"sano"},
+			    {
+			      "name":"tier_3",
+			      "children": [
+				{
+				  "name":"bmi",
+				  "children": [ {"name":"obeso","value":"malato"} ]
+				}
+			      ]
+			    },
+			    {"name":"tier_4","value":"malato"},
+			    {"name":"tier_5","value":"malato"},
+			    {
+			      "name":"tier_7",
+			      "children": [
+				{
+				  "name":"cholesteroltotal",
+				  "children": [
+				    {
+				      "name":"al_limite",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"tier_8","value":"sano"}
+			  ]
+			}
+		      ]
+		    }
+		  ]
+		}
+	      ]
+	    }
+	  ]
+	}
+      ]
+    },
+    {
+      "name":"severo",
+      "children": [
+	{
+	  "name":"tremor",
+	  "children": [
+	    {
+	      "name":"negativo",
+	      "children": [
+		{
+		  "name":"functionalassessment",
+		  "children": [
+		    {
+		      "name":"severa",
+		      "children": [
+			{
+			  "name":"moca",
+			  "children": [
+			    {
+			      "name":"severo",
+			      "children": [
+				{
+				  "name":"cholesterolldl",
+				  "children": [
+				    {
+				      "name":"ottimale",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"quasi_ottimale",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"tier_1",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"tier_4",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"tier_6",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"tier_7",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"al_limite",
+				      "value":"malato"
+				    },
+				    {"name":"alto","value":"malato"},
+				    {
+				      "name":"molto_alto",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"moderato",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {
+				      "name":"tier_2",
+				      "children": [
+					{
+					  "name":"alcoholconsumption",
+					  "children": [
+					    {
+					      "name":"leggero",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"moderato",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"tier_4",
+				      "children": [
+					{
+					  "name":"alcoholconsumption",
+					  "children": [
+					    {
+					      "name":"leggero",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"moderato",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"tier_6",
+				      "value":"malato"
+				    },
+				    {"name":"tier_7","value":"sano"},
+				    {
+				      "name":"tier_8",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"lieve","value":"malato"},
+			    {
+			      "name":"normale",
+			      "children": [
+				{
+				  "name":"bradykinesia",
+				  "children": [
+				    {
+				      "name":"negativo",
+				      "value":"sano"
+				    }
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"moderata",
+		      "children": [
+			{
+			  "name":"ethnicity",
+			  "children": [
+			    {
+			      "name":"caucasico",
+			      "children": [
+				{
+				  "name":"dietquality",
+				  "children": [
+				    {
+				      "name":"molto_scarsa",
+				      "value":"malato"
+				    },
+				    {"name":"media","value":"malato"},
+				    {
+				      "name":"buona",
+				      "children": [
+					{
+					  "name":"alcoholconsumption",
+					  "children": [
+					    {
+					      "name":"leggero",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"moderato",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"afroamericano","value":"malato"},
+			    {
+			      "name":"asiatico",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {"name":"tier_1","value":"sano"},
+				    {"name":"tier_3","value":"sano"},
+				    {
+				      "name":"tier_8",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"altro",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {
+				      "name":"tier_1",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_2",
+				      "value":"malato"
+				    },
+				    {"name":"tier_4","value":"sano"}
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"lieve",
+		      "children": [
+			{
+			  "name":"rigidity",
+			  "children": [
+			    {
+			      "name":"negativo",
+			      "children": [
+				{
+				  "name":"posturalinstability",
+				  "children": [
+				    {
+				      "name":"negativo",
+				      "children": [
+					{
+					  "name":"smoking",
+					  "children": [
+					    {
+					      "name":"negativo",
+					      "children": [
+						{
+						  "name":"hypertension",
+						  "children": [
+						    {
+						      "name":"negativo",
+						      "value":"sano"
+						    },
+						    {
+						      "name":"positivo",
+						      "children": [
+							{
+							  "name":"age",
+							  "children": [
+							    {
+							      "name":"tier_1",
+							      "value":"malato"
+							    },
+							    {
+							      "name":"tier_3",
+							      "value":"sano"
+							    }
+							  ]
+							}
+						      ]
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"positivo",
+					      "children": [
+						{
+						  "name":"age",
+						  "children": [
+						    {
+						      "name":"tier_3",
+						      "value":"malato"
+						    },
+						    {
+						      "name":"tier_4",
+						      "value":"malato"
+						    },
+						    {
+						      "name":"tier_5",
+						      "value":"sano"
+						    },
+						    {
+						      "name":"tier_7",
+						      "value":"malato"
+						    },
+						    {
+						      "name":"tier_8",
+						      "value":"malato"
+						    }
+						  ]
+						}
+					      ]
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"positivo",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"tier_2",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"tier_3",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"tier_5",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"tier_8",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"positivo",
+			      "children": [
+				{
+				  "name":"dietquality",
+				  "children": [
+				    {
+				      "name":"molto_scarsa",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"scarsa",
+				      "value":"malato"
+				    },
+				    {"name":"media","value":"malato"},
+				    {"name":"buona","value":"malato"},
+				    {
+				      "name":"eccellente",
+				      "value":"sano"
+				    }
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"normale",
+		      "children": [
+			{
+			  "name":"age",
+			  "children": [
+			    {
+			      "name":"tier_1",
+			      "children": [
+				{
+				  "name":"bmi",
+				  "children": [
+				    {
+				      "name":"sottopeso",
+				      "value":"sano"
+				    },
+				    {
+				      "name":"peso_ideale",
+				      "value":"sano"
+				    },
+				    {"name":"obeso","value":"sano"}
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"tier_2","value":"sano"},
+			    {
+			      "name":"tier_3",
+			      "children": [
+				{
+				  "name":"cholesterolhdl",
+				  "children": [
+				    {
+				      "name":"protettivo",
+				      "value":"sano"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"tier_4","value":"malato"},
+			    {
+			      "name":"tier_5",
+			      "children": [
+				{
+				  "name":"dietquality",
+				  "children": [
+				    {
+				      "name":"molto_scarsa",
+				      "value":"malato"
+				    },
+				    {"name":"buona","value":"malato"},
+				    {
+				      "name":"eccellente",
+				      "value":"sano"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"tier_6",
+			      "children": [
+				{
+				  "name":"systolicbp",
+				  "children": [
+				    {
+				      "name":"normale",
+				      "children": [
+					{
+					  "name":"bmi",
+					  "children": [
+					    {
+					      "name":"peso_ideale",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"obeso",
+					      "value":"sano"
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"tier_7","value":"malato"},
+			    {"name":"tier_8","value":"sano"}
+			  ]
+			}
+		      ]
+		    }
+		  ]
+		}
+	      ]
+	    },
+	    {
+	      "name":"positivo",
+	      "children": [
+		{
+		  "name":"bmi",
+		  "children": [
+		    {
+		      "name":"sottopeso",
+		      "children": [
+			{
+			  "name":"diastolicbp",
+			  "children": [
+			    {
+			      "name":"normale",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {
+				      "name":"tier_1",
+				      "value":"malato"
+				    },
+				    {"name":"tier_3","value":"sano"}
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"ipertensione_tipo_1",
+			      "value":"malato"
+			    },
+			    {
+			      "name":"ipertensione_tipo_2",
+			      "value":"malato"
+			    }
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"peso_ideale",
+		      "children": [
+			{
+			  "name":"age",
+			  "children": [
+			    {
+			      "name":"tier_1",
+			      "children": [
+				{
+				  "name":"cholesterolhdl",
+				  "children": [
+				    {
+				      "name":"protettivo",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"tier_2","value":"malato"},
+			    {"name":"tier_3","value":"sano"},
+			    {"name":"tier_4","value":"malato"},
+			    {
+			      "name":"tier_5",
+			      "children": [
+				{
+				  "name":"dietquality",
+				  "children": [
+				    {
+				      "name":"molto_scarsa",
+				      "value":"malato"
+				    },
+				    {"name":"media","value":"malato"},
+				    {"name":"buona","value":"malato"},
+				    {
+				      "name":"eccellente",
+				      "value":"sano"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"tier_6","value":"malato"},
+			    {"name":"tier_7","value":"malato"}
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"sovrappeso",
+		      "children": [
+			{
+			  "name":"age",
+			  "children": [
+			    {
+			      "name":"tier_1",
+			      "children": [
+				{
+				  "name":"cholesterolhdl",
+				  "children": [
+				    {
+				      "name":"protettivo",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"tier_2",
+			      "children": [
+				{
+				  "name":"cholesterolldl",
+				  "children": [
+				    {
+				      "name":"ottimale",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"molto_alto",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"tier_3","value":"malato"},
+			    {"name":"tier_4","value":"malato"},
+			    {"name":"tier_5","value":"malato"},
+			    {"name":"tier_6","value":"malato"},
+			    {
+			      "name":"tier_7",
+			      "children": [
+				{
+				  "name":"alcoholconsumption",
+				  "children": [
+				    {
+				      "name":"moderato",
+				      "value":"sano"
+				    },
+				    {
+				      "name":"elevato",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"tier_8","value":"malato"}
+			  ]
+			}
+		      ]
+		    },
+		    {"name":"obeso","value":"malato"}
+		  ]
+		}
+	      ]
+	    }
+	  ]
+	}
+      ]
+    },
+    {
+      "name":"estremamente_severo",
+      "children": [
+	{
+	  "name":"functionalassessment",
+	  "children": [
+	    {
+	      "name":"severa",
+	      "children": [
+		{
+		  "name":"moca",
+		  "children": [
+		    {
+		      "name":"severo",
+		      "children": [
+			{
+			  "name":"educationlevel",
+			  "children": [
+			    {
+			      "name":"nessuna",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {
+				      "name":"tier_1",
+				      "children": [
+					{
+					  "name":"bmi",
+					  "children": [
+					    {
+					      "name":"obeso",
+					      "value":"sano"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"tier_2",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_3",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_4",
+				      "children": [
+					{
+					  "name":"bmi",
+					  "children": [
+					    {
+					      "name":"obeso",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"tier_5",
+				      "children": [
+					{
+					  "name":"alcoholconsumption",
+					  "children": [
+					    {
+					      "name":"leggero",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"moderato",
+					      "value":"sano"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"tier_6",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_7",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_8",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"superiori","value":"malato"},
+			    {"name":"laurea","value":"malato"},
+			    {"name":"dottorato","value":"malato"}
+			  ]
+			}
+		      ]
+		    },
+		    {"name":"moderato","value":"malato"},
+		    {"name":"lieve","value":"malato"},
+		    {
+		      "name":"normale",
+		      "children": [
+			{
+			  "name":"tremor",
+			  "children": [
+			    {
+			      "name":"negativo",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {"name":"tier_1","value":"sano"},
+				    {"name":"tier_2","value":"sano"},
+				    {"name":"tier_3","value":"sano"},
+				    {"name":"tier_4","value":"sano"},
+				    {"name":"tier_5","value":"sano"},
+				    {
+				      "name":"tier_6",
+				      "children": [
+					{
+					  "name":"alcoholconsumption",
+					  "children": [
+					    {
+					      "name":"leggero",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"elevato",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"tier_7",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_8",
+				      "children": [
+					{
+					  "name":"cholesterolhdl",
+					  "children": [
+					    {
+					      "name":"protettivo",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"positivo","value":"malato"}
+			  ]
+			}
+		      ]
+		    }
+		  ]
+		}
+	      ]
+	    },
+	    {
+	      "name":"moderata",
+	      "children": [
+		{
+		  "name":"moca",
+		  "children": [
+		    {
+		      "name":"severo",
+		      "children": [
+			{
+			  "name":"cholesterolldl",
+			  "children": [
+			    {"name":"ottimale","value":"malato"},
+			    {
+			      "name":"quasi_ottimale",
+			      "value":"malato"
+			    },
+			    {"name":"al_limite","value":"malato"},
+			    {
+			      "name":"alto",
+			      "children": [
+				{
+				  "name":"dietquality",
+				  "children": [
+				    {
+				      "name":"molto_scarsa",
+				      "children": [
+					{
+					  "name":"cholesterolhdl",
+					  "children": [
+					    {
+					      "name":"protettivo",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"scarsa",
+				      "value":"malato"
+				    },
+				    {"name":"media","value":"malato"},
+				    {"name":"buona","value":"malato"},
+				    {
+				      "name":"eccellente",
+				      "value":"sano"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"molto_alto","value":"malato"}
+			  ]
+			}
+		      ]
+		    },
+		    {"name":"moderato","value":"malato"},
+		    {
+		      "name":"lieve",
+		      "children": [
+			{
+			  "name":"cholesterolldl",
+			  "children": [
+			    {"name":"ottimale","value":"malato"},
+			    {
+			      "name":"quasi_ottimale",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {"name":"tier_1","value":"sano"},
+				    {
+				      "name":"tier_5",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"al_limite","value":"malato"},
+			    {"name":"alto","value":"malato"},
+			    {"name":"molto_alto","value":"malato"}
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"normale",
+		      "children": [
+			{
+			  "name":"age",
+			  "children": [
+			    {
+			      "name":"tier_1",
+			      "children": [
+				{
+				  "name":"bmi",
+				  "children": [
+				    {
+				      "name":"peso_ideale",
+				      "value":"malato"
+				    },
+				    {"name":"obeso","value":"sano"}
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"tier_2","value":"malato"},
+			    {"name":"tier_3","value":"malato"},
+			    {"name":"tier_4","value":"sano"},
+			    {"name":"tier_5","value":"sano"},
+			    {
+			      "name":"tier_6",
+			      "children": [
+				{
+				  "name":"alcoholconsumption",
+				  "children": [
+				    {
+				      "name":"leggero",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"moderato",
+				      "value":"sano"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"tier_7","value":"sano"},
+			    {
+			      "name":"tier_8",
+			      "children": [
+				{
+				  "name":"dietquality",
+				  "children": [
+				    {
+				      "name":"molto_scarsa",
+				      "value":"malato"
+				    },
+				    {"name":"media","value":"malato"},
+				    {"name":"buona","value":"sano"}
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    }
+		  ]
+		}
+	      ]
+	    },
+	    {
+	      "name":"lieve",
+	      "children": [
+		{
+		  "name":"tremor",
+		  "children": [
+		    {
+		      "name":"negativo",
+		      "children": [
+			{
+			  "name":"bradykinesia",
+			  "children": [
+			    {
+			      "name":"negativo",
+			      "children": [
+				{
+				  "name":"rigidity",
+				  "children": [
+				    {
+				      "name":"negativo",
+				      "children": [
+					{
+					  "name":"posturalinstability",
+					  "children": [
+					    {
+					      "name":"negativo",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"positivo",
+					      "children": [
+						{
+						  "name":"age",
+						  "children": [
+						    {
+						      "name":"tier_1",
+						      "children": [
+							{
+							  "name":"alcoholconsumption",
+							  "children": [
+							    {
+							      "name":"moderato",
+							      "value":"malato"
+							    }
+							  ]
+							}
+						      ]
+						    },
+						    {
+						      "name":"tier_3",
+						      "value":"malato"
+						    },
+						    {
+						      "name":"tier_4",
+						      "value":"malato"
+						    },
+						    {
+						      "name":"tier_5",
+						      "value":"malato"
+						    },
+						    {
+						      "name":"tier_6",
+						      "value":"malato"
+						    },
+						    {
+						      "name":"tier_7",
+						      "value":"malato"
+						    },
+						    {
+						      "name":"tier_8",
+						      "value":"malato"
+						    }
+						  ]
+						}
+					      ]
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"positivo",
+				      "children": [
+					{
+					  "name":"moca",
+					  "children": [
+					    {
+					      "name":"severo",
+					      "children": [
+						{
+						  "name":"cholesteroltotal",
+						  "children": [
+						    {
+						      "name":"desiderabile",
+						      "value":"malato"
+						    },
+						    {
+						      "name":"al_limite",
+						      "children": [
+							{
+							  "name":"ethnicity",
+							  "children": [
+							    {
+							      "name":"caucasico",
+							      "value":"sano"
+							    },
+							    {
+							      "name":"afroamericano",
+							      "value":"malato"
+							    },
+							    {
+							      "name":"asiatico",
+							      "value":"SCONOSCIUTO"
+							    }
+							  ]
+							}
+						      ]
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"moderato",
+					      "children": [
+						{
+						  "name":"age",
+						  "children": [
+						    {
+						      "name":"tier_1",
+						      "value":"sano"
+						    },
+						    {
+						      "name":"tier_3",
+						      "value":"malato"
+						    },
+						    {
+						      "name":"tier_5",
+						      "value":"malato"
+						    },
+						    {
+						      "name":"tier_6",
+						      "value":"malato"
+						    }
+						  ]
+						}
+					      ]
+					    },
+					    {
+					      "name":"lieve",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"positivo",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {
+				      "name":"tier_1",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_2",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_3",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_4",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_5",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_6",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_7",
+				      "children": [
+					{
+					  "name":"alcoholconsumption",
+					  "children": [
+					    {
+					      "name":"leggero",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"moderato",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"tier_8",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"positivo",
+		      "children": [
+			{
+			  "name":"moca",
+			  "children": [
+			    {
+			      "name":"severo",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {
+				      "name":"tier_1",
+				      "children": [
+					{
+					  "name":"cholesterolldl",
+					  "children": [
+					    {
+					      "name":"quasi_ottimale",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"alto",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"tier_2",
+				      "children": [
+					{
+					  "name":"dietquality",
+					  "children": [
+					    {
+					      "name":"molto_scarsa",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"media",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"buona",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"tier_3",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_4",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_5",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_6",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_7",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_8",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"moderato",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {
+				      "name":"tier_1",
+				      "children": [
+					{
+					  "name":"alcoholconsumption",
+					  "children": [
+					    {
+					      "name":"leggero",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"moderato",
+					      "value":"sano"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"tier_2",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_3",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_4",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_6",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_7",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_8",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"lieve",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {
+				      "name":"tier_1",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_2",
+				      "children": [
+					{
+					  "name":"alcoholconsumption",
+					  "children": [
+					    {
+					      "name":"leggero",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"moderato",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"tier_4",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_5",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_6",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_8",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"normale",
+			      "children": [
+				{
+				  "name":"alcoholconsumption",
+				  "children": [
+				    {"name":"leggero","value":"sano"},
+				    {
+				      "name":"moderato",
+				      "value":"sano"
+				    },
+				    {
+				      "name":"elevato",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    }
+		  ]
+		}
+	      ]
+	    },
+	    {
+	      "name":"normale",
+	      "children": [
+		{
+		  "name":"tremor",
+		  "children": [
+		    {
+		      "name":"negativo",
+		      "children": [
+			{
+			  "name":"rigidity",
+			  "children": [
+			    {
+			      "name":"negativo",
+			      "children": [
+				{
+				  "name":"posturalinstability",
+				  "children": [
+				    {
+				      "name":"negativo",
+				      "children": [
+					{
+					  "name":"bradykinesia",
+					  "children": [
+					    {
+					      "name":"negativo",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"positivo",
+					      "children": [
+						{
+						  "name":"moca",
+						  "children": [
+						    {
+						      "name":"severo",
+						      "value":"malato"
+						    },
+						    {
+						      "name":"moderato",
+						      "value":"SCONOSCIUTO"
+						    },
+						    {
+						      "name":"lieve",
+						      "value":"sano"
+						    }
+						  ]
+						}
+					      ]
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"positivo",
+				      "children": [
+					{
+					  "name":"cholesterolldl",
+					  "children": [
+					    {
+					      "name":"ottimale",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"quasi_ottimale",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"al_limite",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"alto",
+					      "value":"sano"
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"positivo",
+			      "children": [
+				{
+				  "name":"cholesterolhdl",
+				  "children": [
+				    {
+				      "name":"basso",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"tier_1",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"tier_4",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"tier_5",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"tier_7",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"tier_8",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"normale",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"tier_1",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"tier_4",
+					      "value":"sano"
+					    },
+					    {
+					      "name":"tier_6",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"tier_7",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"tier_8",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"protettivo",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "name":"positivo",
+		      "children": [
+			{
+			  "name":"ethnicity",
+			  "children": [
+			    {
+			      "name":"caucasico",
+			      "children": [
+				{
+				  "name":"moca",
+				  "children": [
+				    {
+				      "name":"severo",
+				      "children": [
+					{
+					  "name":"age",
+					  "children": [
+					    {
+					      "name":"tier_1",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"tier_3",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"tier_4",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"tier_5",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"tier_6",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"tier_7",
+					      "value":"malato"
+					    },
+					    {
+					      "name":"tier_8",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    },
+				    {
+				      "name":"moderato",
+				      "value":"malato"
+				    },
+				    {"name":"lieve","value":"malato"},
+				    {
+				      "name":"normale",
+				      "children": [
+					{
+					  "name":"sleepdisorders",
+					  "children": [
+					    {
+					      "name":"negativo",
+					      "value":"malato"
+					    }
+					  ]
+					}
+				      ]
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {"name":"afroamericano","value":"malato"},
+			    {
+			      "name":"asiatico",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {"name":"tier_2","value":"sano"},
+				    {"name":"tier_3","value":"sano"},
+				    {
+				      "name":"tier_7",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_8",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    },
+			    {
+			      "name":"altro",
+			      "children": [
+				{
+				  "name":"age",
+				  "children": [
+				    {"name":"tier_2","value":"sano"},
+				    {
+				      "name":"tier_5",
+				      "value":"malato"
+				    },
+				    {
+				      "name":"tier_7",
+				      "value":"malato"
+				    }
+				  ]
+				}
+			      ]
+			    }
+			  ]
+			}
+		      ]
+		    }
+		  ]
+		}
+	      ]
+	    }
+	  ]
+	}
+      ]
+    }
+  ]
+}
