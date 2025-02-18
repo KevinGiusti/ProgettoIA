@@ -4,7 +4,21 @@
 :- op(300, xfx, <==).
 :- use_module(library(http/json)).
 
-file_output('/Users/matteocopertari/Progetti/ProgettoIA/parkinsonIA/albero.pl').
+
+% Programma Prolog di apprendimento automatico per la classificazione di
+% infortuni dei giocatori in un campionato di basket.
+% Con il predicato lancia_apprendi(Classe) (Classe = sano/malato),
+% viene lanciato l'apprendimento relativo alla classe specificata.
+% Una volta concluso l'apprendimento, con il predicato
+% classifica_oggetto e' possibile far classificare al programma
+% l'oggetto specificato.
+% Inoltre, con il predicato lancia_induzione, il programma calcola
+% l'albero di decisione con il criterio di Gini.
+% Con il predicato stampa_matrice_di_confusione e' possibile
+% visualizzare le prestazioni dell'albero indotto.
+
+% Cambiare percorso con quello della propria workspace
+file_output('D:/projects/ProgettoIA/parkinsonIA/albero.pl').
 
 
 % Predicato per lanciare l'apprendimento
@@ -305,12 +319,12 @@ valuta(Albero,[_/Oggetto|Coda],VN,VNA,VP,VPA,FN,FNA,FP,FPA,NC,NCA) :- % non clas
 	valuta(Albero,Coda,VN,VNA,VP,VPA,FN,FNA,FP,FPA,NC,NCA1).
 
 
-% Punto di ingresso principale
-salva_json(Albero, NomeFile) :-
-	converti_albero_json(Albero,JSONTerm),
-	open(NomeFile, write, Stream),
-	json_write_dict(Stream, JSONTerm),     % Scrive il JSON nel file
-	close(Stream).
+% Punto di ingresso principale 
+salva_json(Albero, NomeFile) :-     
+	converti_albero_json(Albero,JSONTerm),     
+	open(NomeFile, write, Stream),     
+	json_write_dict(Stream, JSONTerm),     % Scrive il JSON nel file     
+	close(Stream). 
 
 % Conversione dell'albero in una struttura compatibile con JSON
 converti_albero_json(null, 'SCONOSCIUTO'). % Nodo sconosciuto → oggetto vuoto
@@ -323,9 +337,9 @@ converti_lista_json([], []).
 converti_lista_json([V:T | C], [json(['name'=String, Prova=FiglioArray]) | ListaRestante]) :-
 term_string(V, String),
 converti_albero_json(T, Figlio),
-(   Figlio = json(_)  % Se Figlio è un JSON, scriviamo children
+(   Figlio = json(_)  % Se Figlio è un JSON, lo inseriamo in una lista
 ->  Prova = 'children'
-;   Prova = 'value'  % Altrimenti scriviamo value
+;   Prova = 'value'  % Altrimenti lo lasciamo così com'è
 ),
 (   Figlio = json(_)  % Se Figlio è un JSON, lo inseriamo in una lista
 ->  FiglioArray = [Figlio]

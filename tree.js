@@ -5,6 +5,7 @@ async function drawTree() {
     const width = document.getElementById("tree-container").offsetWidth + 300;
     const marginTop = 250;
     const marginLeft = 40;
+    
     // Compute the tree height; this approach will allow the height of the
     // SVG to scale according to the breadth (width) of the tree layout.
     const root = d3.hierarchy(data);

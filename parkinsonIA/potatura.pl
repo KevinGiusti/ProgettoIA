@@ -225,9 +225,9 @@ converti_lista_json([], []).
 converti_lista_json([V:T | C], [json(['name'=String, Prova=FiglioArray]) | ListaRestante]) :-
     term_string(V, String),
     converti_albero_json(T, Figlio),
-    (   Figlio = json(_)  % Se Figlio è un JSON, lo inseriamo in una lista
+    (   Figlio = json(_)  % Se Figlio è un JSON, scriviamo children
     ->  Prova = 'children'
-    ;   Prova = 'value'  % Altrimenti lo lasciamo così com'è
+    ;   Prova = 'value'  % Altrimenti scriviamo value
     ),
     (   Figlio = json(_)  % Se Figlio è un JSON, lo inseriamo in una lista
     ->  FiglioArray = [Figlio]
